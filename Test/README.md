@@ -50,6 +50,12 @@ curl -H "Content-Type: application/zip" -X POST -k "https://10.240.27.32/e3/serv
 curl -H "Content-Type: application/zip" -X POST -k "https://10.240.27.32/e3/servlet/e3?input-entry=SE350_maintenance_manual.ditamap&stylesheet=C:/DCGTest/ditabase/8.5x11_book_hel.style&file-type=zip&type=pdf&print-engine-override=fosi&zip-root=DCGTest&zip-output=yes&zip-include-composerlog=yes&f=convert" --data-binary "@DCGTest.zip" --output testcase7.zip
 ```
 
+## Test Case 8 ✅
+
+``` bash
+curl -H "Content-Type: application/zip" -X POST -k "https://peklpdcgpm5.lenovo.com/e3/servlet/e3?input-entry=SE350_messages_reference.ditamap&stylesheet=E:/Program%20Files/PTC/Arbortext%20PE/custom/doctypes/ditabase/8.5x11_book_hel.style&file-type=zip&type=pdf&zip-root=DCGTest&zip-output=yes&zip-include-composerlog=yes&f=convert" --data-binary "@DCGTest.zip" --output testcase8.zip
+```
+
 ``` bash
 curl -H "Content-Type: application/zip" -X POST -k "https://10.240.27.32/e3/servlet/e3?input-entry=SE350_maintenance_manual.ditamap&stylesheet=C:/DCGTest/ditabase/8.5x11_book_hel.style&file-type=zip&type=pdf&print-engine-override=fosi&zip-root=DCGTest&zip-output=yes&zip-include-composerlog=yes&f=convert" --data-binary "@se350_de.zip" --output se350_pdf_de.zip
 curl -H "Content-Type: application/zip" -X POST -k "https://10.240.27.32/e3/servlet/e3?input-entry=SE350_maintenance_manual.ditamap&stylesheet=C:/DCGTest/ditabase/8.5x11_book_hel.style&file-type=zip&type=pdf&print-engine-override=fosi&zip-root=DCGTest&zip-output=yes&zip-include-composerlog=yes&f=convert" --data-binary "@se350_es.zip" --output output/se350_pdf_es.zip
