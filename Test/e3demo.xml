@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE article PUBLIC "-//Arbortext//DTD Simplified DocBook XML V1.0//EN"
+ "asdocbook.dtd">
+<?Pub UDT _nopagebreak _touchup KeepsKeep="yes" KeepsPrev="no" KeepsNext="no" KeepsBoundary="page"?>
+<article lang="en">
+<title>Arbortext&reg; Editor&trade;</title><?Pub Caret -2?>
+<subtitle>Author Reusable, Structured Content to Improve Information
+Speed, Accuracy and Consistency</subtitle>
+<articleinfo>
+<copyright><year>2013</year><holder>PTC Inc. All rights reserved. Information described herein is furnished
+for informational use only, is subject to change without notice, and
+should not be construed as a guarantee, commitment, condition or offer
+by PTC. PTC, the PTC logotype, Arbortext, the Arbortext logotype,
+Arbortext Editor, and all PTC product names and logos are trademarks
+or registered trademarks of PTC and/or its subsidiaries in the United
+States and in other countries. All other product or company names
+are property of their respective owners.</holder></copyright>
+<releaseinfo>4509-Arbortext Editor-DS-0409</releaseinfo>
+</articleinfo>
+<section>
+<title>Introduction</title>
+<para>Arbortext Editor, the industry&rsquo;s most adopted XML authoring
+software, is a full-featured solution that meets all of your product
+information authoring needs.</para>
+<para>Thousands of authors worldwide are using Arbortext Editor to
+generate quality, accurate and up-to-date product information, such
+as operator manuals, maintenance and service guides, and eLearning
+materials, as well as other marketing, sales and reference documents.
+Arbortext Editor saves authors time and effort by building XML-based
+document &lsquo;components&rsquo; that are easily reusable, so you
+won&rsquo;t waste time copying and pasting text, or applying the same
+changes to multiple versions of the same copy. Better still, it takes
+the burden of page design away from authors, by automating page formatting,
+which also ensures consistency in your document layout.</para>
+<para>By ensuring that all your audiences &ndash; customers, operators,
+service technicians, trainers &ndash; have access to the most relevant,
+up-to-date product information when they need it, you improve the
+usability and performance of your products and services throughout
+their life span.</para>
+<figure>
+<title>Arbortext Editor enables you to create and edit document components
+and assemblies for delivery high-quality, fully accurate product user
+and service information.</title>
+<mediaobject><imageobject><imagedata fileref="editor.png" scale="65"/>
+</imageobject></mediaobject>
+</figure>
+<para>Arbortext Editor enables you to:</para>
+<itemizedlist>
+<listitem><para>Create and edit document components and document assemblies</para>
+</listitem>
+<listitem><para>Leverage support for publishing standards such as
+DITA and DocBook</para></listitem>
+<listitem><para>Reuse content across your organization</para></listitem>
+<listitem><para>Improve the accuracy, consistency and flexibility
+of your information</para></listitem>
+<listitem><para>Incorporate interactive graphics in your publications</para>
+</listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Benefits</title>
+<section>
+<title>Increase Author Productivity</title>
+<itemizedlist>
+<listitem><para>Free authors from manually designing documents by
+taking advantage of Arbortext&rsquo;s automatic formatting capabilities</para>
+</listitem>
+<listitem><para>Reuse information easily by linking content to its
+original source instead of copying and pasting text</para></listitem>
+<listitem><para>Eliminate the time wasted applying the same changes
+to multiple copies of the same information</para></listitem>
+<listitem><para>Reduce the cost of updating your information</para>
+</listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Improve Information Accuracy, Consistency and Relevance</title>
+<itemizedlist>
+<listitem><para>Reduce document inconsistencies by creating content
+components that authors can reuse in multiple documents and multiple
+types of media</para></listitem>
+<listitem><para>Mark any portion of your content for a specific purpose,
+so you can produce publications that meet the specific needs of each
+individual</para></listitem>
+<listitem><para>Eliminate nearly all of the manual effort required
+to publish</para></listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Reduce Translation Costs</title>
+<itemizedlist>
+<listitem><para>Create modular information, so you translate only
+the components that have changed</para></listitem>
+<listitem><para>Translate each information component only once to
+eliminate duplicate translations</para></listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Reduce Publishing Costs</title>
+<itemizedlist>
+<listitem><para>Automate the publishing process through out-of-the-box
+integration with leading Content Management Systems, including PTC&rsquo;s
+Windchill&reg; and Arbortext Content Manager</para></listitem>
+<listitem><para>Accelerate solution deployment and management with
+the industry&rsquo;s only complete, fully integrated, end-to-end dynamic
+publishing solution for DITA</para></listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Improve Publication Quality</title>
+<itemizedlist>
+<listitem><para>Leverage out-of-the box applications for producing
+compliant, industry-standard service manuals and S1000D publications
+with minimal programming</para></listitem>
+<listitem><para>Incorporate interactive 2D and 3D graphics and animations
+into your publications via integration with industry-leading technical
+illustration solutions</para></listitem>
+</itemizedlist>
+</section>
+</section>
+<section>
+<title>Features</title>
+<section>
+<title>Structured Editor with Real-Time Validation</title>
+<itemizedlist>
+<listitem><para>Familiar, intuitive user interface with common word-processing
+capabilities, such as change tracking, drag-and-drop, and keyboard
+macros</para></listitem>
+<listitem><para>Improved copy/paste from MS Word&reg;, Adobe FrameMaker&reg;,
+HTML and RTF</para></listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Interactive and Illustrative Content</title>
+<para>Incorporate intelligent graphics into your document (CGM, EDZ,
+ISO, ISOZ, PVZ and SVG formats)</para>
+<itemizedlist>
+<listitem><para>Link easily to different views stored within an intelligent
+graphic</para></listitem>
+<listitem><para>Support for creation and publishing of hotspot links</para>
+</listitem>
+<listitem><para>Embed animations and illustrations &ndash; 2D, 3D,
+animations or mixed &ndash; to support Web, interactive and page-based
+documents</para></listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Dynamic Content Support</title>
+<itemizedlist>
+<listitem><para>Allow authors to produce customized publications using
+conditional text for specific audiences from a master document</para>
+</listitem>
+<listitem><para>Embed data directly from databases, business systems
+and other data sources automatically</para></listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Integration with Content Management Applications</title>
+<itemizedlist>
+<listitem><para>Manage and track content components with Windchill
+or Arbortext Content Manager for dynamic assembly during the publishing
+process</para></listitem>
+<listitem><para>Supports other leading Content Management Systems</para>
+</listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Global Collaboration</title>
+<itemizedlist>
+<listitem><para>Provide over 25 languages in content, character sets
+and spelling dictionaries</para></listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Standards Support</title>
+<itemizedlist>
+<listitem><para>Supports XML, SGML, XSL (XSL-FO and XSLT), XML Schema,
+XPath, XInclude, DOM and other next-generation Web standards for sharing
+content, data and applications</para></listitem>
+<listitem><para>Supports HTML, CALS, OASIS and Arbortext table formats</para>
+</listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Complete Support for DITA</title>
+<itemizedlist>
+<listitem><para>Support for the latest DITA 1.2 Specification</para>
+</listitem>
+<listitem><para>Conversion capabilities for legacy content</para>
+</listitem>
+<listitem><para>Fast, simple authoring of maps and topics</para>
+</listitem>
+<listitem><para>Conditional text to produce documents that meet the
+needs of individual readers</para></listitem>
+<listitem><para>Reuse of content across multiple documents</para>
+</listitem>
+<listitem><para>Integrated functionality for content management</para>
+</listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Out-of-the-Box Applications</title>
+<itemizedlist>
+<listitem><para>Aerospace &amp; Defense Specification S1000D</para>
+</listitem>
+<listitem><para>Service Manual Application</para></listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Highly Configurable and Customizable</title>
+<itemizedlist>
+<listitem><para>Create and customize dialogs and toolbars through
+XML configuration files and embedded ActiveX controls</para></listitem>
+<listitem><para>Access more than 95% of Arbortext Editor&rsquo;s capabilities
+using its APIs either directly or through COM supporting many different
+programming languages, including C/C++, Java, JScript, JavaScript,
+Visual Basic, VBScript, and PerlScript. TCL is supported through additional
+customization</para></listitem>
+</itemizedlist>
+</section>
+<section>
+<title>Broaden Arbortext Editor Usage</title>
+<itemizedlist>
+<listitem><para>Embed as an ActiveX control in a browser, or download
+and launch as a stand-alone client application</para></listitem>
+<listitem><para>Download and launch Arbortext Editor directly within
+PTC&rsquo;s Windchill and Arbortext Content Manager to allow rapid
+XML authoring</para></listitem>
+<listitem><para>Compact version of Arbortext Editor (60 MB)</para>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section>
+<title>Learn More</title>
+<para>For more information about Arbortext Editor and the entire portfolio
+of Arbortext Product Information Delivery software products, visit <ulink
+url="http://www.ptc.com">www.ptc.com</ulink>.</para>
+</section>
+</article>
+

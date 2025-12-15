@@ -1,0 +1,1913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2015, v.4002-->
+<?Pub Inc?>
+<?APT StylesheetID Title="Property Sets Modules" Description="This module contains property sets" CompositionTypes="htmlfile,print,pdf,htmlhelp,web,rtf,dmp,da,epub" StylerVersion="6.02"?><Styler
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://www.arbortext.com/namespace/doctypes/styler"
+xmlns:atidlm="http://www.arbortext.com/namespace/atidlm"
+xmlns:ch="http://www.arbortext.com/namespace/chunker"
+xmlns:_gte="http://www.arbortext.com/namespace/Styler/GeneratedTextElements"
+xmlns:_sfe="http://www.arbortext.com/namespace/Styler/StylerFormattingElements"
+xmlns:_ufe="http://www.arbortext.com/namespace/Styler/UserFormattingElements"
+xmlns:_dtd="http://www.arbortext.com/namespace/Styler/UserElements"
+xmlns:_acl="java:com.arbortext.epic.Acl"
+xmlns:saxon="http://saxon.sf.net/"
+xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+xmlns:rtf="http://www.cambridgedocs.com/namespace/fo/rtf"
+xmlns:atirds="http://www.arbortext.com/namespace/dita/rdstyle"
+xmlns:onSave="http://www.arbortext.com/namespace/onSave"
+xmlns:dmp="http://www.arbortext.com/namespace/dmp/dmpmap"
+xmlns:_js="java:com.arbortext.epic.internal.js.JavaScript"
+xmlns:ipd="http://www.arbortext.com/namespace/da/ipdinfo"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:atieqn="http://www.arbortext.com/namespace/atieqn"
+xmlns:m="http://www.w3.org/1998/Math/MathML"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:svg="http://www.w3.org/2000/svg">
+<StyleSheetInfo minorVersion="2" printPdfEngine="APP" stylerVersion="6"><?Pub Dtl?>
+<ElementSet/>
+<ChunkConfig/>
+<HtmlOutputConfig cssStyleLocation="inHtmlHead"
+cssStyling="allProperties" listItemsAsTables="yes" output="htmlfile"
+outputXhtml="no" titlesAsTables="yes"/>
+<HtmlOutputConfig cssStyleLocation="externalCssFile"
+cssStyling="allProperties" listItemsAsTables="yes" output="web"
+outputXhtml="no" titlesAsTables="no"/>
+<HtmlOutputConfig cssStyleLocation="externalCssFile"
+cssStyling="allProperties" listItemsAsTables="yes" output="htmlhelp"
+outputXhtml="no" titlesAsTables="no"/>
+<HtmlOutputConfig cssStyleLocation="externalCssFile"
+cssStyling="allProperties" listItemsAsTables="no" output="dmp"
+outputXhtml="yes" titlesAsTables="no"/>
+<Language defaultLanguage="en" langAttribute="xml:lang"
+langDetermination="attribute">
+<GentextLanguage gentextLanguageName="en"/>
+<LanguageMap sourceLanguage="en" targetLanguage="en-US"/>
+<LanguageMap sourceLanguage="de" targetLanguage="de-1996"/></Language>
+</StyleSheetInfo>
+<PropertySets>
+<PropertySet propertySetId="aligncentered">
+<BaseProperties propertySetReferences="block">
+<Alignment align="center" lastLineAlign="relative"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="alignjustified">
+<BaseProperties propertySetReferences="block">
+<Alignment align="justify" lastLineAlign="relative"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="alignleft">
+<BaseProperties propertySetReferences="block">
+<Alignment align="left" lastLineAlign="relative"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="alignright">
+<BaseProperties propertySetReferences="block">
+<Alignment align="right" lastLineAlign="relative"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="block">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="block-title">
+<BaseProperties
+propertySetReferences="Title_alignment Title_color fonttitle Title_keeps Title_space fontsize">
+<Font size=""/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="block-title-web">
+<BaseProperties
+propertySetReferences="Title_alignment Title_color Title_keeps Title_space fonttitle-web fontsize-web">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="book-subtitle">
+<BaseProperties
+propertySetReferences="Title_alignment Title_color fonttitle Title_keeps Title_space title-sub-book">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="book-subtitle-web">
+<BaseProperties
+propertySetReferences="Title_alignment Title_color Title_keeps Title_space fonttitle-web title-sub-book-web">
+<Font size="xx-large"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="book-title">
+<BaseProperties
+propertySetReferences="Title_alignment Title_color fonttitle Title_keeps Title_space title-book">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="book-title-web">
+<BaseProperties
+propertySetReferences="Title_alignment Title_color Title_keeps Title_space fonttitle-web title-book-web">
+<Font size="xx-large"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="box">
+<BaseProperties>
+<Highlight shading="#F0F0F0"/></BaseProperties>
+<EditedSource minorVersion="23" sourceType="app" stylerVersion="5"
+><OnEnter type="application/x-javascript" xml:space="preserve"><![CDATA[//APP source for applying boxing around a block. This should not be applied to inline elements.
+var block = arguments[0];
+var paragraph = block.defaultParagraph;
+var style = block.defaultStyle;
+
+//Apply a -2.999pt rule to the block to offset the main rule
+var rule = new fRule();
+with (rule) {
+   thickness = "-2.999pt";
+   lineColor = "None";
+   sides = "tblr";
+}
+block.rules.addRule(rule);
+
+//Apply the main rule to the block
+var rule = new fRule();
+with (rule) {
+   //Line thickness
+   thickness = "1pt";
+   //Line colour
+   lineColor = "Black";
+   //Sides (top, bottom, left and right)
+   sides = "tblr";
+   //Fill colour specifies background for boxing
+   fillColor = "#F0F0F0";
+}
+block.rules.addRule(rule);
+
+//Apply a final rule to the block to remove the offset
+var rule = new fRule();
+with (rule) {
+   thickness = "2pt";
+   lineColor = "None";
+   sides = "tblr";
+}
+block.rules.addRule(rule);
+
+]]></OnEnter><OnExit type="application/x-javascript"
+xml:space="preserve"><![CDATA[/* commands to execute before leaving a node go here */
+]]></OnExit></EditedSource>
+<EditedSource sourceType="fosi">&lt;charsubset charsubsetid="box">
+&lt;boxing toffset="3pt" boffset="4pt" loffset="2pt" roffset="2pt"
+thick="1pt" inclr="#F0F0F0"/>&lt;/charsubset></EditedSource>
+<EditedSource sourceType="xslFo">&lt;xsl:template name="ps-box"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">     &lt;xsl:attribute
+name="background-color">#F0F0F0&lt;/xsl:attribute>     &lt;xsl:attribute
+name="border">thin solid&lt;/xsl:attribute>   &lt;xsl:attribute name="padding"
+>2pt&lt;/xsl:attribute>   &lt;/xsl:template></EditedSource>
+<EditedSource sourceType="xslHtml">&lt;xsl:variable name="ps-box"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">background-color:
+#F0F0F0; border: thin  solid; padding: 2pt; &lt;/xsl:variable></EditedSource>
+<EditedSource sourceType="xslDmp">&lt;xsl:variable name="ps-box"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">background-color:
+#F0F0F0; border: thin  solid; padding: 2pt; &lt;/xsl:variable></EditedSource>
+<EditedSource sourceType="xslHtmlHelp">&lt;xsl:variable name="ps-box"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">background-color:
+#F0F0F0; border: thin  solid; padding: 2pt; &lt;/xsl:variable></EditedSource>
+<EditedSource sourceType="xslEpub">&lt;xsl:variable name="ps-box"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">background-color:
+#F0F0F0; border: thin  solid; padding: 2pt; &lt;/xsl:variable></EditedSource>
+<EditedSource sourceType="xslWeb">&lt;xsl:variable name="ps-box"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">background-color:
+#F0F0F0; border: thin  solid; padding: 2pt; &lt;/xsl:variable></EditedSource>
+<EditedSource sourceType="xslFoRtf">&lt;xsl:template name="ps-box"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">     &lt;xsl:attribute
+name="background-color">#F0F0F0&lt;/xsl:attribute>     &lt;xsl:attribute
+name="border">thin solid&lt;/xsl:attribute>   &lt;xsl:attribute name="padding"
+>2pt&lt;/xsl:attribute>   &lt;/xsl:template></EditedSource>
+</PropertySet>
+<PropertySet propertySetId="breaksWordbreaking-hyphenate">
+<BaseProperties>
+<Hyphenation hyphenate="yes"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="colorblack">
+<BaseProperties>
+<Highlight color="#000000"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="colorblue">
+<BaseProperties>
+<Highlight color="#0000FF"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="colorred">
+<BaseProperties>
+<Highlight color="#FF0000"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="colorviolet">
+<BaseProperties>
+<Highlight color="#9C3ECE"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="endline">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontbold">
+<BaseProperties>
+<Font weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontevenwidth">
+<BaseProperties>
+<Font family="Monospace"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontevenwidth-web">
+<BaseProperties>
+<Font family="Monospace" size="100%"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontitalic">
+<BaseProperties>
+<Font italic="yes"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontnotbold">
+<BaseProperties>
+<Font weight="normal"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontshadingyellow">
+<BaseProperties>
+<Highlight shading="#FFFFC0"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontsize">
+<BaseProperties>
+<Font size="11pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontsize-100">
+<BaseProperties>
+<Font size="100%"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontsize-30">
+<BaseProperties></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontsize-80">
+<BaseProperties>
+<Font size="80%"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontsize-web">
+<BaseProperties>
+<Font size="small"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontsizesmall">
+<BaseProperties>
+<Font size="9pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fonttext">
+<BaseProperties>
+<Font family="Serif"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fonttext-web">
+<BaseProperties>
+<Font family="Sanserif"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fonttitle">
+<BaseProperties>
+<Font family="Sanserif" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fonttitle-web">
+<BaseProperties>
+<Font family="Sanserif" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontunderline">
+<BaseProperties>
+<Highlight textUnderlineStyle="underline"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="fontunderline-none">
+<BaseProperties>
+<Highlight textUnderlineStyle="none"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Footnote_font">
+<BaseProperties>
+<Font family="Serif" italic="no" size="10pt" weight="normal"/>
+<Highlight allcaps="no" color="#000000" shading="#FFFFFF" smallcaps="no"
+textLineThroughStyle="none" textUnderlineStyle="none"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Footnote_font-web">
+<BaseProperties>
+<Font family="Serif" italic="no" size="small" weight="normal"/>
+<Highlight allcaps="no" color="#000000" shading="#FFFFFF" smallcaps="no"
+textLineThroughStyle="none" textUnderlineStyle="none"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="FrameAll">
+<BaseProperties></BaseProperties>
+<EditedSource minorVersion="23" sourceType="app" stylerVersion="5"
+><OnEnter type="application/x-javascript" xml:space="preserve"><![CDATA[//APP source for applying boxing around a block - FrameAll. This should not be applied to inline elements.
+var block = arguments[0];
+var paragraph = block.defaultParagraph;
+var style = block.defaultStyle;
+
+//Apply a -1.399pt rule to the block to offset the main rule
+var rule = new fRule();
+with (rule) {
+   thickness = "-1.399pt";
+   lineColor = "None";
+   sides = "tblr";
+}
+block.rules.addRule(rule);
+
+//Apply the main rule to the block
+var rule = new fRule();
+with (rule) {
+   //Line thickness
+   thickness = ".4pt";
+   //Line colour
+   lineColor = "Black";
+   //Sides (top, bottom, left and right)
+   sides = "tblr";
+}
+block.rules.addRule(rule);
+
+//Apply a final rule to the block to remove the offset
+var rule = new fRule();
+with (rule) {
+   thickness = "1pt";
+   lineColor = "None";
+   sides = "tblr";
+}
+block.rules.addRule(rule);
+
+]]></OnEnter><OnExit type="application/x-javascript"
+xml:space="preserve"><![CDATA[/* commands to execute before leaving a node go here */
+]]></OnExit></EditedSource>
+<EditedSource sourceType="fosi">&lt;charsubset
+charsubsetid="FrameAll">
+&lt;boxing toffset="1pt" boffset="1pt" loffset="1pt" roffset="1pt"
+brel="bottom" ttype="tsingle" btype="bsingle" ltype="lsingle"
+rtype="rsingle"/>&lt;/charsubset></EditedSource>
+</PropertySet>
+<PropertySet propertySetId="FrameBottom">
+<BaseProperties></BaseProperties>
+<EditedSource minorVersion="23" sourceType="app" stylerVersion="5"
+><OnEnter type="application/x-javascript" xml:space="preserve"><![CDATA[//APP source for applying fule at the bottom of a block - FrameBottom. This should not be applied to inline elements.
+var block = arguments[0];
+var paragraph = block.defaultParagraph;
+var style = block.defaultStyle;
+
+//Apply a -1.399pt rule to the block to offset the main rule
+var rule = new fRule();
+with (rule) {
+   thickness = "-1.399pt";
+   lineColor = "None";
+   sides = "b";
+}
+block.rules.addRule(rule);
+
+//Apply the main rule to the block
+var rule = new fRule();
+with (rule) {
+   //Line thickness
+   thickness = ".4pt";
+   //Line colour
+   lineColor = "Black";
+   //Sides (top, bottom, left and right)
+   sides = "b";
+}
+block.rules.addRule(rule);
+
+//Apply a final rule to the block to remove the offset
+var rule = new fRule();
+with (rule) {
+   thickness = "1pt";
+   lineColor = "None";
+   sides = "b";
+}
+block.rules.addRule(rule);
+
+]]></OnEnter><OnExit type="application/x-javascript"
+xml:space="preserve"><![CDATA[/* commands to execute before leaving a node go here */
+]]></OnExit></EditedSource>
+<EditedSource sourceType="fosi">&lt;charsubset charsubsetid="FrameBottom">
+&lt;boxing boffset="1pt" brel="bottom" ttype="tblank" btype="bsingle"
+ltype="lblank" rtype="rblank"/>&lt;/charsubset></EditedSource>
+</PropertySet>
+<PropertySet propertySetId="FrameSides">
+<BaseProperties></BaseProperties>
+<EditedSource minorVersion="23" sourceType="app" stylerVersion="5"
+><OnEnter type="application/x-javascript" xml:space="preserve"><![CDATA[//APP source for applying boxing to the sides of a block - FrameSides. This should not be applied to inline elements.
+var block = arguments[0];
+var paragraph = block.defaultParagraph;
+var style = block.defaultStyle;
+
+//Apply a -1.399pt rule to the block to offset the main rule
+var rule = new fRule();
+with (rule) {
+   thickness = "-1.399pt";
+   lineColor = "None";
+   sides = "lr";
+}
+block.rules.addRule(rule);
+
+//Apply the main rule to the block
+var rule = new fRule();
+with (rule) {
+   //Line thickness
+   thickness = ".4pt";
+   //Line colour
+   lineColor = "Black";
+   //Sides (top, bottom, left and right)
+   sides = "lr";
+}
+block.rules.addRule(rule);
+
+//Apply a final rule to the block to remove the offset
+var rule = new fRule();
+with (rule) {
+   thickness = "1pt";
+   lineColor = "None";
+   sides = "lr";
+}
+block.rules.addRule(rule);
+
+]]></OnEnter><OnExit type="application/x-javascript"
+xml:space="preserve"><![CDATA[/* commands to execute before leaving a node go here */
+]]></OnExit></EditedSource>
+<EditedSource sourceType="fosi">&lt;charsubset charsubsetid="FrameSides">
+&lt;boxing toffset="1pt" boffset="1pt" loffset="1pt" roffset="1pt"
+brel="bottom" ttype="tblank" btype="bblank" ltype="lsingle"
+rtype="rsingle"/>&lt;/charsubset></EditedSource>
+</PropertySet>
+<PropertySet propertySetId="FrameTop">
+<BaseProperties></BaseProperties>
+<EditedSource minorVersion="23" sourceType="app" stylerVersion="5"
+><OnEnter type="application/x-javascript" xml:space="preserve"><![CDATA[//APP source for applying a rule to the top of a block - FrameTop. This should not be applied to inline elements.
+var block = arguments[0];
+var paragraph = block.defaultParagraph;
+var style = block.defaultStyle;
+
+//Apply a -1.399pt rule to the block to offset the main rule
+var rule = new fRule();
+with (rule) {
+   thickness = "-1.399pt";
+   lineColor = "None";
+   sides = "t";
+}
+block.rules.addRule(rule);
+
+//Apply the main rule to the block
+var rule = new fRule();
+with (rule) {
+   //Line thickness
+   thickness = ".4pt";
+   //Line colour
+   lineColor = "Black";
+   //Sides (top, bottom, left and right)
+   sides = "t";
+}
+block.rules.addRule(rule);
+
+//Apply a final rule to the block to remove the offset
+var rule = new fRule();
+with (rule) {
+   thickness = "1pt";
+   lineColor = "None";
+   sides = "t";
+}
+block.rules.addRule(rule);
+
+]]></OnEnter><OnExit type="application/x-javascript"
+xml:space="preserve"><![CDATA[/* commands to execute before leaving a node go here */
+]]></OnExit></EditedSource>
+<EditedSource sourceType="fosi">&lt;charsubset charsubsetid="FrameTop">
+&lt;boxing toffset="1pt" ttype="tsingle" btype="bblank" ltype="lblank"
+rtype="rblank"/>&lt;/charsubset></EditedSource>
+</PropertySet>
+<PropertySet propertySetId="FrameTopBot">
+<BaseProperties></BaseProperties>
+<EditedSource minorVersion="23" sourceType="app" stylerVersion="5"
+><OnEnter type="application/x-javascript" xml:space="preserve"><![CDATA[//APP source for applying rules to the top and bottom of a block - FrameTopBot. This should not be applied to inline elements.
+var block = arguments[0];
+var paragraph = block.defaultParagraph;
+var style = block.defaultStyle;
+
+//Apply a -1.399pt rule to the block to offset the main rule
+var rule = new fRule();
+with (rule) {
+   thickness = "-1.399pt";
+   lineColor = "None";
+   sides = "tb";
+}
+block.rules.addRule(rule);
+
+//Apply the main rule to the block
+var rule = new fRule();
+with (rule) {
+   //Line thickness
+   thickness = ".4pt";
+   //Line colour
+   lineColor = "Black";
+   //Sides (top, bottom, left and right)
+   sides = "tb";
+}
+block.rules.addRule(rule);
+
+//Apply a final rule to the block to remove the offset
+var rule = new fRule();
+with (rule) {
+   thickness = "1pt";
+   lineColor = "None";
+   sides = "tb";
+}
+block.rules.addRule(rule);
+
+]]></OnEnter><OnExit type="application/x-javascript"
+xml:space="preserve"><![CDATA[/* commands to execute before leaving a node go here */
+]]></OnExit></EditedSource>
+<EditedSource sourceType="fosi">&lt;charsubset charsubsetid="FrameTopBot">
+&lt;boxing toffset="1pt" boffset="1pt" brel="bottom" ttype="tsingle"
+btype="bsingle" ltype="lblank" rtype="rblank"/>&lt;/charsubset></EditedSource>
+</PropertySet>
+<PropertySet propertySetId="hidden">
+<BaseProperties>
+<Hidden hidden="yes"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="hidden-not">
+<BaseProperties>
+<Hidden hidden="no"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-.9in__current">
+<BaseProperties>
+<Indent firstLineIndent="*-.9in"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-1.50pc__current">
+<BaseProperties>
+<Indent firstLineIndent="*-1.50pc"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-10em__current">
+<BaseProperties>
+<Indent firstLineIndent="*-10em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-12em__current">
+<BaseProperties>
+<Indent firstLineIndent="*-12em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-14em__current">
+<BaseProperties>
+<Indent firstLineIndent="*-14em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-15pt__current">
+<BaseProperties>
+<Indent firstLineIndent="*-15pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-16em__current">
+<BaseProperties>
+<Indent firstLineIndent="*-16em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-18em__current">
+<BaseProperties>
+<Indent firstLineIndent="*-18em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-20em__current">
+<BaseProperties>
+<Indent firstLineIndent="*-20em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-22em__current">
+<BaseProperties>
+<Indent firstLineIndent="*-22em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-4em__current">
+<BaseProperties>
+<Indent firstLineIndent="*-4em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-6em__current">
+<BaseProperties>
+<Indent firstLineIndent="*-6em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline-8em__current">
+<BaseProperties>
+<Indent firstLineIndent="*-8em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline.2pc-currentleft">
+<BaseProperties>
+<Indent firstLineIndent="*0.2pc"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstline5pt__leftmargin">
+<BaseProperties>
+<Indent firstLineIndent="5pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstlinezero__currentleft">
+<BaseProperties>
+<Indent firstLineIndent="*0.00pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstlinezero__leftmargin">
+<BaseProperties>
+<Indent firstLineIndent="0pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-firstlinezero__parentfirstline">
+<BaseProperties>
+<Indent firstLineIndent="^0.00pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left-1em__parent">
+<BaseProperties>
+<Indent leftIndent="@-1em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left.25in__parent">
+<BaseProperties>
+<Indent leftIndent="@0.25in"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left.5in-parent">
+<BaseProperties>
+<Indent leftIndent="@0.5in"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left.9in__parent">
+<BaseProperties>
+<Indent leftIndent="@.9in"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left1.50pc__parent">
+<BaseProperties>
+<Indent leftIndent="@1.50pc"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left10em__parent">
+<BaseProperties>
+<Indent leftIndent="@10em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left10pt__parent">
+<BaseProperties>
+<Indent leftIndent="@10.00pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left12em__parent">
+<BaseProperties>
+<Indent leftIndent="@12em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left14em__parent">
+<BaseProperties>
+<Indent leftIndent="@14em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left15pt__parent">
+<BaseProperties>
+<Indent leftIndent="@15pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left16em__parent">
+<BaseProperties>
+<Indent leftIndent="@16em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left18em__parent">
+<BaseProperties>
+<Indent leftIndent="@18em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left1em__parent">
+<BaseProperties>
+<Indent leftIndent="@1em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left20em__parent">
+<BaseProperties>
+<Indent leftIndent="@20em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left22em__parent">
+<BaseProperties>
+<Indent leftIndent="@22em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left2em__parent">
+<BaseProperties>
+<Indent leftIndent="@2em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left4em__parent">
+<BaseProperties>
+<Indent leftIndent="@4em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left5pt__leftmargin">
+<BaseProperties>
+<Indent leftIndent="5pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left6em__parent">
+<BaseProperties>
+<Indent leftIndent="@6em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-left8em__parent">
+<BaseProperties>
+<Indent leftIndent="@8em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-leftzero__leftmargin">
+<BaseProperties>
+<Indent leftIndent="0pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-leftzero__parent">
+<BaseProperties>
+<Indent leftIndent="@0pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-outdent">
+<BaseProperties>
+<Indent firstLineIndent="-0.62in" leftIndent="-0.62in"/>
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-right.25in__parent">
+<BaseProperties>
+<Indent rightIndent="@0.25in"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-right.5in__currentleft">
+<BaseProperties>
+<Indent rightIndent="*.5in"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-right2pc__parent">
+<BaseProperties>
+<Indent rightIndent="@2pc"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-right5pt__rightmargin">
+<BaseProperties>
+<Indent rightIndent="5pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-rightzero__currentleft">
+<BaseProperties>
+<Indent rightIndent="*0.00pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-rightzero__parentright">
+<BaseProperties>
+<Indent rightIndent="@0.00pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indent-rightzero__rightmargin">
+<BaseProperties>
+<Indent rightIndent="0.00pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="indentblock">
+<BaseProperties propertySetReferences="block">
+<Indent firstLineIndent="*0pt" leftIndent="@+2pc" rightIndent="@+2pc"/>
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Index_grouphead_space">
+<BaseProperties>
+<SpaceAfter minimum=".3pc" optimum=".5pc" precedence="medium"/>
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Index_group_space">
+<BaseProperties>
+<SpaceBefore maximum="1.6pc" minimum="1.5pc" optimum="1.5pc"
+precedence="medium"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="inline">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="keep-content-together">
+<BaseProperties>
+<Keep together="3"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="keepwithnext">
+<BaseProperties propertySetReferences="block">
+<Keep together="1" withNext="1"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="level-1-title">
+<BaseProperties
+propertySetReferences="fonttitle Title_keeps Title_space Title_color Title_alignment Title_1">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="level-1-title-web">
+<BaseProperties
+propertySetReferences="fonttitle-web Title_alignment Title_color Title_keeps Title_space Title_1-web">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="level-2-title">
+<BaseProperties
+propertySetReferences="Title_alignment Title_color fonttitle Title_keeps Title_space Title_2">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="level-2-title-web">
+<BaseProperties
+propertySetReferences="Title_alignment Title_color fonttitle-web Title_keeps Title_space Title_2-web">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="level-3-title">
+<BaseProperties
+propertySetReferences="fonttitle Title_keeps Title_space Title_color Title_alignment Title_3">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="level-3-title-web">
+<BaseProperties
+propertySetReferences="fonttitle-web Title_alignment Title_color Title_keeps Title_space Title_3-web">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="level-4-title">
+<BaseProperties
+propertySetReferences="fonttitle Title_keeps Title_space Title_color Title_alignment Title_4">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="level-4-title-web">
+<BaseProperties
+propertySetReferences="fonttitle-web Title_alignment Title_color Title_keeps Title_space Title_4-web">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="level-5-title">
+<BaseProperties
+propertySetReferences="fonttitle Title_keeps Title_space Title_color Title_alignment Title_5">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="level-5-title-web">
+<BaseProperties
+propertySetReferences="fonttitle-web Title_alignment Title_color Title_keeps Title_space Title_5-web">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Link">
+<BaseProperties>
+<Highlight color="#0000FF" textUnderlineStyle="underline"/>
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="list">
+<BaseProperties propertySetReferences="block listindent">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="listindent">
+<BaseProperties propertySetReferences="block">
+<Indent firstLineIndent="*-2.0pc" leftIndent="@+2.0pc"
+rightIndent="@0pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="listitem">
+<BaseProperties propertySetReferences="block spacebeforelist">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="List_item_space">
+<BaseProperties>
+<SpaceBefore conditionality="discard" maximum="8pt" minimum="6pt"
+optimum="6pt" precedence="medium"/>
+<SpaceAfter maximum="8pt" minimum="6pt" optimum="6pt"
+precedence="medium"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="List_item_space_compact">
+<BaseProperties>
+<SpaceBefore conditionality="discard" maximum="5pt" minimum="3pt"
+optimum="3pt" precedence="medium"/>
+<SpaceAfter maximum="5pt" minimum="3pt" optimum="3pt"
+precedence="medium"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="List_item_space_compact_web">
+<BaseProperties>
+<SpaceBefore conditionality="discard" maximum="5pt" minimum="3pt"
+optimum="3pt" precedence="medium"/>
+<SpaceAfter maximum="5pt" minimum="3.00pt" optimum="3.00pt"
+precedence="medium"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="List_item_space_web">
+<BaseProperties>
+<SpaceBefore conditionality="discard" maximum="8pt" minimum="6.00pt"
+optimum="6pt" precedence="medium"/>
+<SpaceAfter maximum="8pt" minimum="4pt" optimum="4.00pt"
+precedence="medium"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="overline">
+<BaseProperties></BaseProperties>
+<EditedSource minorVersion="23" sourceType="app" stylerVersion="5"
+><OnEnter type="application/x-javascript" xml:space="preserve"><![CDATA[//APP source code edit to turn on overlines
+var block = arguments[0];
+var paragraph = block.defaultParagraph;
+var style = block.defaultStyle;
+
+//Use the inbuilt function to set the overline rule's properties to that used for underline. Use other line style names from Styler to set different line styles eg heavy, double, dot, jagged
+template.content.functions._app.LineStyle( style.overlineRule, 'underline' );
+
+//Set the overline colour to the font colour
+style.overlineRule.color = 'fontColor';
+
+]]></OnEnter><OnExit type="application/x-javascript"
+xml:space="preserve"><![CDATA[/* commands to execute before leaving a node go here */
+]]></OnExit></EditedSource>
+<EditedSource sourceType="fosi">&lt;charsubset
+charsubsetid="overline">&lt;highlt
+xscoring="1" xscorewt="0.05em" xscoreoff="-0.8em">&lt;/charsubset></EditedSource>
+<EditedSource sourceType="xslFo">&lt;xsl:template name="ps-overline">&lt;xsl:attribute
+name="text-decoration">overline&lt;/xsl:attribute>&lt;/xsl:template></EditedSource>
+<EditedSource sourceType="xslHtml">&lt;xsl:variable name="ps-overline">text-decoration:
+overline; &lt;/xsl:variable></EditedSource>
+<EditedSource sourceType="xslDmp">&lt;xsl:variable name="ps-overline">text-decoration:
+overline; &lt;/xsl:variable></EditedSource>
+<EditedSource sourceType="xslHtmlHelp">&lt;xsl:variable name="ps-overline">text-decoration:
+overline; &lt;/xsl:variable></EditedSource>
+<EditedSource sourceType="xslEpub">&lt;xsl:variable name="ps-overline">text-decoration:
+overline; &lt;/xsl:variable></EditedSource>
+<EditedSource sourceType="xslWeb">&lt;xsl:variable name="ps-overline">text-decoration:
+overline; &lt;/xsl:variable></EditedSource>
+</PropertySet>
+<PropertySet propertySetId="overstrike-with-slash">
+<BaseProperties>
+<Highlight textLineThroughStyle="wordsAndSpaces"/></BaseProperties>
+<EditedSource minorVersion="23" sourceType="app" stylerVersion="5"
+><OnEnter type="application/x-javascript" xml:space="preserve"><![CDATA[//APP source code edit for overstrike-with-slash
+var block = arguments[0];
+var paragraph = block.defaultParagraph;
+var style = block.defaultStyle;
+
+with (style.strikethroughRule) {
+   color = "fontColor";
+   thickness = "0.76em";
+   offset = "-0.4em";
+   lineStyle = "_li_slashes1";
+   show = true;
+}
+
+]]></OnEnter><OnExit type="application/x-javascript"
+xml:space="preserve"><![CDATA[/* commands to execute before leaving a node go here */
+]]></OnExit></EditedSource>
+<EditedSource sourceType="fosi">&lt;charsubset charsubsetid="overstrike-with-slash">
+&lt;highlt scorechron="1" scorechr="/"/>&lt;/charsubset></EditedSource>
+<EditedSource sourceType="xslFo">&lt;xsl:template name="ps-overstrike-with-slash">
+    &lt;xsl:attribute name="atixslfoext:overstrike">true&lt;/xsl:attribute>
+    &lt;xsl:attribute name="atixslfoext:overstrike-character">/&lt;/xsl:attribute>
+  &lt;/xsl:template></EditedSource>
+</PropertySet>
+<PropertySet propertySetId="part-title">
+<BaseProperties
+propertySetReferences="Title_alignment Title_color fonttitle Title_keeps Title_space title-part">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="part-title-web">
+<BaseProperties
+propertySetReferences="Title_alignment Title_color Title_keeps Title_space fonttitle-web title-part-web">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="section-title">
+<BaseProperties
+propertySetReferences="Title_alignment Title_color fonttitle Title_keeps Title_space title-section">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="section-title-web">
+<BaseProperties
+propertySetReferences="Title_alignment Title_color Title_keeps Title_space fonttitle-web title-section-web">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spaceafter0force">
+<BaseProperties>
+<SpaceAfter optimum="0pt" precedence="force"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spaceafter6pt-high">
+<BaseProperties>
+<SpaceAfter maximum="7pt" minimum="5pt" optimum="6pt" precedence="high"/>
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spaceafterlarge">
+<BaseProperties propertySetReferences="block">
+<SpaceAfter maximum="2pc" minimum="1.5pc" optimum="1.5pc"
+precedence="medium"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spaceaftermedium">
+<BaseProperties propertySetReferences="block">
+<SpaceAfter maximum="8pt" minimum="7pt" optimum="7pt"
+precedence="medium"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spaceaftersmall">
+<BaseProperties propertySetReferences="block">
+<SpaceAfter maximum="4pt" minimum="3pt" optimum="3pt"
+precedence="medium"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spacebefore.4in-high">
+<BaseProperties>
+<SpaceBefore conditionality="discard" maximum="0.5in" minimum="0.4in"
+optimum="0.4in" precedence="high"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spacebefore0force">
+<BaseProperties>
+<SpaceBefore optimum="0pt" precedence="force"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spacebefore1.2em-low">
+<BaseProperties>
+<SpaceBefore conditionality="discard" maximum="1.2em" minimum="1.2em"
+optimum="1.2em" precedence="low"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spacebefore1in-high">
+<BaseProperties>
+<SpaceBefore conditionality="discard" maximum="1.1in" minimum="1in"
+optimum="1in" precedence="high"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spacebefore2in">
+<BaseProperties>
+<SpaceBefore optimum="2in"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spacebeforelarge">
+<BaseProperties propertySetReferences="block">
+<SpaceBefore maximum="2pc" minimum="1.5pc" optimum="1.5pc"
+precedence="medium"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spacebeforelist">
+<BaseProperties propertySetReferences="spacebeforesmall">
+<SpaceBefore minimum="3pt"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spacebeforemedium">
+<BaseProperties propertySetReferences="block">
+<SpaceBefore maximum="8pt" minimum="7pt" optimum="7pt"
+precedence="medium"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spacebeforesmall">
+<BaseProperties propertySetReferences="block">
+<SpaceBefore maximum="4pt" minimum="3pt" optimum="3pt"
+precedence="medium"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spacebeforezero">
+<BaseProperties propertySetReferences="block">
+<SpaceBefore conditionality="discard" maximum="0pt" minimum="0pt"
+optimum="0pt" precedence="force"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spacing-after2.00pt__medium">
+<BaseProperties>
+<SpaceAfter optimum="2" precedence="medium"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="spacing-before2.00pt__medium">
+<BaseProperties>
+<SpaceBefore optimum="2.00pt" precedence="medium"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="startline">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="subscript">
+<BaseProperties>
+<Font size=".69em"/>
+<Highlight offset="-.15em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="superscript">
+<BaseProperties>
+<Font size=".69em"/>
+<Highlight offset=".33em"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="table-header">
+<BaseProperties propertySetReferences="fonttitle fontsize">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="table-header-web">
+<BaseProperties propertySetReferences="fonttitle-web fontsize-web">
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="tableborderblock">
+<BaseProperties>
+<SpaceBefore conditionality="keep" maximum="4pt" minimum="3pt"
+optimum="3pt" precedence="force"/>
+<SpaceAfter maximum="5pt" minimum="3pt" optimum="3pt" precedence="force"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="title-book">
+<BaseProperties>
+<Font size="30pt" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="title-book-web">
+<BaseProperties>
+<Font size="x-large" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="title-part">
+<BaseProperties>
+<Font size="30pt" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="title-part-web">
+<BaseProperties>
+<Font size="x-large" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="title-section">
+<BaseProperties>
+<Font size="12pt" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="title-section-web">
+<BaseProperties>
+<Font size="small" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="title-sub-book">
+<BaseProperties>
+<Font size="24pt" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="title-sub-book-web">
+<BaseProperties>
+<Font size="large" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_1">
+<BaseProperties>
+<Font size="24pt" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_1-web">
+<BaseProperties>
+<Font size="x-large" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_2">
+<BaseProperties>
+<Font size="20pt" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_2-web">
+<BaseProperties>
+<Font size="large" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_3">
+<BaseProperties>
+<Font size="16pt" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_3-web">
+<BaseProperties>
+<Font size="medium" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_4">
+<BaseProperties>
+<Font size="12pt" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_4-web">
+<BaseProperties>
+<Font size="small" weight="bold"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_5">
+<BaseProperties>
+<Font size="12pt" weight="normal"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_5-web">
+<BaseProperties>
+<Font size="small" weight="normal"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_alignment">
+<BaseProperties>
+<Alignment align="left" lastLineAlign="relative"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_color">
+<BaseProperties>
+<Highlight color="#0000FF"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_color_for_print">
+<BaseProperties>
+<Highlight color="#0000FF"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_keeps">
+<BaseProperties>
+<Hyphenation hyphenate="no"/>
+<Keep keepScope="withinColumn" together="7" withNext="7"/>
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="Title_space">
+<BaseProperties>
+<LineSpacing lineHeight="1.1em"/>
+<SpaceBefore maximum="2em" minimum="1.5em" optimum="1.5em"
+precedence="medium"/>
+<SpaceAfter maximum="1.5em" minimum="1em" optimum="1em"
+precedence="high"/></BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="typepreformatted">
+<BaseProperties>
+<Alignment align="preformatted" lastLineAlign="relative"/>
+</BaseProperties>
+</PropertySet>
+<PropertySet propertySetId="typetable">
+<BaseProperties></BaseProperties>
+</PropertySet>
+</PropertySets>
+<Elements><?Pub Dtl?></Elements>
+<Styles
+xsi:noNamespaceSchemaLocation="http://www.arbortext.com/namespace/doctypes/styler"><?Pub Dtl?>
+<Style styleName="block"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="crossReference"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<GeneratedText></GeneratedText>
+</BaseProperties>
+</Context>
+</Style>
+<Style styleName="customTable"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Table_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="customTableCell"><?Pub Dtl?>
+<Context priority="0" selector="$customTable//$elemname">
+<BaseProperties>
+<Indent firstLineIndent="*0pt" leftIndent="0pt" rightIndent="0pt"/>
+<SpaceBefore maximum="0pt" minimum="0pt" optimum="0pt"
+precedence="force"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="customTableHeaderCell"><?Pub Dtl?>
+<Context priority="0" selector="$customTable//$elemname">
+<BaseProperties>
+<Indent firstLineIndent="*0pt" leftIndent="0pt" rightIndent="0pt"/>
+<SpaceBefore maximum="0pt" minimum="0pt" optimum="0pt"
+precedence="force"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="customTableRow"><?Pub Dtl?>
+<Context priority="0" selector="$customTable/$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="customTableHeaderRow"><?Pub Dtl?>
+<Context priority="0" selector="$customTable/$elemname">
+<BaseProperties propertySetReferences="bold">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="customTableTitle"><?Pub Dtl?>
+<Context priority="10" selector="$customTable/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space customTableTitle">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A5ccfd71f-327a-4a9c-8ad8-283e38e972aa"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<RepeatingTitle><_sfe:Gentext><_sfe:RepeatingTitle><_gte:Translate
+translate="on" id="A0319abcf-ed36-462e-8dc6-34b51ecb6e97"><_gte:Target
+lang="en"><_gte:ElementLabelAndNumber/><_gte:Leaders leaderType="space"
+lenType="specified" specLen="1em"/><_gte:ElementContent/> (cont'd.)</_gte:Target
+></_gte:Translate></_sfe:RepeatingTitle></_sfe:Gentext></RepeatingTitle>
+<Numbering alignAt="0pt" followWith="space" format="(CURRENT)"
+numberAlignment="left" numberScope="(none)" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Ad7888deb-4282-4789-b43c-b4157be73ef1"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+</Style>
+<Style styleName="definitionList"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Standard_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="definitionListItem"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division1"><?Pub Dtl?>
+<Context divisionLevel="1" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block" startNew="page"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division2"><?Pub Dtl?>
+<Context divisionLevel="2" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block" startNew="page"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division3"><?Pub Dtl?>
+<Context divisionLevel="3" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division4"><?Pub Dtl?>
+<Context divisionLevel="4" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division5"><?Pub Dtl?>
+<Context divisionLevel="5" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division6"><?Pub Dtl?>
+<Context divisionLevel="6" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division7"><?Pub Dtl?>
+<Context divisionLevel="7" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division8"><?Pub Dtl?>
+<Context divisionLevel="8" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division9"><?Pub Dtl?>
+<Context divisionLevel="9" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="document"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block" newPageSet="Default_Page_Set"
+startNew="page"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="footnote"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/>
+<Footnote footnoteModelReference="Default_Footnotes"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A39b907e7-17ee-464f-94c3-262e74c9c130"><_gte:Target lang="en"
+><_gte:Font TypeSize=".69em" Offset=".33em"><_gte:ElementNumber/></_gte:Font
+></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0.00pt" followWith="nothing" format="(CURRENT)"
+numberAlignment="left">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Aa7dcf3af-92ec-4d19-a916-eeababcffcc9"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context footnoteModelReference="Default_Footnotes" priority="-0.005"
+selector="$elemname">
+<BaseProperties propertySetReferences="Footnote_font">
+<Indent firstLineIndent="*-1.50pc" leftIndent="@1.50pc"/>
+<Alignment align="left"/>
+<Breaks blockOrInline="block"/>
+<Footnote footnoteModelReference="Default_Footnotes"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A83f3359e-2f13-42ac-b28a-4553c2d18095"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+display="1."/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0.00pt" followWith="tab" format="(CURRENT) '.'"
+numberAlignment="left" tabtoAfter="1.5pc">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A163a97ac-13bf-40d1-bfcd-6d2b018997f0"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+</Style>
+<Style styleName="footnoteReference"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/>
+<Footnote footnoteIdRefAttrName="rid"
+footnoteModelReference="Default_Footnotes" referenceType="references"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Aca7f4ab4-ccdd-4327-b19a-e33ea86c97f0"><_gte:Target lang="en"
+><_gte:Font TypeSize=".69em" Offset=".33em"><_gte:CrossReference
+refAttr="rid" xrefStyle="Number"/></_gte:Font></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Context>
+</Style>
+<Style styleName="formalBlock"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Standard_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="graphic"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Standard_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="hidden"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="index"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block" spanInto="2" startNew="page"/>
+<GeneratedText></GeneratedText>
+</BaseProperties>
+</Context>
+</Style>
+<Style styleName="indexTermAttributeModel"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="indexTermElementModel"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="indexTermNestingElementModel"><?Pub Dtl?>
+<Context priority="20"
+selector="$elemname//$elemname//$elemname//$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+<Context priority="15" selector="$elemname//$elemname//$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+<Context priority="10" selector="$elemname//$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="inline"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="link"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Link">
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="linkTarget"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties></BaseProperties>
+</Context>
+</Style>
+<Style styleName="bulletedList"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Standard_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="numberedList"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Standard_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="listItem"><?Pub Dtl?>
+<Context priority="25"
+selector="*numberedList//*numberedList//*numberedList//*numberedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-2.5em" leftIndent="@2.5em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A79ba6028-d470-40fd-81ea-3320d7be865a"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="1.5em" followWith="tab" format="(CURRENT) ')'"
+numberAlignment="right" numberStyle="1" tabtoAfter="2.5em">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Af8d50b8d-953a-480c-8173-14cb2789dc74"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="20"
+selector="*bulletedList//*bulletedList//*bulletedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-1.25em" leftIndent="@1.25em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Adae1308d-0fe2-4e06-8773-9a21e29b70f9"><_gte:Target lang="en"
+><_gte:BulletMarker><_gte:Font>♦</_gte:Font></_gte:BulletMarker></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+<Bulleting alignAt="0em" followWith="tab" tabtoAfter="1.25em"/>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="20"
+selector="*numberedList//*numberedList//*numberedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-3em" leftIndent="@3em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Acdb75f26-04c8-49d6-ad3d-2f5815e49734"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="2em" followWith="tab" format="(CURRENT) '.'"
+numberAlignment="right" numberStyle="i" tabtoAfter="3em">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A4bc952b5-16e1-40e8-ba94-76f50683c552"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="15" selector="*bulletedList//*bulletedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-1.25em" leftIndent="@1.25em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A5526f8d3-6519-4655-b22f-9bdbebeb9377"><_gte:Target lang="en"
+><_gte:BulletMarker><_gte:Font>–</_gte:Font></_gte:BulletMarker></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+<Bulleting alignAt="0em" followWith="tab" tabtoAfter="1.25em"/>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="15" selector="*numberedList//*numberedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-2em" leftIndent="@2em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A8916e511-9ef7-43c2-8d11-ba7b1a6d7a82"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="1.em" followWith="tab" format="(CURRENT) '.'"
+numberAlignment="right" numberStyle="a" tabtoAfter="2.em">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Abc2ba347-51ce-4cb1-93f5-550a46488933"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*bulletedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-1.25em" leftIndent="@1.25em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A403d4936-fd7d-4b42-8e53-ebdff7ddbd35"><_gte:Target lang="en"
+><_gte:BulletMarker><_gte:Font>•</_gte:Font></_gte:BulletMarker></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+<Bulleting alignAt="0em" followWith="tab" tabtoAfter="1.25em"/>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*numberedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-2.5em" leftIndent="@2.5em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A1011ce30-686a-44db-ae52-0afce5d6988c"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="1.5em" followWith="tab" format="(CURRENT) '.'"
+numberAlignment="right" numberStyle="1" tabtoAfter="2.5em">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Aa5a70906-d4e3-4b30-8a10-a11e57e4f0e9"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*definitionList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="paragraph"><?Pub Dtl?>
+<Context priority="20" selector="*listItem/$elemname[1]">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+<Context priority="15" selector="*footnote//$elemname[1]">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+<Context priority="10" selector="*listItem/$elemname[position()>1]">
+<BaseProperties propertySetReferences="List_item_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Standard_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="preformatted"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="preformatted_font">
+<Alignment align="preformatted"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style
+description="Not used to style a table; see tableRoot and tableTgroup"
+styleName="table"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="tableCell"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Indent firstLineIndent="*0pt" leftIndent="0pt" rightIndent="0pt"/>
+<SpaceBefore maximum="0pt" minimum="0pt" optimum="0pt"
+precedence="force"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="tableHeaderCell"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="bold">
+<Indent firstLineIndent="*0pt" leftIndent="0pt" rightIndent="0pt"/>
+<SpaceBefore maximum="0pt" minimum="0pt" optimum="0pt"
+precedence="force"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="tableHead"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="bold">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="tableFoot"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="bold">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style
+description="Used to style the table element in the HTML table model"
+styleName="tableRoot"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Table_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style description="Used to style tgroup in CALS/OASIS table model"
+styleName="tableTgroup"><?Pub Dtl?>
+<Context priority="0" selector="$elemname[1]">
+<BaseProperties propertySetReferences="Table_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+<Context priority="0" selector="$elemname[position()>1]">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="tableOfContents"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/>
+<GeneratedText></GeneratedText>
+</BaseProperties>
+</Context>
+</Style>
+<Style styleName="title"><?Pub Dtl?>
+<Context priority="10" selector="*document/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_document">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+<Context priority="10" selector="*tableOfContents/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_TOC">
+<Breaks blockOrInline="block"/>
+<GeneratedText></GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*formalBlock/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_formalBlock">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Ab59ad1be-f89c-456e-89eb-66ed01694c50"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<RepeatingTitle><_sfe:Gentext><_sfe:RepeatingTitle><_gte:Translate
+translate="on" id="A894d7db4-57e5-400b-bcc9-0e2a1f46f2f2"><_gte:Target
+lang="en"><_gte:ElementLabelAndNumber/><_gte:Leaders leaderType="space"
+lenType="specified" specLen="1em"/><_gte:ElementContent/> (cont'd.)</_gte:Target
+></_gte:Translate></_sfe:RepeatingTitle></_sfe:Gentext></RepeatingTitle>
+<Numbering alignAt="0pt" followWith="space" format="(CURRENT)"
+numberAlignment="left" numberScope="(none)" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A9a5771be-5770-4b8b-a983-fff9889f0deb"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*division1/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_1">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A7f1ff3b8-a788-49a0-8137-e8ffb0e21962"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space" format="(CURRENT)"
+numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Ae4f15cd6-75a7-4687-a8c6-c5f5ea1f20b6"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*division2/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_2">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Aa1d8872e-0751-49b1-86e6-e6eed5c90a5a"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A1a0380a1-3378-4010-b97b-d3cc96f1df5f"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*division3/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_3">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Aa37904cd-e751-4d5a-8af6-913c4ce4271e"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Ac120e40d-7994-40db-8438-55808d0e9937"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context selector="*division4/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_4">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A9186fafd-6081-426b-9a03-ba482d208192"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A55ed43a4-135a-483f-9cd4-47df6a0e7bfb"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context selector="*division5/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_5">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Ad55957a6-c24f-4a8c-809a-86e54faee6bb"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Afce47915-8840-4233-8a9d-0c382c55d03f"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context selector="*division6/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_6">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A51c1d6c5-104e-4d9d-8916-6181d8ad9d73"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A45cf8cbd-5885-4c19-82d7-91f81e514df8"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context selector="*division7/$elemname">
+<BaseProperties
+propertySetReferences="Title_color Title_alignment Title_keeps Title_space Title_7">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Aa643f778-2b59-4379-bc78-a0fe9ab4a1e1"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A163e75ae-c58c-4033-8b24-bedcaaeefd7e"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context selector="*division8/$elemname">
+<BaseProperties
+propertySetReferences="Title_color Title_alignment Title_keeps Title_space Title_8">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A348b60b9-5ac2-45e9-b7f9-f4120b6dc5fb"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A26707ce9-2236-46c3-8b54-5b3f1fe9eaf6"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context selector="*division9/$elemname">
+<BaseProperties
+propertySetReferences="Title_color Title_alignment Title_keeps Title_space Title_9">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Aa9124fa1-231d-44fe-8705-949e51fb5558"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A890a1fd7-64f0-4d99-8978-54710e428d24"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="0" selector="$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space bold">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="nostyle"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="unstyled"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties></BaseProperties>
+</Context>
+</Style>
+</Styles>
+<Bullets><?Pub Dtl?>
+<Bullet><_gte:Font>•</_gte:Font></Bullet>
+<Bullet><_gte:Font>–</_gte:Font></Bullet>
+<Bullet><_gte:Font>♦</_gte:Font></Bullet>
+<Bullet><_gte:Font>◊</_gte:Font></Bullet>
+<Bullet><_gte:Font>⇒</_gte:Font></Bullet>
+</Bullets>
+<ReferenceFormats><?Pub Dtl?></ReferenceFormats>
+<Indexes><?Pub Dtl?></Indexes>
+<PrintPageSets><?Pub Dtl?></PrintPageSets>
+<PageTypes></PageTypes>
+<PageRegions></PageRegions>
+<GeneratedContents></GeneratedContents>
+<TablesOfContents><?Pub Dtl?></TablesOfContents>
+<FootnoteModels><?Pub Dtl?>
+<FootnoteModel columnOrPageWide="page"
+footnoteModelName="Default_Footnotes" footnoteNumberStyle="1"
+insertSeparator="yes" separatorAlign="left"
+separatorLengthType="specified" separatorRuleLength="9pc"
+separatorRuleThickness=".5pt" spaceAboveFootnote="15pt"
+spaceBelowSeparator="2pt"/></FootnoteModels>
+<Tables>
+<TableModel model="cals" primary="yes"/></Tables>
+<CustomTables><?Pub Dtl?></CustomTables>
+<SizeDefinitions></SizeDefinitions>
+<CombinedFonts></CombinedFonts>
+</Styler>

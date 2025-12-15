@@ -1,0 +1,2458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2015, v.4002-->
+<?Pub Inc?>
+<?APT StylesheetID Title="UFE Module" Description="This file contains ufes" CompositionTypes="htmlfile,print,pdf,htmlhelp,web,rtf,dmp,da,epub" StylerVersion="6.02"?><Styler
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://www.arbortext.com/namespace/doctypes/styler"
+xmlns:atidlm="http://www.arbortext.com/namespace/atidlm"
+xmlns:ch="http://www.arbortext.com/namespace/chunker"
+xmlns:_gte="http://www.arbortext.com/namespace/Styler/GeneratedTextElements"
+xmlns:_sfe="http://www.arbortext.com/namespace/Styler/StylerFormattingElements"
+xmlns:_ufe="http://www.arbortext.com/namespace/Styler/UserFormattingElements"
+xmlns:_dtd="http://www.arbortext.com/namespace/Styler/UserElements"
+xmlns:_acl="java:com.arbortext.epic.Acl"
+xmlns:saxon="http://saxon.sf.net/"
+xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+xmlns:rtf="http://www.cambridgedocs.com/namespace/fo/rtf"
+xmlns:atirds="http://www.arbortext.com/namespace/dita/rdstyle"
+xmlns:onSave="http://www.arbortext.com/namespace/onSave"
+xmlns:dmp="http://www.arbortext.com/namespace/dmp/dmpmap"
+xmlns:_js="java:com.arbortext.epic.internal.js.JavaScript"
+xmlns:ipd="http://www.arbortext.com/namespace/da/ipdinfo"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:atieqn="http://www.arbortext.com/namespace/atieqn"
+xmlns:m="http://www.w3.org/1998/Math/MathML"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:svg="http://www.w3.org/2000/svg">
+<StyleSheetInfo minorVersion="2" printPdfEngine="APP" stylerVersion="6"><?Pub Dtl?>
+<ElementSet/>
+<ChunkConfig/>
+<HtmlOutputConfig cssStyleLocation="inHtmlHead"
+cssStyling="allProperties" listItemsAsTables="yes" output="htmlfile"
+outputXhtml="no" titlesAsTables="yes"/>
+<HtmlOutputConfig cssStyleLocation="externalCssFile"
+cssStyling="allProperties" listItemsAsTables="yes" output="web"
+outputXhtml="no" titlesAsTables="no"/>
+<HtmlOutputConfig cssStyleLocation="externalCssFile"
+cssStyling="allProperties" listItemsAsTables="yes" output="htmlhelp"
+outputXhtml="no" titlesAsTables="no"/>
+<HtmlOutputConfig cssStyleLocation="externalCssFile"
+cssStyling="allProperties" listItemsAsTables="no" output="dmp"
+outputXhtml="yes" titlesAsTables="no"/>
+<Language defaultLanguage="en" langAttribute="xml:lang"
+langDetermination="attribute">
+<GentextLanguage gentextLanguageName="en"/>
+<GentextLanguage exportDate="2010-03-10T18:17:29Z"
+gentextLanguageName="ko" importDate="2010-10-28T20:27:21Z"/>
+<GentextLanguage exportDate="2013-12-20T21:47:56Z"
+gentextLanguageName="zh-Hans" importDate="2014-02-26T19:56:34Z"/>
+<GentextLanguage exportDate="2013-12-20T21:47:56Z"
+gentextLanguageName="zh-Hant" importDate="2014-02-26T19:57:26Z"/>
+<GentextLanguage exportDate="2010-03-10T18:17:29Z"
+gentextLanguageName="de" importDate="2010-10-28T20:29:58Z"/>
+<GentextLanguage exportDate="2011-07-29T21:05:32Z"
+gentextLanguageName="es" importDate="2011-08-13T03:43:37Z"/>
+<GentextLanguage exportDate="2011-07-29T21:05:32Z"
+gentextLanguageName="fr" importDate="2011-08-13T03:41:17Z"/>
+<GentextLanguage exportDate="2010-03-10T18:17:29Z"
+gentextLanguageName="it" importDate="2010-10-28T20:30:48Z"/>
+<GentextLanguage exportDate="2010-03-10T18:17:29Z"
+gentextLanguageName="ja" importDate="2010-10-28T20:31:04Z"/>
+<GentextLanguage exportDate="2013-12-20T21:47:56Z"
+gentextLanguageName="en-us" importDate="2014-02-26T17:30:27Z"/>
+<GentextLanguage exportDate="2013-12-20T21:47:56Z"
+gentextLanguageName="zh_CN" importDate="2014-02-26T17:19:08Z"/>
+<GentextLanguage exportDate="2013-12-20T21:47:56Z"
+gentextLanguageName="zh_TW" importDate="2014-02-26T17:20:24Z"/>
+<LanguageMap sourceLanguage="en" targetLanguage="en-US"/>
+<LanguageMap sourceLanguage="de" targetLanguage="de-1996"/></Language>
+</StyleSheetInfo>
+<PropertySets><?Pub Dtl?></PropertySets>
+<Elements><?Pub Dtl?>
+<Element name="_ufe:ChapterRule" style="inline">
+<Context priority="0" selector="_ufe:ChapterRule">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+<OutputProperties output="printpdf">
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="A91c2c9aa-21e3-483c-ae3e-4f97dbb0732e"><_gte:Target lang="en"
+><_gte:Font TypeSize="12pt" FontColor="blue" FontStyle="sans-serif"
+>C H A P T E R</_gte:Font></_gte:Target><_gte:Target lang="ko"
+current="yes"><_gte:Font TypeSize="12pt" FontColor="blue"
+FontStyle="sans-serif">장</_gte:Font></_gte:Target><_gte:Target
+lang="zh-Hans" current="yes"><_gte:Font TypeSize="12pt" FontColor="blue"
+FontStyle="sans-serif">章节</_gte:Font></_gte:Target><_gte:Target
+lang="zh-Hant" current="yes"><_gte:Font TypeSize="12pt" FontColor="blue"
+FontStyle="sans-serif">章</_gte:Font></_gte:Target><_gte:Target lang="de"
+current="yes"><_gte:Font TypeSize="12pt" FontColor="blue"
+FontStyle="sans-serif">K A P I T E L</_gte:Font></_gte:Target><_gte:Target
+lang="es" current="yes"><_gte:Font TypeSize="12pt" FontColor="blue"
+FontStyle="sans-serif">C A P Í T U L O</_gte:Font></_gte:Target><_gte:Target
+lang="fr" current="yes"><_gte:Font TypeSize="12pt" FontColor="blue"
+FontStyle="sans-serif">C H A P I T R E</_gte:Font></_gte:Target><_gte:Target
+lang="it" current="yes"><_gte:Font TypeSize="12pt" FontColor="blue"
+FontStyle="sans-serif">C A P I T O L O</_gte:Font></_gte:Target><_gte:Target
+lang="ja" current="yes"><_gte:Font TypeSize="12pt" FontColor="blue"
+FontStyle="sans-serif">章</_gte:Font></_gte:Target><_gte:Target
+lang="en-us" current="yes"><_gte:Font TypeSize="12pt" FontColor="blue"
+FontStyle="sans-serif">C H A P T E R</_gte:Font></_gte:Target><_gte:Target
+lang="zh_CN" current="yes"><_gte:Font TypeSize="12pt" FontColor="blue"
+FontStyle="sans-serif">章节</_gte:Font></_gte:Target><_gte:Target
+lang="zh_TW" current="yes"><_gte:Font TypeSize="12pt" FontColor="blue"
+FontStyle="sans-serif">章</_gte:Font></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:CoverAltTitleFont" style="block">
+<Context priority="0" selector="_ufe:CoverAltTitleFont">
+<BaseProperties propertySetReferences="book-subtitle">
+<Alignment align="center"/>
+<Breaks blockOrInline="block"/>
+<PdfInfo resultElementName="#notag"/></BaseProperties>
+<OutputProperties output="printpdf">
+<Font size=""/></OutputProperties>
+<OutputProperties output="epub"
+propertySetReferences="book-subtitle-web"></OutputProperties>
+<OutputProperties output="web" propertySetReferences="book-subtitle-web">
+</OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="book-subtitle-web"></OutputProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="book-subtitle-web"></OutputProperties>
+<OutputProperties output="dmp" propertySetReferences="book-subtitle-web">
+</OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:CoverTitleFont" style="title">
+<Context priority="24" selector="appendices/_ufe:CoverTitleFont">
+<BaseProperties
+propertySetReferences="fonttitle Title_color Title_alignment Title_keeps Title_space Title_1">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A3aa14128-b437-467a-a270-8a88c7634b30"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space" format="(CURRENT)"
+numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A98a88fe5-5770-48a2-8ab9-05934fc6ecdd"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+<OutputProperties output="printpdf"
+propertySetReferences="Title_color_for_print"></OutputProperties>
+</Context>
+<Context priority="0" selector="_ufe:CoverTitleFont">
+<BaseProperties propertySetReferences="book-title">
+<Font size=""/>
+<Alignment align="center"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+<OutputProperties output="epub" propertySetReferences="book-title-web">
+</OutputProperties>
+<OutputProperties output="web" propertySetReferences="book-title-web">
+</OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="book-title-web"></OutputProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="book-title-web"></OutputProperties>
+<OutputProperties output="dmp" propertySetReferences="book-title-web">
+</OutputProperties>
+<OutputProperties output="printpdf"
+propertySetReferences="Title_color_for_print">
+<Font size=""/></OutputProperties>
+</Context>
+</Element>
+<Element
+comment='Implements standard hazardstatement "signal word": caution, caution1, caution2, danger, warning, and notice. caution is a synonym for caution1. notice is not a recognized signal word in the ISO 3864 standard. @type is the preferred method to specify the signal word, but @level is also supported for compatibility with a pre-DITA1.2 version of the Hazard Statement domain. If no type is specified, caution is assumed. Other types are treated as synonyms for notice.'
+name="_ufe:SMAStandardGraphic" style="block">
+<Context priority="0" selector="_ufe:SMAStandardGraphic">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+<Conditions>
+<Condition conditionType="if">
+<Tests logic="or">
+<AttributeTest attributeName="type" elementName="hazardstatement"
+testType="equals" testValue="caution"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A8f928984-789e-405d-b478-a4812baf5f98"><_gte:Target lang="en"
+><_gte:GeneratedTextGraphic pathname="Caution.jpg" scalefit="1"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+<Condition conditionType="elseIf">
+<Tests logic="or">
+<AttributeTest attributeName="type" elementName="hazardstatement"
+testType="equals" testValue="danger"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A99ffbf90-6e80-4aeb-80ab-16eafed783dc"><_gte:Target lang="en"
+><_gte:GeneratedTextGraphic pathname="Danger.jpg" scalefit="1"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+<Condition conditionType="elseIf">
+<Tests logic="or">
+<AttributeTest attributeName="type" elementName="hazardstatement"
+testType="equals" testValue="warning"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Abcd19b42-ae0e-4da5-9d5a-643e1a6768a5"><_gte:Target lang="en"
+><_gte:GeneratedTextGraphic pathname="Warning.jpg" scalefit="1"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+<Condition conditionType="elseIf">
+<Tests logic="or">
+<AttributeTest attributeName="type" elementName="hazardstatement"
+testType="equals" testValue="notice"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A6bd7e194-bc8f-4788-89e1-2b8e3fff59ea"><_gte:Target lang="en"
+><_gte:GeneratedTextGraphic pathname="Notice.jpg" scalefit="1"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+<Condition conditionType="elseIf">
+<Tests logic="or">
+<AttributeTest attributeName="level" elementName="hazardstatement"
+testType="equals" testValue="caution1"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Ae1e36fac-50e9-4dae-9aff-12eaf8936795"><_gte:Target lang="en"
+><_gte:GeneratedTextGraphic pathname="Caution.jpg" scalefit="1"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+<Condition conditionType="elseIf">
+<Tests logic="or">
+<AttributeTest attributeName="level" elementName="hazardstatement"
+testType="equals" testValue="caution2"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Acf4b862e-08ac-4dd1-8a4c-16c38f6702d7"><_gte:Target lang="en"
+><_gte:GeneratedTextGraphic pathname="Caution2.jpg" scalefit="1"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+<OutputProperties output="editor">
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Aed280684-7342-4eef-8ce0-a72d0d8a1d51"><_gte:Target lang="en"
+><_gte:GeneratedTextGraphic pathname="Caution2.jpg" scalefit="1"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</OutputProperties>
+</Condition>
+<Condition conditionType="elseIf">
+<Tests logic="or">
+<AttributeTest attributeName="level" elementName="hazardstatement"
+testType="equals" testValue="danger"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A3a9725cb-2551-4c86-adeb-f366a85cc015"><_gte:Target lang="en"
+><_gte:GeneratedTextGraphic pathname="Danger.jpg" scalefit="1"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+<Condition conditionType="elseIf">
+<Tests logic="or">
+<AttributeTest attributeName="level" elementName="hazardstatement"
+testType="equals" testValue="warning"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A14f67672-f97d-4605-b8d5-754e60f5d740"><_gte:Target lang="en"
+><_gte:GeneratedTextGraphic pathname="Warning.jpg" scalefit="1"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+<Condition conditionType="elseIf">
+<Tests logic="or">
+<AttributeTest attributeName="level" elementName="hazardstatement"
+testType="equals" testValue="notice"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Aa14115f0-c7d4-4d12-b439-ab427c5a87c3"><_gte:Target lang="en"
+><_gte:GeneratedTextGraphic pathname="Notice.jpg" scalefit="1"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+<Condition conditionType="elseIf">
+<Tests logic="or">
+<AttributeTest attributeName="type" elementName="hazardstatement"
+testType="none"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Af30e95d4-c7a1-4188-8da6-6fb740002960"><_gte:Target lang="en"
+><_gte:GeneratedTextGraphic pathname="Caution.jpg" scalefit="1"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+<Condition conditionType="else">
+<Tests logic="or">
+<AttributeTest attributeName="level" elementName="hazardstatement"
+testType="equals" testValue="notice"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A146ef98b-d5c2-4516-aaa7-d536fafab139"><_gte:Target lang="en"
+><_gte:GeneratedTextGraphic pathname="Notice.jpg" scalefit="1"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+</Conditions>
+</Context>
+</Element>
+<Element name="_ufe:TableBorderBlock" style="block">
+<Context priority="0" selector="_ufe:TableBorderBlock">
+<BaseProperties propertySetReferences="tableborderblock">
+<PdfInfo resultElementName="#notag"/></BaseProperties>
+<OutputProperties output="editor">
+<Indent firstLineIndent="0pt" leftIndent="1pt" rightIndent="1pt"/>
+</OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:TableBorderBlockFlush" style="block">
+<Context priority="0" selector="_ufe:TableBorderBlockFlush">
+<BaseProperties
+propertySetReferences="spacebefore0force spaceafter0force block indent-leftzero__leftmargin indent-firstlinezero__leftmargin indent-rightzero__parentright">
+<PdfInfo resultElementName="#notag"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:appendices-toc" style="block">
+<Context priority="0" selector="_ufe:appendices-toc">
+<BaseProperties
+propertySetReferences="fontsize fonttext spacebefore.4in-high block">
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="A8a35d8f0-f437-439c-aa44-06d6b9f30f76"><_gte:Target lang="en"
+><_ufe:chapter-toc-spacing><_gte:Font FontColor="black" Weight="bold"
+>Information Covered in these Appendices</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendicesTOC
+><_gte:TableOfContents tocNameRef="AppendicesTOC"/></_sfe:TocAppendicesTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target lang="ko"
+current="yes"><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+Weight="bold">이 부록에서 다루는 정보</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendicesTOC
+><_gte:TableOfContents tocNameRef="AppendicesTOC"/></_sfe:TocAppendicesTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target
+lang="zh-Hans" current="yes"><_ufe:chapter-toc-spacing><_gte:Font
+FontColor="black" Weight="bold">这些附录中所述信息</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendicesTOC
+><_gte:TableOfContents tocNameRef="AppendicesTOC"/></_sfe:TocAppendicesTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target
+lang="zh-Hant" current="yes"><_ufe:chapter-toc-spacing><_gte:Font
+FontColor="black" Weight="bold">這些索引中包含的資訊</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendicesTOC
+><_gte:TableOfContents tocNameRef="AppendicesTOC"/></_sfe:TocAppendicesTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target lang="de"
+current="yes"><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+Weight="bold">In diesen Anhängen behandelte Informationen</_gte:Font
+></_ufe:chapter-toc-spacing><_gte:Font Weight="medium"><_sfe:TableOfContents
+><_sfe:TocAppendicesTOC><_gte:TableOfContents tocNameRef="AppendicesTOC"
+/></_sfe:TocAppendicesTOC></_sfe:TableOfContents></_gte:Font></_gte:Target
+><_gte:Target lang="es" current="yes"><_ufe:chapter-toc-spacing><_gte:Font
+FontColor="black" Weight="bold">Información que se aborda en estos
+apéndices</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font
+Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendicesTOC><_gte:TableOfContents
+tocNameRef="AppendicesTOC"/></_sfe:TocAppendicesTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="fr" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" Weight="bold">Informations contenues
+dans ces annexes</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font
+Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendicesTOC><_gte:TableOfContents
+tocNameRef="AppendicesTOC"/></_sfe:TocAppendicesTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="it" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" Weight="bold">Informazioni trattate
+in queste appendici</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font
+Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendicesTOC><_gte:TableOfContents
+tocNameRef="AppendicesTOC"/></_sfe:TocAppendicesTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="ja" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" Weight="bold">この付録の情報</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendicesTOC
+><_gte:TableOfContents tocNameRef="AppendicesTOC"/></_sfe:TocAppendicesTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target
+lang="en-us" current="yes"><_ufe:chapter-toc-spacing><_gte:Font
+FontColor="black" Weight="bold">Information Covered in these Appendices</_gte:Font
+></_ufe:chapter-toc-spacing><_gte:Font Weight="medium"><_sfe:TableOfContents
+><_sfe:TocAppendicesTOC><_gte:TableOfContents tocNameRef="AppendicesTOC"
+/></_sfe:TocAppendicesTOC></_sfe:TableOfContents></_gte:Font></_gte:Target
+><_gte:Target lang="zh_CN" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" Weight="bold">这些附录中所述信息</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendicesTOC
+><_gte:TableOfContents tocNameRef="AppendicesTOC"/></_sfe:TocAppendicesTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target
+lang="zh_TW" current="yes"><_ufe:chapter-toc-spacing><_gte:Font
+FontColor="black" Weight="bold">這些索引中包含的資訊</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendicesTOC
+><_gte:TableOfContents tocNameRef="AppendicesTOC"/></_sfe:TocAppendicesTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+<PdfInfo resultElementName="Sect"/></BaseProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="dmp"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="epub"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="web"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:appendix-toc" style="block">
+<Context priority="0" selector="_ufe:appendix-toc">
+<BaseProperties
+propertySetReferences="fontsize fonttext spacebefore.4in-high block">
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="Ad8fa49d4-a8d7-4a9d-8487-5b4205e510eb"><_gte:Target lang="en"
+><_ufe:chapter-toc-spacing><_gte:Font FontColor="black" Weight="bold"
+>Topics Covered in this Appendix</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendixTOC
+><_gte:TableOfContents tocNameRef="AppendixTOC"/></_sfe:TocAppendixTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target lang="ko"
+current="yes"><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+Weight="bold">이 부록에서 다루는 항목</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendixTOC
+><_gte:TableOfContents tocNameRef="AppendixTOC"/></_sfe:TocAppendixTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target
+lang="zh-Hans" current="yes"><_ufe:chapter-toc-spacing><_gte:Font
+FontColor="black" Weight="bold">本附录中所述主题</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendixTOC
+><_gte:TableOfContents tocNameRef="AppendixTOC"/></_sfe:TocAppendixTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target
+lang="zh-Hant" current="yes"><_ufe:chapter-toc-spacing><_gte:Font
+FontColor="black" Weight="bold">本索引中包含的主題</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendixTOC
+><_gte:TableOfContents tocNameRef="AppendixTOC"/></_sfe:TocAppendixTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target lang="de"
+current="yes"><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+Weight="bold">In diesem Anhang behandelte Themen</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendixTOC
+><_gte:TableOfContents tocNameRef="AppendixTOC"/></_sfe:TocAppendixTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target lang="es"
+current="yes"><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+Weight="bold">Temas que se abordan en este apéndice</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendixTOC
+><_gte:TableOfContents tocNameRef="AppendixTOC"/></_sfe:TocAppendixTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target lang="fr"
+current="yes"><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+Weight="bold">Sujets traités dans cette annexe</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendixTOC
+><_gte:TableOfContents tocNameRef="AppendixTOC"/></_sfe:TocAppendixTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target lang="it"
+current="yes"><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+Weight="bold">Argomenti trattati in questa appendice</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendixTOC
+><_gte:TableOfContents tocNameRef="AppendixTOC"/></_sfe:TocAppendixTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target lang="ja"
+current="yes"><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+Weight="bold">この付録のトピック</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font
+Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendixTOC><_gte:TableOfContents
+tocNameRef="AppendixTOC"/></_sfe:TocAppendixTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="en-us" current="yes"
+><_ufe:chapter-toc-spacing><_gte:Font FontColor="black" Weight="bold"
+>Topics Covered in this Appendix</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendixTOC
+><_gte:TableOfContents tocNameRef="AppendixTOC"/></_sfe:TocAppendixTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target
+lang="zh_CN" current="yes"><_ufe:chapter-toc-spacing><_gte:Font
+FontColor="black" Weight="bold">本附录中所述主题</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendixTOC
+><_gte:TableOfContents tocNameRef="AppendixTOC"/></_sfe:TocAppendixTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target
+lang="zh_TW" current="yes"><_ufe:chapter-toc-spacing><_gte:Font
+FontColor="black" Weight="bold">本索引中包含的主題</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocAppendixTOC
+><_gte:TableOfContents tocNameRef="AppendixTOC"/></_sfe:TocAppendixTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+<PdfInfo resultElementName="Sect"/></BaseProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="dmp"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="epub"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="web"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:block" style="block">
+<Context priority="0" selector="_ufe:block">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:bookCoverPage" style="block">
+<Context priority="0" selector="_ufe:bookCoverPage">
+<BaseProperties propertySetReferences="title-book aligncentered">
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A032dbf25-c16e-40e3-ad8e-1574aabf11f5"><_gte:Target lang="en"
+><_dtd:table><_dtd:tgroup cols="3"><_dtd:colspec colname="col1"/><_dtd:colspec
+colname="col2"/><_dtd:colspec colname="col3"/><_dtd:tbody><_dtd:row
+><_dtd:entry></_dtd:entry><_dtd:entry></_dtd:entry><_dtd:entry></_dtd:entry
+></_dtd:row><_dtd:row><_dtd:entry></_dtd:entry><_dtd:entry><_gte:ElementContent
+include="contentOnly" occur="1" scope="ResolvedMap" elem="mainbooktitle"
+/><_dtd:_newline/><_gte:XPathString
+expr="/*/ResolvedMap[1]/*/booktitle/booktitlealt[1]"/><_dtd:_newline
+/><_gte:XPathString expr="/*/ResolvedMap[1]/*/booktitle/booktitlealt[2]"
+/></_dtd:entry><_dtd:entry></_dtd:entry></_dtd:row></_dtd:tbody></_dtd:tgroup
+></_dtd:table></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+<PdfInfo resultElementName="#notag"/></BaseProperties>
+<OutputProperties output="printpdf">
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Ad59c3b43-b407-4dd4-9afd-678f637be4da"><_gte:Target lang="en"
+><_dtd:table frame="none" colsep="0" rowsep="0" outputclass="noPDFTag"
+><_dtd:tgroup cols="1"><?PubTbl tgroup dispwid="952.00px"?><_dtd:colspec
+colwidth="2.51*"/><_dtd:tbody><_dtd:row><?PubTbl row rht="0.35in"?><_dtd:entry
+align="center"><_ufe:CoverTitleFont><_gte:ElementContent
+include="contentOnly" occur="1" scope="ResolvedMap" elem="mainbooktitle"
+/></_ufe:CoverTitleFont><_dtd:_newline/><_ufe:CoverAltTitleFont><_gte:XPathString
+expr="/*/ResolvedMap[1]/*/booktitle/booktitlealt[1]"/></_ufe:CoverAltTitleFont
+><_dtd:_newline/><_ufe:CoverAltTitleFont><_gte:XPathString
+expr="/*/ResolvedMap[1]/*/booktitle/booktitlealt[2]"/></_ufe:CoverAltTitleFont
+><_dtd:_newline/><_ufe:CoverAltTitleFont><_gte:XPathString
+expr="/*/ResolvedMap[1]/*/booktitle/booktitlealt[3]"/></_ufe:CoverAltTitleFont
+><_ufe:coverpg-spacing_copy></_ufe:coverpg-spacing_copy></_dtd:entry
+></_dtd:row><_dtd:row><?PubTbl row rht="4.24in"?><_dtd:entry
+align="center" valign="middle"></_dtd:entry></_dtd:row><_dtd:row><?PubTbl
+row rht="0.35in"?><_dtd:entry align="center"></_dtd:entry></_dtd:row
+></_dtd:tbody></_dtd:tgroup></_dtd:table></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:bookCoverPageWithTitle" style="block">
+<Context priority="0" selector="_ufe:bookCoverPageWithTitle">
+<BaseProperties propertySetReferences="title-book aligncentered">
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A3d7e2530-f7d4-4753-ac88-c60b389103f2"><_gte:Target lang="en"
+><_dtd:table><_dtd:tgroup cols="3"><_dtd:colspec colname="col1"/><_dtd:colspec
+colname="col2"/><_dtd:colspec colname="col3"/><_dtd:tbody><_dtd:row
+><_dtd:entry></_dtd:entry><_dtd:entry></_dtd:entry><_dtd:entry></_dtd:entry
+></_dtd:row><_dtd:row><_dtd:entry></_dtd:entry><_dtd:entry><_gte:ElementContent
+include="contentOnly" occur="1" scope="ResolvedMap" elem="mainbooktitle"
+/><_dtd:_newline/><_gte:XPathString
+expr="/*/ResolvedMap[1]/*/booktitle/booktitlealt[1]"/><_dtd:_newline
+/><_gte:XPathString expr="/*/ResolvedMap[1]/*/booktitle/booktitlealt[2]"
+/></_dtd:entry><_dtd:entry></_dtd:entry></_dtd:row></_dtd:tbody></_dtd:tgroup
+></_dtd:table></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+<PdfInfo resultElementName="#notag"/></BaseProperties>
+<OutputProperties output="printpdf">
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A434d2450-4ecd-4e1a-800f-ae7c93d371dc"><_gte:Target lang="en"
+><_dtd:table frame="none" colsep="0" rowsep="0" outputclass="noPDFTag"
+><_dtd:tgroup cols="1"><?PubTbl tgroup dispwid="952.00px"?><_dtd:colspec
+colwidth="2.81*"/><_dtd:tbody><_dtd:row><?PubTbl row rht="0.35in"?><_dtd:entry
+align="center"><_ufe:CoverTitleFont><_gte:ElementContent
+include="contentOnly" occur="1" scope="bookmap" elem="title"/></_ufe:CoverTitleFont
+></_dtd:entry></_dtd:row><_dtd:row><?PubTbl row rht="0.35in"?><_dtd:entry
+align="center"></_dtd:entry></_dtd:row><_dtd:row><?PubTbl
+row rht="4.24in"?><_dtd:entry align="center" valign="middle"></_dtd:entry
+></_dtd:row><_dtd:row><?PubTbl row rht="0.35in"?><_dtd:entry
+align="center"></_dtd:entry></_dtd:row></_dtd:tbody></_dtd:tgroup
+></_dtd:table></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+</OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:bookowner-meta" style="nostyle">
+<Context priority="0" selector="_ufe:bookowner-meta">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:booktitle-meta" style="nostyle">
+<Context priority="0" selector="_ufe:booktitle-meta">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:chapter-number-font" style="inline">
+<Context priority="0" selector="_ufe:chapter-number-font">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+<OutputProperties output="printpdf">
+<Font family="Sanserif" size="56pt" weight="bold"/>
+<Highlight color="#0000FF"/></OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:chapter-title-formatting-elsewhere" style="title">
+<Context priority="24"
+selector="appendices/_ufe:chapter-title-formatting-elsewhere">
+<BaseProperties
+propertySetReferences="fonttitle Title_color Title_alignment Title_keeps Title_space Title_1">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A5eb7c68d-45be-45a2-913f-cb0e75825f91"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space" format="(CURRENT)"
+numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Aaea0df7e-b5b9-47c4-813f-2043220d9c59"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+<OutputProperties output="printpdf"
+propertySetReferences="Title_color_for_print"></OutputProperties>
+</Context>
+<Context priority="11.025"
+selector="indexlist//_ufe:chapter-title-formatting-elsewhere">
+<BaseProperties propertySetReferences="level-1-title">
+<Breaks blockOrInline="block"/></BaseProperties>
+<OutputProperties output="dmp" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="epub"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="web" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="printpdf"
+propertySetReferences="Title_color_for_print">
+<SpaceBefore optimum="-12pt" precedence="medium"/></OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="level-1-title-web"></OutputProperties>
+</Context>
+<Context priority="11.02"
+selector="trademarklist//_ufe:chapter-title-formatting-elsewhere">
+<BaseProperties propertySetReferences="level-1-title">
+<Breaks blockOrInline="block"/></BaseProperties>
+<OutputProperties output="dmp" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="epub"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="web" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="printpdf"
+propertySetReferences="Title_color_for_print">
+<SpaceBefore optimum="-12pt" precedence="medium"/></OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="level-1-title-web"></OutputProperties>
+</Context>
+<Context priority="11.015"
+selector="toc//_ufe:chapter-title-formatting-elsewhere">
+<BaseProperties propertySetReferences="level-1-title">
+<Breaks blockOrInline="block"/></BaseProperties>
+<OutputProperties output="dmp" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="epub"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="web" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="printpdf"
+propertySetReferences="Title_color_for_print">
+<SpaceBefore optimum="-12pt" precedence="medium"/></OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="level-1-title-web"></OutputProperties>
+</Context>
+<Context priority="11.01"
+selector="tablelist//_ufe:chapter-title-formatting-elsewhere">
+<BaseProperties propertySetReferences="level-1-title">
+<Breaks blockOrInline="block"/></BaseProperties>
+<OutputProperties output="dmp" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="epub"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="web" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="printpdf"
+propertySetReferences="Title_color_for_print">
+<SpaceBefore optimum="-12pt" precedence="medium"/></OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="level-1-title-web"></OutputProperties>
+</Context>
+<Context priority="11.005"
+selector="glossarylist//_ufe:chapter-title-formatting-elsewhere">
+<BaseProperties propertySetReferences="level-1-title">
+<Breaks blockOrInline="block"/></BaseProperties>
+<OutputProperties output="dmp" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="epub"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="web" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="printpdf"
+propertySetReferences="Title_color_for_print">
+<SpaceBefore optimum="-12pt" precedence="medium"/></OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="level-1-title-web"></OutputProperties>
+</Context>
+<Context priority="11"
+selector="figurelist//_ufe:chapter-title-formatting-elsewhere">
+<BaseProperties propertySetReferences="level-1-title">
+<Breaks blockOrInline="block"/></BaseProperties>
+<OutputProperties output="dmp" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="epub"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="web" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="printpdf"
+propertySetReferences="Title_color_for_print">
+<SpaceBefore optimum="-12pt" precedence="medium"/></OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="level-1-title-web"></OutputProperties>
+</Context>
+<Context priority="0" selector="_ufe:chapter-title-formatting-elsewhere">
+<BaseProperties propertySetReferences="level-1-title">
+<Breaks blockOrInline="block"/></BaseProperties>
+<OutputProperties output="epub"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="web" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="level-1-title-web"></OutputProperties>
+<OutputProperties output="dmp" propertySetReferences="level-1-title-web">
+</OutputProperties>
+<OutputProperties output="printpdf"
+propertySetReferences="Title_color_for_print">
+<SpaceBefore optimum="-12pt" precedence="medium"/></OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:chapter-title-spacing" style="block">
+<Context priority="0" selector="_ufe:chapter-title-spacing">
+<BaseProperties propertySetReferences="spacebefore1in-high block">
+<PdfInfo resultElementName="#notag"/></BaseProperties>
+<OutputProperties output="printpdf">
+<SpaceBefore maximum=".35in" minimum=".35in" optimum="0.35in"/>
+</OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:chapter-toc" style="block">
+<Context priority="0" selector="_ufe:chapter-toc">
+<BaseProperties
+propertySetReferences="fontsize fonttext alignleft block spacebefore.4in-high Title_keeps">
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="Ade22e342-23ea-45c9-9540-d2677f7a18b2"><_gte:Target lang="en"
+><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+FontStyle="sans-serif" Weight="bold">Topics Covered in this Chapter</_gte:Font
+></_ufe:chapter-toc-spacing><_gte:Font Weight="medium"><_sfe:TableOfContents
+><_sfe:TocChapterTOC><_gte:TableOfContents tocNameRef="ChapterTOC"
+/></_sfe:TocChapterTOC></_sfe:TableOfContents></_gte:Font></_gte:Target
+><_gte:Target lang="ko" current="yes"><_ufe:chapter-toc-spacing><_gte:Font
+FontColor="black" FontStyle="sans-serif" Weight="bold">이 장에서 다루는 항목</_gte:Font
+></_ufe:chapter-toc-spacing><_gte:Font Weight="medium"><_sfe:TableOfContents
+><_sfe:TocChapterTOC><_gte:TableOfContents tocNameRef="ChapterTOC"
+/></_sfe:TocChapterTOC></_sfe:TableOfContents></_gte:Font></_gte:Target
+><_gte:Target lang="zh-Hans" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" FontStyle="sans-serif" Weight="bold"
+>本章所述主题</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font Weight="medium"
+><_sfe:TableOfContents><_sfe:TocChapterTOC><_gte:TableOfContents
+tocNameRef="ChapterTOC"/></_sfe:TocChapterTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="zh-Hant" current="yes"
+><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+FontStyle="sans-serif" Weight="bold">本章中包含的主題</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocChapterTOC
+><_gte:TableOfContents tocNameRef="ChapterTOC"/></_sfe:TocChapterTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target lang="de"
+current="yes"><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+FontStyle="sans-serif" Weight="bold">In diesem Kapitel behandelte
+Themen</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font Weight="medium"
+><_sfe:TableOfContents><_sfe:TocChapterTOC><_gte:TableOfContents
+tocNameRef="ChapterTOC"/></_sfe:TocChapterTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="es" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" FontStyle="sans-serif" Weight="bold"
+>Temas que se abordan en este capítulo</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocChapterTOC
+><_gte:TableOfContents tocNameRef="ChapterTOC"/></_sfe:TocChapterTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target lang="fr"
+current="yes"><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+FontStyle="sans-serif" Weight="bold">Sujets traités dans ce chapitre</_gte:Font
+></_ufe:chapter-toc-spacing><_gte:Font Weight="medium"><_sfe:TableOfContents
+><_sfe:TocChapterTOC><_gte:TableOfContents tocNameRef="ChapterTOC"
+/></_sfe:TocChapterTOC></_sfe:TableOfContents></_gte:Font></_gte:Target
+><_gte:Target lang="it" current="yes"><_ufe:chapter-toc-spacing><_gte:Font
+FontColor="black" FontStyle="sans-serif" Weight="bold">Argomenti trattati
+in questo capitolo</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font
+Weight="medium"><_sfe:TableOfContents><_sfe:TocChapterTOC><_gte:TableOfContents
+tocNameRef="ChapterTOC"/></_sfe:TocChapterTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="ja" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" FontStyle="sans-serif" Weight="bold"
+>この章のトピック</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font
+Weight="medium"><_sfe:TableOfContents><_sfe:TocChapterTOC><_gte:TableOfContents
+tocNameRef="ChapterTOC"/></_sfe:TocChapterTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="en-us" current="yes"
+><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+FontStyle="sans-serif" Weight="bold">Topics Covered in this Chapter</_gte:Font
+></_ufe:chapter-toc-spacing><_gte:Font Weight="medium"><_sfe:TableOfContents
+><_sfe:TocChapterTOC><_gte:TableOfContents tocNameRef="ChapterTOC"
+/></_sfe:TocChapterTOC></_sfe:TableOfContents></_gte:Font></_gte:Target
+><_gte:Target lang="zh_CN" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" FontStyle="sans-serif" Weight="bold"
+>本章所述主题</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font Weight="medium"
+><_sfe:TableOfContents><_sfe:TocChapterTOC><_gte:TableOfContents
+tocNameRef="ChapterTOC"/></_sfe:TocChapterTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="zh_TW" current="yes"
+><_ufe:chapter-toc-spacing><_gte:Font FontColor="black"
+FontStyle="sans-serif" Weight="bold">本章中包含的主題</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocChapterTOC
+><_gte:TableOfContents tocNameRef="ChapterTOC"/></_sfe:TocChapterTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+<PdfInfo resultElementName="Sect"/></BaseProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="dmp"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="epub"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="web"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:chapter-toc-spacing" style="block">
+<Context priority="0" selector="_ufe:chapter-toc-spacing">
+<BaseProperties propertySetReferences="block spaceafter6pt-high">
+<PdfInfo resultElementName="H"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:copyrfirst-meta" style="nostyle">
+<Context priority="0" selector="_ufe:copyrfirst-meta">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:copyright-meta" style="nostyle">
+<Context priority="0" selector="_ufe:copyright-meta">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:copyrlast-meta" style="nostyle">
+<Context priority="0" selector="_ufe:copyrlast-meta">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:coverpg-spacing_copy" style="block">
+<Context priority="0" selector="_ufe:coverpg-spacing_copy">
+<BaseProperties>
+<Breaks blockOrInline="block"/>
+<PdfInfo resultElementName="#notag"/></BaseProperties>
+<OutputProperties output="printpdf">
+<SpaceBefore maximum="2.50in" minimum="1.50in" optimum="1.50in"/>
+</OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:imagemap" style="block">
+<Context priority="0" selector="_ufe:imagemap">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+<EditedSource sourceType="xslWeb">&lt;!--Template for Context: _ufe:imagemap-->&lt;xsl:template
+match="_ufe:imagemap" priority="0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">        &lt;!-- Generate map element; code added via edited source -->
+    &lt;xsl:apply-templates select="ancestor::imagemap/image">
+&lt;/xsl:apply-templates>     &lt;map name="{generate-id(ancestor::imagemap)}"
+>       &lt;xsl:apply-templates select="ancestor::imagemap/area">
+&lt;/xsl:apply-templates>     &lt;/map>   &lt;/xsl:template>&lt;!--Gentext template for Context: _ufe:imagemap-->&lt;xsl:template
+match="_ufe:imagemap" mode="expand-gentext" priority="0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">     &lt;xsl:copy> 
+     &lt;xsl:call-template name="maybe-set-gte-id">&lt;/xsl:call-template
+>       &lt;xsl:attribute name="_gte:Gentext-Expanded">y&lt;/xsl:attribute
+>       &lt;xsl:apply-templates mode="expand-gentext" select="@*">
+&lt;/xsl:apply-templates>       &lt;!--Unconditional AddBefore-->       &lt;xsl:if
+test="not(@_gte:Gentext-Expanded)">         &lt;_gte:Must-Expand-Gentext
+xmlns:_gte="http://www.arbortext.com/namespace/Styler/GeneratedTextElements"
+>&lt;/_gte:Must-Expand-Gentext>         &lt;_sfe:BeforeOrAfterText
+xmlns:_sfe="http://www.arbortext.com/namespace/Styler/StylerFormattingElements"
+>           &lt;_gte:Gentexted-Content-Wrapper>             &lt;xsl:apply-templates
+mode="expand-gentext" select="ancestor::imagemap/image">
+&lt;xsl:with-param name="hidden" select="'no'">&lt;/xsl:with-param>
+&lt;/xsl:apply-templates>           &lt;/_gte:Gentexted-Content-Wrapper
+>         &lt;/_sfe:BeforeOrAfterText>       &lt;/xsl:if>       &lt;xsl:apply-templates
+mode="expand-gentext" select="* | text() | processing-instruction()">
+&lt;/xsl:apply-templates>     &lt;/xsl:copy>   &lt;/xsl:template></EditedSource>
+<EditedSource sourceType="xslDmp">&lt;!--Template for Context: _ufe:imagemap-->&lt;xsl:template
+match="_ufe:imagemap" priority="0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">        &lt;!-- Generate map element; code added via edited source -->
+    &lt;xsl:apply-templates select="ancestor::imagemap/image">
+&lt;/xsl:apply-templates>     &lt;map name="{generate-id(ancestor::imagemap)}"
+>       &lt;xsl:apply-templates select="ancestor::imagemap/area">
+&lt;/xsl:apply-templates>     &lt;/map>   &lt;/xsl:template>&lt;!--Gentext template for Context: _ufe:imagemap-->&lt;xsl:template
+match="_ufe:imagemap" mode="expand-gentext" priority="0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">     &lt;xsl:copy> 
+     &lt;xsl:call-template name="maybe-set-gte-id">&lt;/xsl:call-template
+>       &lt;xsl:attribute name="_gte:Gentext-Expanded">y&lt;/xsl:attribute
+>       &lt;xsl:apply-templates mode="expand-gentext" select="@*">
+&lt;/xsl:apply-templates>       &lt;!--Unconditional AddBefore-->       &lt;xsl:if
+test="not(@_gte:Gentext-Expanded)">         &lt;_gte:Must-Expand-Gentext
+xmlns:_gte="http://www.arbortext.com/namespace/Styler/GeneratedTextElements"
+>&lt;/_gte:Must-Expand-Gentext>         &lt;_sfe:BeforeOrAfterText
+xmlns:_sfe="http://www.arbortext.com/namespace/Styler/StylerFormattingElements"
+>           &lt;_gte:Gentexted-Content-Wrapper>             &lt;xsl:apply-templates
+mode="expand-gentext" select="ancestor::imagemap/image">
+&lt;xsl:with-param name="hidden" select="'no'">&lt;/xsl:with-param>
+&lt;/xsl:apply-templates>           &lt;/_gte:Gentexted-Content-Wrapper
+>         &lt;/_sfe:BeforeOrAfterText>       &lt;/xsl:if>       &lt;xsl:apply-templates
+mode="expand-gentext" select="* | text() | processing-instruction()">
+&lt;/xsl:apply-templates>     &lt;/xsl:copy>   &lt;/xsl:template></EditedSource>
+<EditedSource sourceType="xslHtmlHelp">&lt;!--Template for Context: _ufe:imagemap-->&lt;xsl:template
+match="_ufe:imagemap" priority="0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">        &lt;!-- Generate map element; code added via edited source -->
+    &lt;xsl:apply-templates select="ancestor::imagemap/image">
+&lt;/xsl:apply-templates>     &lt;map name="{generate-id(ancestor::imagemap)}"
+>       &lt;xsl:apply-templates select="ancestor::imagemap/area">
+&lt;/xsl:apply-templates>     &lt;/map>   &lt;/xsl:template>&lt;!--Gentext template for Context: _ufe:imagemap-->&lt;xsl:template
+match="_ufe:imagemap" mode="expand-gentext" priority="0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">     &lt;xsl:copy> 
+     &lt;xsl:call-template name="maybe-set-gte-id">&lt;/xsl:call-template
+>       &lt;xsl:attribute name="_gte:Gentext-Expanded">y&lt;/xsl:attribute
+>       &lt;xsl:apply-templates mode="expand-gentext" select="@*">
+&lt;/xsl:apply-templates>       &lt;!--Unconditional AddBefore-->       &lt;xsl:if
+test="not(@_gte:Gentext-Expanded)">         &lt;_gte:Must-Expand-Gentext
+xmlns:_gte="http://www.arbortext.com/namespace/Styler/GeneratedTextElements"
+>&lt;/_gte:Must-Expand-Gentext>         &lt;_sfe:BeforeOrAfterText
+xmlns:_sfe="http://www.arbortext.com/namespace/Styler/StylerFormattingElements"
+>           &lt;_gte:Gentexted-Content-Wrapper>             &lt;xsl:apply-templates
+mode="expand-gentext" select="ancestor::imagemap/image">
+&lt;xsl:with-param name="hidden" select="'no'">&lt;/xsl:with-param>
+&lt;/xsl:apply-templates>           &lt;/_gte:Gentexted-Content-Wrapper
+>         &lt;/_sfe:BeforeOrAfterText>       &lt;/xsl:if>       &lt;xsl:apply-templates
+mode="expand-gentext" select="* | text() | processing-instruction()">
+&lt;/xsl:apply-templates>     &lt;/xsl:copy>   &lt;/xsl:template></EditedSource>
+<EditedSource sourceType="xslHtml">&lt;!--Template for Context: _ufe:imagemap-->&lt;xsl:template
+match="_ufe:imagemap" priority="0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">        &lt;!-- Generate map element; code added via edited source -->
+    &lt;xsl:apply-templates select="ancestor::imagemap/image">
+&lt;/xsl:apply-templates>     &lt;map name="{generate-id(ancestor::imagemap)}"
+>       &lt;xsl:apply-templates select="ancestor::imagemap/area">
+&lt;/xsl:apply-templates>     &lt;/map>   &lt;/xsl:template>&lt;!--Gentext template for Context: _ufe:imagemap-->&lt;xsl:template
+match="_ufe:imagemap" mode="expand-gentext" priority="0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">     &lt;xsl:copy> 
+     &lt;xsl:call-template name="maybe-set-gte-id">&lt;/xsl:call-template
+>       &lt;xsl:attribute name="_gte:Gentext-Expanded">y&lt;/xsl:attribute
+>       &lt;xsl:apply-templates mode="expand-gentext" select="@*">
+&lt;/xsl:apply-templates>       &lt;!--Unconditional AddBefore-->       &lt;xsl:if
+test="not(@_gte:Gentext-Expanded)">         &lt;_gte:Must-Expand-Gentext
+xmlns:_gte="http://www.arbortext.com/namespace/Styler/GeneratedTextElements"
+>&lt;/_gte:Must-Expand-Gentext>         &lt;_sfe:BeforeOrAfterText
+xmlns:_sfe="http://www.arbortext.com/namespace/Styler/StylerFormattingElements"
+>           &lt;_gte:Gentexted-Content-Wrapper>             &lt;xsl:apply-templates
+mode="expand-gentext" select="ancestor::imagemap/image">
+&lt;xsl:with-param name="hidden" select="'no'">&lt;/xsl:with-param>
+&lt;/xsl:apply-templates>           &lt;/_gte:Gentexted-Content-Wrapper
+>         &lt;/_sfe:BeforeOrAfterText>       &lt;/xsl:if>       &lt;xsl:apply-templates
+mode="expand-gentext" select="* | text() | processing-instruction()">
+&lt;/xsl:apply-templates>     &lt;/xsl:copy>   &lt;/xsl:template></EditedSource>
+</Element>
+<Element name="_ufe:isbn-meta" style="nostyle">
+<Context priority="0" selector="_ufe:isbn-meta">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:maintainer-meta" style="nostyle">
+<Context priority="0" selector="_ufe:maintainer-meta">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:note-format" style="block">
+<Context priority="0" selector="_ufe:note-format">
+<BaseProperties propertySetReferences="fonttitle spaceaftermedium">
+<Breaks newPageSet=""/></BaseProperties>
+<OutputProperties output="epub" propertySetReferences="fonttitle-web">
+</OutputProperties>
+<OutputProperties output="web" propertySetReferences="fonttitle-web">
+</OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="fonttitle-web"></OutputProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="fonttitle-web"></OutputProperties>
+<OutputProperties output="dmp" propertySetReferences="fonttitle-web">
+</OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:one-column" style="block">
+<Context priority="0" selector="_ufe:one-column">
+<BaseProperties>
+<Breaks blockOrInline="block"/>
+<PdfInfo resultElementName="#notag"/></BaseProperties>
+<OutputProperties output="printpdf">
+<Breaks spanInto="1"/></OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:outdent" style="block">
+<Context priority="0" selector="_ufe:outdent">
+<BaseProperties propertySetReferences="indent-outdent block">
+</BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:paraspacebefore" style="block">
+<Context priority="0" selector="_ufe:paraspacebefore">
+<BaseProperties propertySetReferences="spacebeforemedium">
+<SpaceBefore minimum="7pt"/>
+<Breaks blockOrInline="block"/>
+<PdfInfo resultElementName="#notag"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:part-toc" style="block">
+<Context priority="0" selector="_ufe:part-toc">
+<BaseProperties
+propertySetReferences="fontsize fonttext block spacebefore.4in-high">
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="Ad02d2baf-ca1e-43a8-8ddc-0dcbef192269"><_gte:Target lang="en"
+><_ufe:chapter-toc-spacing><_gte:Font FontColor="black" Weight="bold"
+>Chapters Covered in this Part</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocPartTOC
+><_gte:TableOfContents tocNameRef="PartTOC"/></_sfe:TocPartTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="ko" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" Weight="bold">이 파트에서 다루는 장</_gte:Font
+></_ufe:chapter-toc-spacing><_gte:Font Weight="medium"><_sfe:TableOfContents
+><_sfe:TocPartTOC><_gte:TableOfContents tocNameRef="PartTOC"/></_sfe:TocPartTOC
+></_sfe:TableOfContents></_gte:Font></_gte:Target><_gte:Target
+lang="zh-Hans" current="yes"><_ufe:chapter-toc-spacing><_gte:Font
+FontColor="black" Weight="bold">本部分所述章节</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocPartTOC
+><_gte:TableOfContents tocNameRef="PartTOC"/></_sfe:TocPartTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="zh-Hant" current="yes"
+><_ufe:chapter-toc-spacing><_gte:Font FontColor="black" Weight="bold"
+>本部份中包含的章</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font
+Weight="medium"><_sfe:TableOfContents><_sfe:TocPartTOC><_gte:TableOfContents
+tocNameRef="PartTOC"/></_sfe:TocPartTOC></_sfe:TableOfContents></_gte:Font
+></_gte:Target><_gte:Target lang="de" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" Weight="bold">In diesem Teil enthaltene
+Kapitel</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font Weight="medium"
+><_sfe:TableOfContents><_sfe:TocPartTOC><_gte:TableOfContents
+tocNameRef="PartTOC"/></_sfe:TocPartTOC></_sfe:TableOfContents></_gte:Font
+></_gte:Target><_gte:Target lang="es" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" Weight="bold">Capítulos que se abordan
+en este apartado</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font
+Weight="medium"><_sfe:TableOfContents><_sfe:TocPartTOC><_gte:TableOfContents
+tocNameRef="PartTOC"/></_sfe:TocPartTOC></_sfe:TableOfContents></_gte:Font
+></_gte:Target><_gte:Target lang="fr" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" Weight="bold">Chapitres traités dans
+cette partie</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font
+Weight="medium"><_sfe:TableOfContents><_sfe:TocPartTOC><_gte:TableOfContents
+tocNameRef="PartTOC"/></_sfe:TocPartTOC></_sfe:TableOfContents></_gte:Font
+></_gte:Target><_gte:Target lang="it" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" Weight="bold">Capitoli trattati in questa
+parte</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font Weight="medium"
+><_sfe:TableOfContents><_sfe:TocPartTOC><_gte:TableOfContents
+tocNameRef="PartTOC"/></_sfe:TocPartTOC></_sfe:TableOfContents></_gte:Font
+></_gte:Target><_gte:Target lang="ja" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" Weight="bold">この部の章</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocPartTOC
+><_gte:TableOfContents tocNameRef="PartTOC"/></_sfe:TocPartTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="en-us" current="yes"
+><_ufe:chapter-toc-spacing><_gte:Font FontColor="black" Weight="bold"
+>Chapters Covered in this Part</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocPartTOC
+><_gte:TableOfContents tocNameRef="PartTOC"/></_sfe:TocPartTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target><_gte:Target lang="zh_CN" current="yes"
+><_ufe:chapter-toc-spacing><_gte:Font FontColor="black" Weight="bold"
+>本部分所述章节</_gte:Font></_ufe:chapter-toc-spacing><_gte:Font
+Weight="medium"><_sfe:TableOfContents><_sfe:TocPartTOC><_gte:TableOfContents
+tocNameRef="PartTOC"/></_sfe:TocPartTOC></_sfe:TableOfContents></_gte:Font
+></_gte:Target><_gte:Target lang="zh_TW" current="yes"><_ufe:chapter-toc-spacing
+><_gte:Font FontColor="black" Weight="bold">本部份中包含的章</_gte:Font></_ufe:chapter-toc-spacing
+><_gte:Font Weight="medium"><_sfe:TableOfContents><_sfe:TocPartTOC
+><_gte:TableOfContents tocNameRef="PartTOC"/></_sfe:TocPartTOC></_sfe:TableOfContents
+></_gte:Font></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+<PdfInfo resultElementName="Sect"/></BaseProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="dmp"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="epub"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="web"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:printlocation-meta" style="nostyle">
+<Context priority="0" selector="_ufe:printlocation-meta">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:publisher-meta" style="nostyle">
+<Context priority="0" selector="_ufe:publisher-meta">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:reftitle" style="block">
+<Context priority="0" selector="_ufe:reftitle">
+<BaseProperties propertySetReferences="fontitalic alignright">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:related-links-title" style="title">
+<Context priority="0" selector="_ufe:related-links-title">
+<BaseProperties
+propertySetReferences="section-title indent-left-1em__parent block">
+<Breaks blockOrInline="block"/></BaseProperties>
+<OutputProperties output="epub"
+propertySetReferences="section-title-web"></OutputProperties>
+<OutputProperties output="web" propertySetReferences="section-title-web">
+</OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="section-title-web"></OutputProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="section-title-web"></OutputProperties>
+<OutputProperties output="dmp" propertySetReferences="section-title-web">
+</OutputProperties>
+<OutputProperties output="printpdf">
+<Hidden hidden="yes"/></OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:relatedBlockFormatting" style="block">
+<Context priority="0" selector="_ufe:relatedBlockFormatting">
+<BaseProperties propertySetReferences="spacebeforemedium fontbold">
+<SpaceBefore minimum="7pt"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:relatedChild" style="block">
+<Context priority="0" selector="_ufe:relatedChild">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:relatedConcepts" style="block">
+<Context priority="0" selector="_ufe:relatedConcepts">
+<BaseProperties propertySetReferences="indent-left1em__parent block">
+</BaseProperties>
+<Conditions>
+<Condition>
+<Tests logic="and">
+<ContentTest testContent="#text" testDepth="atAnyLevel"
+testType="includes"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="A248da660-92ad-4405-85ce-e4bd656121b0"><_gte:Target lang="en"
+><_ufe:related-links-title>Related Concepts</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="ko" current="yes"><_ufe:related-links-title
+>관련 개념</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh-Hans" current="yes"><_ufe:related-links-title>相关概念</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh-Hant" current="yes"><_ufe:related-links-title
+>相關概念</_ufe:related-links-title></_gte:Target><_gte:Target lang="de"
+current="yes"><_ufe:related-links-title>Zugehörige Konzepte</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="es" current="yes"><_ufe:related-links-title
+>Conceptos relacionados</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="fr" current="yes"><_ufe:related-links-title>Rubriques connexes</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="it" current="yes"><_ufe:related-links-title
+>Concetti correlati</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="ja" current="yes"><_ufe:related-links-title>関連コンセプト</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="en-us" current="yes"><_ufe:related-links-title
+>Related Concepts</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh_CN" current="yes"><_ufe:related-links-title>相关概念</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh_TW" current="yes"><_ufe:related-links-title
+>相關概念</_ufe:related-links-title></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+</Conditions>
+</Context>
+</Element>
+<Element name="_ufe:relatedHierarchical" style="block">
+<Context priority="0" selector="_ufe:relatedHierarchical">
+<BaseProperties propertySetReferences="indent-left1em__parent block">
+</BaseProperties>
+<Conditions>
+<Condition>
+<Tests logic="and">
+<ContentTest testContent="#text" testDepth="atAnyLevel"
+testType="includes"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="Afbaae480-62e6-446f-bc89-b6bc017b5b83"><_gte:Target lang="en"
+><_ufe:related-links-title>Related Links</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="ko" current="yes"><_ufe:related-links-title
+>관련 링크</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh-Hans" current="yes"><_ufe:related-links-title>相关链接</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh-Hant" current="yes"><_ufe:related-links-title
+>相關連結</_ufe:related-links-title></_gte:Target><_gte:Target lang="de"
+current="yes"><_ufe:related-links-title>Zugehörige Links</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="es" current="yes"><_ufe:related-links-title
+>Vínculos relacionados</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="fr" current="yes"><_ufe:related-links-title>Liens connexes</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="it" current="yes"><_ufe:related-links-title
+>Link correlati</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="ja" current="yes"><_ufe:related-links-title>関連リンク</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="en-us" current="yes"><_ufe:related-links-title
+>Related Links</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh_CN" current="yes"><_ufe:related-links-title>相关链接</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh_TW" current="yes"><_ufe:related-links-title
+>相關連結</_ufe:related-links-title></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+</Conditions>
+</Context>
+</Element>
+<Element name="_ufe:relatedLinklists" style="block">
+<Context priority="0" selector="_ufe:relatedLinklists">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:relatedNext" style="block">
+<Context priority="0" selector="_ufe:relatedNext">
+<BaseProperties propertySetReferences="block indent-left1em__parent">
+</BaseProperties>
+<Conditions>
+<Condition>
+<Tests logic="and">
+<ContentTest testContent="#text" testDepth="atAnyLevel"
+testType="includes"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="Aa2f8b3f4-2ecc-4819-ad3c-64b525fc6240"><_gte:Target lang="en"
+><_ufe:related-links-title>Next Link</_ufe:related-links-title></_gte:Target
+><_gte:Target lang="ko" current="yes"><_ufe:related-links-title>다음
+링크</_ufe:related-links-title></_gte:Target><_gte:Target lang="zh-Hans"
+current="yes"><_ufe:related-links-title>下一链接</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh-Hant" current="yes"><_ufe:related-links-title
+>下一個連結</_ufe:related-links-title></_gte:Target><_gte:Target lang="de"
+current="yes"><_ufe:related-links-title>Nächster Link</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="es" current="yes"><_ufe:related-links-title
+>Vínculo siguiente</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="fr" current="yes"><_ufe:related-links-title>Lien suivant</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="it" current="yes"><_ufe:related-links-title
+>Link successivo</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="ja" current="yes"><_ufe:related-links-title>次のリンク</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="en-us" current="yes"><_ufe:related-links-title
+>Next Link</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh_CN" current="yes"><_ufe:related-links-title>下一链接</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh_TW" current="yes"><_ufe:related-links-title
+>下一個連結</_ufe:related-links-title></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+</Conditions>
+</Context>
+</Element>
+<Element name="_ufe:relatedOther" style="block">
+<Context priority="0" selector="_ufe:relatedOther">
+<BaseProperties propertySetReferences="block indent-left1em__parent">
+</BaseProperties>
+<Conditions>
+<Condition>
+<Tests logic="and">
+<ContentTest testContent="#text" testDepth="atAnyLevel"
+testType="includes"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="A4c3c3d77-94b1-46b3-8cb2-1e96d025c01f"><_gte:Target lang="en"
+><_ufe:related-links-title>Other Related Links</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="ko" current="yes"><_ufe:related-links-title
+>기타 관련 링크</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh-Hans" current="yes"><_ufe:related-links-title>其他相关<_dtd:_newline
+/>链接</_ufe:related-links-title></_gte:Target><_gte:Target lang="zh-Hant"
+current="yes"><_ufe:related-links-title>其他相關<_dtd:_newline/>連結</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="de" current="yes"><_ufe:related-links-title
+>Andere zugehörige Links</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="es" current="yes"><_ufe:related-links-title>Otros vínculos relacionados</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="fr" current="yes"><_ufe:related-links-title
+>Autres liens connexes</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="it" current="yes"><_ufe:related-links-title>Altri link correlati</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="ja" current="yes"><_ufe:related-links-title
+>その他の関連リンク</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="en-us" current="yes"><_ufe:related-links-title>Other Related<_dtd:_newline
+/>Links</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh_CN" current="yes"><_ufe:related-links-title>其他相关<_dtd:_newline
+/>链接</_ufe:related-links-title></_gte:Target><_gte:Target lang="zh_TW"
+current="yes"><_ufe:related-links-title>其他相關<_dtd:_newline/>連結</_ufe:related-links-title
+></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+</Conditions>
+</Context>
+</Element>
+<Element name="_ufe:relatedParent" style="block">
+<Context priority="0" selector="_ufe:relatedParent">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:relatedPrerequisiteLinks" style="block">
+<Context priority="0" selector="_ufe:relatedPrerequisiteLinks">
+<BaseProperties propertySetReferences="block indent-left1em__parent">
+</BaseProperties>
+<Conditions>
+<Condition>
+<Tests logic="and">
+<ContentTest testContent="#text" testDepth="atAnyLevel"
+testType="includes"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="A57790c73-79bc-4d57-a533-deb1390322b1"><_gte:Target lang="en"
+><_ufe:related-links-title>Prerequisite Links</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="ko" current="yes"><_ufe:related-links-title
+>필수 링크</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh-Hans" current="yes"><_ufe:related-links-title>先决条件<_dtd:_newline
+/>链接</_ufe:related-links-title></_gte:Target><_gte:Target lang="zh-Hant"
+current="yes"><_ufe:related-links-title>先決條件<_dtd:_newline/>連結</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="de" current="yes"><_ufe:related-links-title
+>Erforderliche Links</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="es" current="yes"><_ufe:related-links-title>Vínculos de requisitos
+previos</_ufe:related-links-title></_gte:Target><_gte:Target lang="fr"
+current="yes"><_ufe:related-links-title>Liens prérequis</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="it" current="yes"><_ufe:related-links-title
+>Link prerequisiti</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="ja" current="yes"><_ufe:related-links-title>前提条件リンク</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="en-us" current="yes"><_ufe:related-links-title
+>Prerequisite<_dtd:_newline/>Links</_ufe:related-links-title></_gte:Target
+><_gte:Target lang="zh_CN" current="yes"><_ufe:related-links-title
+>先决条件<_dtd:_newline/>链接</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh_TW" current="yes"><_ufe:related-links-title>先決條件<_dtd:_newline
+/>連結</_ufe:related-links-title></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+</Conditions>
+</Context>
+</Element>
+<Element name="_ufe:relatedPrevious" style="block">
+<Context priority="0" selector="_ufe:relatedPrevious">
+<BaseProperties propertySetReferences="block indent-left1em__parent">
+</BaseProperties>
+<Conditions>
+<Condition>
+<Tests logic="and">
+<ContentTest testContent="#text" testDepth="atAnyLevel"
+testType="includes"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="A8af69bda-ff19-4772-a23d-83b617a486e3"><_gte:Target lang="en"
+><_ufe:related-links-title>Previous Link</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="ko" current="yes"><_ufe:related-links-title
+>이전 링크</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh-Hans" current="yes"><_ufe:related-links-title>前一链接</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh-Hant" current="yes"><_ufe:related-links-title
+>上一個連結</_ufe:related-links-title></_gte:Target><_gte:Target lang="de"
+current="yes"><_ufe:related-links-title>Vorheriger Link</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="es" current="yes"><_ufe:related-links-title
+>Vínculo anterior</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="fr" current="yes"><_ufe:related-links-title>Lien précédent</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="it" current="yes"><_ufe:related-links-title
+>Link precedente</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="ja" current="yes"><_ufe:related-links-title>前のリンク</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="en-us" current="yes"><_ufe:related-links-title
+>Previous Link</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh_CN" current="yes"><_ufe:related-links-title>前一链接</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh_TW" current="yes"><_ufe:related-links-title
+>上一個連結</_ufe:related-links-title></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+</Conditions>
+</Context>
+</Element>
+<Element name="_ufe:relatedReferences" style="block">
+<Context priority="0" selector="_ufe:relatedReferences">
+<BaseProperties propertySetReferences="block indent-left1em__parent">
+</BaseProperties>
+<Conditions>
+<Condition>
+<Tests logic="and">
+<ContentTest testContent="#text" testDepth="atAnyLevel"
+testType="includes"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="A5bb05e3b-5b1f-497d-a0d9-5243063d9cd5"><_gte:Target lang="en"
+><_ufe:related-links-title>Related References</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="ko" current="yes"><_ufe:related-links-title
+>관련 참조</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh-Hans" current="yes"><_ufe:related-links-title>相关引用</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh-Hant" current="yes"><_ufe:related-links-title
+>相關參照</_ufe:related-links-title></_gte:Target><_gte:Target lang="de"
+current="yes"><_ufe:related-links-title>Zugehörige Verweise</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="es" current="yes"><_ufe:related-links-title
+>Referencias relacionadas</_ufe:related-links-title></_gte:Target
+><_gte:Target lang="fr" current="yes"><_ufe:related-links-title>Références
+connexes</_ufe:related-links-title></_gte:Target><_gte:Target lang="it"
+current="yes"><_ufe:related-links-title>Riferimenti correlati</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="ja" current="yes"><_ufe:related-links-title
+>関連参照</_ufe:related-links-title></_gte:Target><_gte:Target lang="en-us"
+current="yes"><_ufe:related-links-title>Related References</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh_CN" current="yes"><_ufe:related-links-title
+>相关引用</_ufe:related-links-title></_gte:Target><_gte:Target lang="zh_TW"
+current="yes"><_ufe:related-links-title>相關參照</_ufe:related-links-title
+></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+</Conditions>
+</Context>
+</Element>
+<Element name="_ufe:relatedTasks" style="block">
+<Context priority="0" selector="_ufe:relatedTasks">
+<BaseProperties propertySetReferences="block indent-left1em__parent">
+</BaseProperties>
+<Conditions>
+<Condition>
+<Tests logic="and">
+<ContentTest testContent="#text" testDepth="atAnyLevel"
+testType="includes"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="A6a746cb6-b7f1-412c-bf55-3ae0f31105d6"><_gte:Target lang="en"
+><_ufe:related-links-title>Related Tasks</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="ko" current="yes"><_ufe:related-links-title
+>관련 작업</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh-Hans" current="yes"><_ufe:related-links-title>相关任务</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh-Hant" current="yes"><_ufe:related-links-title
+>相關任務</_ufe:related-links-title></_gte:Target><_gte:Target lang="de"
+current="yes"><_ufe:related-links-title>Zugehörige Aufgaben</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="es" current="yes"><_ufe:related-links-title
+>Tareas relacionadas</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="fr" current="yes"><_ufe:related-links-title>Tâches connexes</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="it" current="yes"><_ufe:related-links-title
+>Attività correlate</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="ja" current="yes"><_ufe:related-links-title>関連タスク</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="en-us" current="yes"><_ufe:related-links-title
+>Related Tasks</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh_CN" current="yes"><_ufe:related-links-title>相关任务</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh_TW" current="yes"><_ufe:related-links-title
+>相關任務</_ufe:related-links-title></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+</Conditions>
+</Context>
+</Element>
+<Element name="_ufe:relatedTopics" style="block">
+<Context priority="0" selector="_ufe:relatedTopics">
+<BaseProperties propertySetReferences="block indent-left1em__parent">
+</BaseProperties>
+<Conditions>
+<Condition>
+<Tests logic="and">
+<ContentTest testContent="#text" testDepth="atAnyLevel"
+testType="includes"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="on"
+id="A2e379ff5-6e9c-49ce-b8d6-3f078dcf6fdc"><_gte:Target lang="en"
+><_ufe:related-links-title>Related Topics</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="ko" current="yes"><_ufe:related-links-title
+>관련 항목</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh-Hans" current="yes"><_ufe:related-links-title>相关主题</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh-Hant" current="yes"><_ufe:related-links-title
+>相關主題</_ufe:related-links-title></_gte:Target><_gte:Target lang="de"
+current="yes"><_ufe:related-links-title>Zugehörige Themen</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="es" current="yes"><_ufe:related-links-title
+>Temas relacionados</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="fr" current="yes"><_ufe:related-links-title>Rubriques connexes</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="it" current="yes"><_ufe:related-links-title
+>Argomenti correlati</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="ja" current="yes"><_ufe:related-links-title>関連トピック</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="en-us" current="yes"><_ufe:related-links-title
+>Related Topics</_ufe:related-links-title></_gte:Target><_gte:Target
+lang="zh_CN" current="yes"><_ufe:related-links-title>相关主题</_ufe:related-links-title
+></_gte:Target><_gte:Target lang="zh_TW" current="yes"><_ufe:related-links-title
+>相關主題</_ufe:related-links-title></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+</Conditions>
+</Context>
+</Element>
+<Element name="_ufe:relatedlinks-display" style="block">
+<Context priority="0" selector="_ufe:relatedlinks-display">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+<OutputProperties output="printpdf">
+<Hidden hidden="yes"/></OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:synnote-reference-mark" style="inline">
+<Context priority="0" selector="_ufe:synnote-reference-mark">
+<BaseProperties
+propertySetReferences="superscript inline indent-firstlinezero__currentleft">
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A72533c75-c937-4e87-8679-59987d6830b1"><_gte:Target lang="en"
+></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:syntax-command" style="inline">
+<Context priority="0" selector="_ufe:syntax-command">
+<BaseProperties propertySetReferences="fontsize fonttext fontbold">
+<Breaks blockOrInline="inline"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A6620b47c-ff84-4f9a-a486-78bacd628b55"><_gte:Target lang="en"
+><_gte:ElementContent include="contentOnly" occur="1" scope="topic"
+elem="title"/></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+</BaseProperties>
+<OutputProperties output="epub"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="web"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="htmlhelp"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="htmlfile"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<OutputProperties output="dmp"
+propertySetReferences="fonttext-web fontsize-web"></OutputProperties>
+<Conditions>
+<Condition>
+<Tests logic="or">
+<AttributeTest attributeName="audience" elementName="topic"
+testType="equals" testValue="pi-command"/>
+<AttributeTest attributeName="audience" elementName="topic"
+testType="equals" testValue="pi-table"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A688146b2-1e70-4987-bcfb-95a9e6aef492"><_gte:Target lang="en"
+><_gte:Font Weight="bold">&lt;?</_gte:Font><_gte:ElementContent
+include="contentOnly" occur="1" scope="topic" elem="title"/></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+<Condition>
+<Tests logic="and">
+<AttributeTest attributeName="audience" elementName="topic"
+testType="equals" testValue="cntrl-kwrd"/></Tests>
+<BaseProperties>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A45002936-6408-44b5-8e83-aeb5bc01194c"><_gte:Target lang="en"
+><_gte:ElementContent include="contentOnly" occur="1" scope="topic"
+elem="title"/></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText
+></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Condition>
+</Conditions>
+</Context>
+</Element>
+<Element name="_ufe:syntax-notes" style="block">
+<Context priority="0" selector="_ufe:syntax-notes">
+<BaseProperties propertySetReferences="block fontsizesmall">
+</BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:syntax-title" style="block">
+<Context priority="0" selector="_ufe:syntax-title">
+<BaseProperties
+propertySetReferences="block fontsizesmall fonttitle fontnotbold fontunderline spacebeforesmall">
+</BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:tm" style="inline">
+<Context priority="10" selector="_ufe:trademarklist//_ufe:tm">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+<Context priority="0" selector="_ufe:tm">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Element>
+<Element name="_ufe:toc-heading-spacing" style="block">
+<Context priority="0" selector="_ufe:toc-heading-spacing">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+<OutputProperties output="printpdf">
+<SpaceBefore maximum="0.50in" minimum=".50in" optimum=".5in"/>
+</OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:topictitlepage" style="block">
+<Context blockOrInline="block" foClass="page-sequence" hidden="no"
+priority="0" selector="_ufe:topictitlepage" startNew="page">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+<OutputProperties output="printpdf">
+<Breaks pageNumber="initial" startNew="oddPage"/>
+<GeneratedText></GeneratedText>
+</OutputProperties>
+</Context>
+</Element>
+<Element name="_ufe:trademarklist" style="block">
+<Context priority="0" selector="_ufe:trademarklist">
+<BaseProperties>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A3e86f037-c0a4-4ad0-9b10-5d6a90a59e8d"><_gte:Target lang="en"
+><_gte:ElementContent include="elementAndContent" occur="all" elem="tm"
+/></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Context>
+</Element>
+</Elements>
+<Styles><?Pub Dtl?>
+<Style styleName="block"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="crossReference"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<GeneratedText></GeneratedText>
+</BaseProperties>
+</Context>
+</Style>
+<Style styleName="customTable"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Table_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="customTableCell"><?Pub Dtl?>
+<Context priority="0" selector="$customTable//$elemname">
+<BaseProperties>
+<Indent firstLineIndent="*0pt" leftIndent="0pt" rightIndent="0pt"/>
+<SpaceBefore maximum="0pt" minimum="0pt" optimum="0pt"
+precedence="force"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="customTableHeaderCell"><?Pub Dtl?>
+<Context priority="0" selector="$customTable//$elemname">
+<BaseProperties>
+<Indent firstLineIndent="*0pt" leftIndent="0pt" rightIndent="0pt"/>
+<SpaceBefore maximum="0pt" minimum="0pt" optimum="0pt"
+precedence="force"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="customTableRow"><?Pub Dtl?>
+<Context priority="0" selector="$customTable/$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="customTableHeaderRow"><?Pub Dtl?>
+<Context priority="0" selector="$customTable/$elemname">
+<BaseProperties propertySetReferences="bold">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="customTableTitle">
+<Context priority="10" selector="$customTable/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space customTableTitle">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A5ccfd71f-327a-4a9c-8ad8-283e38e972aa"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<RepeatingTitle><_sfe:Gentext><_sfe:RepeatingTitle><_gte:Translate
+translate="on" id="A0319abcf-ed36-462e-8dc6-34b51ecb6e97"><_gte:Target
+lang="en"><_gte:ElementLabelAndNumber/><_gte:Leaders leaderType="space"
+lenType="specified" specLen="1em"/><_gte:ElementContent/> (cont'd.)</_gte:Target
+></_gte:Translate></_sfe:RepeatingTitle></_sfe:Gentext></RepeatingTitle>
+<Numbering alignAt="0pt" followWith="space" format="(CURRENT)"
+numberAlignment="left" numberScope="(none)" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Ad7888deb-4282-4789-b43c-b4157be73ef1"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+</Style>
+<Style styleName="definitionList"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Standard_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="definitionListItem"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division1"><?Pub Dtl?>
+<Context divisionLevel="1" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block" startNew="page"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division2"><?Pub Dtl?>
+<Context divisionLevel="2" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block" startNew="page"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division3"><?Pub Dtl?>
+<Context divisionLevel="3" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division4"><?Pub Dtl?>
+<Context divisionLevel="4" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division5"><?Pub Dtl?>
+<Context divisionLevel="5" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division6"><?Pub Dtl?>
+<Context divisionLevel="6" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division7"><?Pub Dtl?>
+<Context divisionLevel="7" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division8"><?Pub Dtl?>
+<Context divisionLevel="8" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="division9"><?Pub Dtl?>
+<Context divisionLevel="9" priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="document"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block" newPageSet="Default_Page_Set"
+startNew="page"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="footnote"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/>
+<Footnote footnoteModelReference="Default_Footnotes"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A39b907e7-17ee-464f-94c3-262e74c9c130"><_gte:Target lang="en"
+><_gte:Font TypeSize=".69em" Offset=".33em"><_gte:ElementNumber/></_gte:Font
+></_gte:Target></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0.00pt" followWith="nothing" format="(CURRENT)"
+numberAlignment="left">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Aa7dcf3af-92ec-4d19-a916-eeababcffcc9"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context footnoteModelReference="Default_Footnotes" priority="-0.005"
+selector="$elemname">
+<BaseProperties propertySetReferences="Footnote_font">
+<Indent firstLineIndent="*-1.50pc" leftIndent="@1.50pc"/>
+<Alignment align="left"/>
+<Breaks blockOrInline="block"/>
+<Footnote footnoteModelReference="Default_Footnotes"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A83f3359e-2f13-42ac-b28a-4553c2d18095"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+display="1."/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0.00pt" followWith="tab" format="(CURRENT) '.'"
+numberAlignment="left" tabtoAfter="1.5pc">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A163a97ac-13bf-40d1-bfcd-6d2b018997f0"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+</Style>
+<Style styleName="footnoteReference"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/>
+<Footnote footnoteIdRefAttrName="rid"
+footnoteModelReference="Default_Footnotes" referenceType="references"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Aca7f4ab4-ccdd-4327-b19a-e33ea86c97f0"><_gte:Target lang="en"
+><_gte:Font TypeSize=".69em" Offset=".33em"><_gte:CrossReference
+refAttr="rid" xrefStyle="Number"/></_gte:Font></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+</GeneratedText>
+</BaseProperties>
+</Context>
+</Style>
+<Style styleName="formalBlock"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Standard_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="graphic"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Standard_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="hidden"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="index"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block" spanInto="2" startNew="page"/>
+<GeneratedText></GeneratedText>
+</BaseProperties>
+</Context>
+</Style>
+<Style styleName="indexTermAttributeModel"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="indexTermElementModel"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="indexTermNestingElementModel"><?Pub Dtl?>
+<Context priority="20"
+selector="$elemname//$elemname//$elemname//$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+<Context priority="15" selector="$elemname//$elemname//$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+<Context priority="10" selector="$elemname//$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Hidden hidden="yes"/>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="inline"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="link"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Link">
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="linkTarget"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties></BaseProperties>
+</Context>
+</Style>
+<Style styleName="bulletedList"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Standard_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="numberedList"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Standard_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="listItem"><?Pub Dtl?>
+<Context priority="25"
+selector="*numberedList//*numberedList//*numberedList//*numberedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-2.5em" leftIndent="@2.5em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A79ba6028-d470-40fd-81ea-3320d7be865a"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="1.5em" followWith="tab" format="(CURRENT) ')'"
+numberAlignment="right" numberStyle="1" tabtoAfter="2.5em">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Af8d50b8d-953a-480c-8173-14cb2789dc74"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="20"
+selector="*bulletedList//*bulletedList//*bulletedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-1.25em" leftIndent="@1.25em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Adae1308d-0fe2-4e06-8773-9a21e29b70f9"><_gte:Target lang="en"
+><_gte:BulletMarker><_gte:Font>♦</_gte:Font></_gte:BulletMarker></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+<Bulleting alignAt="0em" followWith="tab" tabtoAfter="1.25em"/>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="20"
+selector="*numberedList//*numberedList//*numberedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-3em" leftIndent="@3em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Acdb75f26-04c8-49d6-ad3d-2f5815e49734"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="2em" followWith="tab" format="(CURRENT) '.'"
+numberAlignment="right" numberStyle="i" tabtoAfter="3em">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A4bc952b5-16e1-40e8-ba94-76f50683c552"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="15" selector="*bulletedList//*bulletedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-1.25em" leftIndent="@1.25em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A5526f8d3-6519-4655-b22f-9bdbebeb9377"><_gte:Target lang="en"
+><_gte:BulletMarker><_gte:Font>–</_gte:Font></_gte:BulletMarker></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+<Bulleting alignAt="0em" followWith="tab" tabtoAfter="1.25em"/>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="15" selector="*numberedList//*numberedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-2em" leftIndent="@2em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A8916e511-9ef7-43c2-8d11-ba7b1a6d7a82"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="1.em" followWith="tab" format="(CURRENT) '.'"
+numberAlignment="right" numberStyle="a" tabtoAfter="2.em">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Abc2ba347-51ce-4cb1-93f5-550a46488933"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*bulletedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-1.25em" leftIndent="@1.25em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A403d4936-fd7d-4b42-8e53-ebdff7ddbd35"><_gte:Target lang="en"
+><_gte:BulletMarker><_gte:Font>•</_gte:Font></_gte:BulletMarker></_gte:Target
+></_gte:Translate></_sfe:BeforeOrAfterText></AddBefore>
+<Bulleting alignAt="0em" followWith="tab" tabtoAfter="1.25em"/>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*numberedList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Indent firstLineIndent="*-2.5em" leftIndent="@2.5em"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A1011ce30-686a-44db-ae52-0afce5d6988c"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="1.5em" followWith="tab" format="(CURRENT) '.'"
+numberAlignment="right" numberStyle="1" tabtoAfter="2.5em">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Aa5a70906-d4e3-4b30-8a10-a11e57e4f0e9"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*definitionList/$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="List_item_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="paragraph"><?Pub Dtl?>
+<Context priority="20" selector="*listItem/$elemname[1]">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+<Context priority="15" selector="*footnote//$elemname[1]">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+<Context priority="10" selector="*listItem/$elemname[position()>1]">
+<BaseProperties propertySetReferences="List_item_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Standard_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="preformatted"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="preformatted_font">
+<Alignment align="preformatted"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style
+description="Not used to style a table; see tableRoot and tableTgroup"
+styleName="table"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="tableCell"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Indent firstLineIndent="*0pt" leftIndent="0pt" rightIndent="0pt"/>
+<SpaceBefore maximum="0pt" minimum="0pt" optimum="0pt"
+precedence="force"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="tableHeaderCell"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="bold">
+<Indent firstLineIndent="*0pt" leftIndent="0pt" rightIndent="0pt"/>
+<SpaceBefore maximum="0pt" minimum="0pt" optimum="0pt"
+precedence="force"/>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="tableHead"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="bold">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="tableFoot"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="bold">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style
+description="Used to style the table element in the HTML table model"
+styleName="tableRoot"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties propertySetReferences="Table_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style description="Used to style tgroup in CALS/OASIS table model"
+styleName="tableTgroup"><?Pub Dtl?>
+<Context priority="0" selector="$elemname[1]">
+<BaseProperties propertySetReferences="Table_space">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+<Context priority="0" selector="$elemname[position()>1]">
+<BaseProperties>
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="tableOfContents"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="block"/>
+<GeneratedText></GeneratedText>
+</BaseProperties>
+</Context>
+</Style>
+<Style styleName="title">
+<Context priority="10" selector="*document/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_document">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+<Context priority="10" selector="*tableOfContents/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_TOC">
+<Breaks blockOrInline="block"/>
+<GeneratedText></GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*formalBlock/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_formalBlock">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Ab59ad1be-f89c-456e-89eb-66ed01694c50"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<RepeatingTitle><_sfe:Gentext><_sfe:RepeatingTitle><_gte:Translate
+translate="on" id="A894d7db4-57e5-400b-bcc9-0e2a1f46f2f2"><_gte:Target
+lang="en"><_gte:ElementLabelAndNumber/><_gte:Leaders leaderType="space"
+lenType="specified" specLen="1em"/><_gte:ElementContent/> (cont'd.)</_gte:Target
+></_gte:Translate></_sfe:RepeatingTitle></_sfe:Gentext></RepeatingTitle>
+<Numbering alignAt="0pt" followWith="space" format="(CURRENT)"
+numberAlignment="left" numberScope="(none)" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A9a5771be-5770-4b8b-a983-fff9889f0deb"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*division1/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_1">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A7f1ff3b8-a788-49a0-8137-e8ffb0e21962"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space" format="(CURRENT)"
+numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Ae4f15cd6-75a7-4687-a8c6-c5f5ea1f20b6"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*division2/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_2">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Aa1d8872e-0751-49b1-86e6-e6eed5c90a5a"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A1a0380a1-3378-4010-b97b-d3cc96f1df5f"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="10" selector="*division3/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_3">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Aa37904cd-e751-4d5a-8af6-913c4ce4271e"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Ac120e40d-7994-40db-8438-55808d0e9937"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context selector="*division4/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_4">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A9186fafd-6081-426b-9a03-ba482d208192"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A55ed43a4-135a-483f-9cd4-47df6a0e7bfb"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context selector="*division5/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_5">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Ad55957a6-c24f-4a8c-809a-86e54faee6bb"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="Afce47915-8840-4233-8a9d-0c382c55d03f"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context selector="*division6/$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space Title_6">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A51c1d6c5-104e-4d9d-8916-6181d8ad9d73"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A45cf8cbd-5885-4c19-82d7-91f81e514df8"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context selector="*division7/$elemname">
+<BaseProperties
+propertySetReferences="Title_color Title_alignment Title_keeps Title_space Title_7">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Aa643f778-2b59-4379-bc78-a0fe9ab4a1e1"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A163e75ae-c58c-4033-8b24-bedcaaeefd7e"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context selector="*division8/$elemname">
+<BaseProperties
+propertySetReferences="Title_color Title_alignment Title_keeps Title_space Title_8">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="A348b60b9-5ac2-45e9-b7f9-f4120b6dc5fb"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A26707ce9-2236-46c3-8b54-5b3f1fe9eaf6"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context selector="*division9/$elemname">
+<BaseProperties
+propertySetReferences="Title_color Title_alignment Title_keeps Title_space Title_9">
+<Indent firstLineIndent="*0pt" leftIndent="@0pt"/>
+<Breaks blockOrInline="block"/>
+<GeneratedText>
+<AddBefore><_sfe:BeforeOrAfterText><_gte:Translate translate="off"
+id="Aa9124fa1-231d-44fe-8705-949e51fb5558"><_gte:Target lang="en"
+><_gte:LabelAndNumberMarker><_gte:Font><_gte:ElementLabelAndNumber
+/></_gte:Font></_gte:LabelAndNumberMarker></_gte:Target></_gte:Translate
+></_sfe:BeforeOrAfterText></AddBefore>
+<Numbering alignAt="0pt" followWith="space"
+format="(PREVIOUS) '.' (CURRENT)" numberAlignment="left" numberStyle="1">
+<LabelAndNumber><_gte:Translate translate="off"
+id="A890a1fd7-64f0-4d99-8978-54710e428d24"><_gte:Target lang="en"
+><_gte:ElementNumber/></_gte:Target></_gte:Translate></LabelAndNumber>
+</Numbering>
+</GeneratedText>
+</BaseProperties>
+</Context>
+<Context priority="0" selector="$elemname">
+<BaseProperties
+propertySetReferences="Title_font Title_color Title_alignment Title_keeps Title_space bold">
+<Breaks blockOrInline="block"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="nostyle"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties>
+<Breaks blockOrInline="inline"/></BaseProperties>
+</Context>
+</Style>
+<Style styleName="unstyled"><?Pub Dtl?>
+<Context priority="0" selector="$elemname">
+<BaseProperties></BaseProperties>
+</Context>
+</Style>
+</Styles>
+<Bullets><?Pub Dtl?>
+<Bullet><_gte:Font>•</_gte:Font></Bullet>
+<Bullet><_gte:Font>–</_gte:Font></Bullet>
+<Bullet><_gte:Font>♦</_gte:Font></Bullet>
+<Bullet><_gte:Font>◊</_gte:Font></Bullet>
+<Bullet><_gte:Font>⇒</_gte:Font></Bullet>
+</Bullets>
+<ReferenceFormats><?Pub Dtl?></ReferenceFormats>
+<Indexes><?Pub Dtl?></Indexes>
+<PrintPageSets><?Pub Dtl?></PrintPageSets>
+<PageTypes></PageTypes>
+<PageRegions></PageRegions>
+<GeneratedContents></GeneratedContents>
+<TablesOfContents><?Pub Dtl?></TablesOfContents>
+<FootnoteModels><?Pub Dtl?>
+<FootnoteModel columnOrPageWide="page"
+footnoteModelName="Default_Footnotes" footnoteNumberStyle="1"
+insertSeparator="yes" separatorAlign="left"
+separatorLengthType="specified" separatorRuleLength="9pc"
+separatorRuleThickness=".5pt" spaceAboveFootnote="15pt"
+spaceBelowSeparator="2pt"/></FootnoteModels>
+<Tables>
+<TableModel model="cals" primary="yes"/></Tables>
+<CustomTables><?Pub Dtl?></CustomTables>
+<SizeDefinitions></SizeDefinitions>
+<CombinedFonts></CombinedFonts>
+</Styler>
