@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2010, v.4002-->
+<!DOCTYPE RDStyle PUBLIC "-//Arbortext//DTD RDStyle//EN"
+ "rdstyle.dtd">
+<RDStyle
+xmlns:_gte="http://www.arbortext.com/namespace/Styler/GeneratedTextElements">
+<ResolvedMap class="- map/unknown RDStyle/ResolvedMap ">
+<bookmap ch:boundary="yes" ch:filename="E7BB83E4B9A01"
+ch:namepriority="-10" class="- map/map bookmap/bookmap "
+collection-type="unordered" dir="ltr" ditaarch:DITAArchVersion="1.2"
+domains="(map bookmap)                          (topic delay-d)                          (map mapgroup-d)                          (topic indexing-d)                           (topic xnal-d)                         "
+format="dita" linking="normal" locktitle="no" print="yes"
+processing-role="normal" scope="local" search="yes" toc="yes"
+translate="yes" xml:lang="en">
+<booktitle atirds:toc="yes" class="- topic/title bookmap/booktitle "
+dir="ltr" translate="yes" xml:lang="en">
+<mainbooktitle class="- topic/ph bookmap/mainbooktitle " dir="ltr"
+translate="yes" xml:lang="en">用户手册</mainbooktitle>
+</booktitle>
+<!--已创建(frontmatter)元素的虚拟主题-->
+<topic atirds:collection-type="unordered" atirds:format="dita"
+atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="frontmatter" atirds:mapsourceref="frontmatter0"
+atirds:print="yes" atirds:scope="local" atirds:search="yes"
+atirds:toc="yes" ch:boundary="yes"
+class="- topic/topic  bookmap/frontmatter " dir="ltr" id="topicelm1"
+translate="yes" xml:lang="en" dmp:toc="yes" dmp:linking="normal"
+dmp:scope="local" dmp:format="dita" atirds:processing-role="normal"
+xml:id="topicelm1"></topic>
+<chapter atirds:appid="仪表和控制-9B41B145" atirds:collection-type="unordered"
+atirds:format="dita" atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="chapter" atirds:mapsourceref="chapter1"
+atirds:parentTopicId="仪表和控制-9B41B145" atirds:print="yes"
+atirds:scope="local" atirds:search="yes" atirds:toc="yes"
+atirds:type="topic" ch:boundary="yes"
+ch:filename="E4BBAAE8A1A8E5928CE68EA7E588B6" ch:namepriority="-10"
+class="- topic/topic  bookmap/chapter " dir="ltr" id="_-9B41B1452"
+translate="yes" xml:lang="en" ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+dmp:toc="yes" dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+dmp:type="topic" dmp:id="仪表和控制-9B41B145" atirds:processing-role="normal"
+xml:id="_-9B41B1452">
+<title atirds:parentTopicId="仪表和控制-9B41B145" atirds:toc="yes"
+class="- topic/title " xml:lang="en">仪表和控制</title>
+<body atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/body "
+xml:lang="en">
+<ol atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/ol "
+xml:lang="en">
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">仪表和控制装置</p></li>
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">组合仪表</p></li>
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">信息中心</p></li>
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">警告灯和指示灯</p></li>
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">灯光及开关</p></li>
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">刮水器和洗剂器</p></li>
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">转向柱</p></li>
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">喇叭</p></li>
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">后视镜</p></li>
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">遮阳板和化妆镜</p></li>
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">车窗</p></li>
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">天窗</p></li>
+<li atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/p "
+xml:lang="en">内部设备</p></li>
+</ol>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9B41C28E3" class="- topic/link "
+format="dita" href="_-9B41C28E3" role="child" scope="local" type="topic">
+<linktext atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/linktext " xml:lang="en">仪表和控制装置</linktext>
+</link><link atirds:ihref="_-9B41C84D4" class="- topic/link "
+format="dita" href="_-9B41C84D4" role="child" scope="local" type="topic">
+<linktext atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/linktext "
+xml:lang="en">组合仪表</linktext>
+</link><link atirds:ihref="_-9C5819035" class="- topic/link "
+format="dita" href="_-9C5819035" role="child" scope="local" type="topic">
+<linktext atirds:parentTopicId="信息中心-9C581903" class="- topic/linktext "
+xml:lang="en">信息中心</linktext>
+</link><link atirds:ihref="_-9C5821AC6" class="- topic/link "
+format="dita" href="_-9C5821AC6" role="child" scope="local" type="topic">
+<linktext atirds:parentTopicId="警告灯和指示灯-9C5821AC"
+class="- topic/linktext " xml:lang="en">警告灯和指示灯</linktext>
+</link><link atirds:ihref="_-9C582E317" class="- topic/link "
+format="dita" href="_-9C582E317" role="child" scope="local" type="topic">
+<linktext atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/linktext "
+xml:lang="en">灯光及开关</linktext>
+</link><link atirds:ihref="_-9C58372F8" class="- topic/link "
+format="dita" href="_-9C58372F8" role="child" scope="local" type="topic">
+<linktext atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+class="- topic/linktext " xml:lang="en">刮水器和洗剂器</linktext>
+</link><link atirds:ihref="_-9C58402E9" class="- topic/link "
+format="dita" href="_-9C58402E9" role="child" scope="local" type="topic">
+<linktext atirds:parentTopicId="转向柱-9C58402E" class="- topic/linktext "
+xml:lang="en">转向柱</linktext>
+</link><link atirds:ihref="_-9C58486610" class="- topic/link "
+format="dita" href="_-9C58486610" role="child" scope="local" type="topic">
+<linktext atirds:parentTopicId="喇叭-9C584866" class="- topic/linktext "
+xml:lang="en">喇叭</linktext>
+</link><link atirds:ihref="_-9C584E9D11" class="- topic/link "
+format="dita" href="_-9C584E9D11" role="child" scope="local" type="topic">
+<linktext atirds:parentTopicId="后视镜-9C584E9D" class="- topic/linktext "
+xml:lang="en">后视镜</linktext>
+</link></linkpool>
+</linkpool>
+</related-links>
+<topic atirds:appid="仪表和控制装置-9B41C28E" atirds:collection-type="unordered"
+atirds:format="dita" atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="topicref" atirds:mapsourceref="topicref2"
+atirds:parentTopicId="仪表和控制装置-9B41C28E" atirds:print="yes"
+atirds:scope="local" atirds:search="yes" atirds:toc="yes"
+atirds:type="topic" ch:boundary="yes"
+ch:filename="E4BBAAE8A1A8E5928CE68EA7E588B6E8A385E7BDAE"
+ch:namepriority="-10" class="- topic/topic " dir="ltr"
+ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+id="_-9B41C28E3" translate="yes" xml:lang="en" dmp:toc="yes"
+dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+atirds:processing-role="normal" xml:id="_-9B41C28E3" dmp:type="topic"
+dmp:id="仪表和控制装置-9B41C28E">
+<title atirds:parentTopicId="仪表和控制装置-9B41C28E" atirds:toc="yes"
+class="- topic/title " xml:lang="en">仪表和控制装置</title>
+<body atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/body "
+xml:lang="en">
+<image atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1038.eps"
+placement="inline" xml:lang="en"></image>
+<ol atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/ol "
+xml:lang="en">
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">外后试镜和电动车窗控制开关</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">主灯光开关</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">转向灯/远光灯拔杆开关</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">喇叭按钮</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">驾驶员安全气囊</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">组合仪表</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">刮水器/洗剂器拔杆开关</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">辅助显示屏</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">娱乐、导航显示屏*</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">娱乐、导航、电话控制器*</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">前排乘客安全气囊</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">暖风、空调控制开关</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">换挡杆</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">加速踏板</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">点火开火</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">制动踏板</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">离合器踏板*</p></li>
+<li atirds:parentTopicId="仪表和控制装置-9B41C28E" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="仪表和控制装置-9B41C28E"
+class="- topic/p " xml:lang="en">发动机盖释放开关</p></li>
+</ol>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9B41B1452" class="- topic/link "
+format="dita" href="_-9B41B1452" role="parent" scope="local" type="topic">
+<linktext atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/linktext "
+xml:lang="en">仪表和控制</linktext>
+</link></linkpool>
+</related-links>
+</topic>
+<topic atirds:appid="组合仪表-9B41C84D" atirds:collection-type="unordered"
+atirds:format="dita" atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="topicref" atirds:mapsourceref="topicref3"
+atirds:parentTopicId="组合仪表-9B41C84D" atirds:print="yes"
+atirds:scope="local" atirds:search="yes" atirds:toc="yes"
+atirds:type="topic" ch:boundary="yes"
+ch:filename="E7BB84E59088E4BBAAE8A1A8" ch:namepriority="-10"
+class="- topic/topic " dir="ltr" ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+id="_-9B41C84D4" translate="yes" xml:lang="en" dmp:toc="yes"
+dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+atirds:processing-role="normal" xml:id="_-9B41C84D4" dmp:type="topic"
+dmp:id="组合仪表-9B41C84D">
+<title atirds:parentTopicId="组合仪表-9B41C84D" atirds:toc="yes"
+class="- topic/title " xml:lang="en">组合仪表</title>
+<body atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/body "
+xml:lang="en">
+<image atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1039.eps"
+placement="inline" xml:lang="en"></image>
+<section atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="组合仪表-9B41C84D"
+atirds:toc="yes" class="- topic/title " xml:lang="en">数字式车速表</title
+><p atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/p " xml:lang="en"
+>指示车速(图示1)。</p><note atirds:parentTopicId="组合仪表-9B41C84D"
+class="- topic/note " xml:lang="en"><i
+atirds:parentTopicId="组合仪表-9B41C84D" class="+ topic/ph hi-d/i "
+xml:lang="en">说明：车速单位可通过<q atirds:parentTopicId="组合仪表-9B41C84D"
+class="- topic/q " xml:lang="en">车辆位置</q>的<q
+atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/q " xml:lang="en"
+>单位</q>来设置，参见第19页。</i></note></section>
+<section atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="组合仪表-9B41C84D"
+atirds:toc="yes" class="- topic/title " xml:lang="en">发动机冷却液温度表</title
+><p atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/p " xml:lang="en"
+>通过点亮的方格数量来指示发动机冷却液温度(图示2)。</p><p atirds:parentTopicId="组合仪表-9B41C84D"
+class="- topic/p " xml:lang="en">当发动机冷却液温度较低时，一个蓝色方格点亮，当发动机在正常温度下工作时，最多六个黄色方格将点亮。当有一个红色方格点亮时，左侧的高温警告灯也将点亮，并且听到一声警告声，同时在信息中心将有信息显示。当有两个红色方格点亮时，高温警告灯将闪烁，并且听到警告声，同时在信息中心有信息显示。</p
+><p atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/p " xml:lang="en"
+>发动机温度过高可能导致发动机眼中损坏，应立即停车，使发动机熄火，并尽快联系本公司授权售后服务中心进行检修。</p></section>
+<section atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="组合仪表-9B41C84D"
+atirds:toc="yes" class="- topic/title " xml:lang="en">转速表</title><p
+atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/p " xml:lang="en"
+>指示发动机转速(图示3)，以x1000转/分为单位。</p><table
+atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/table " xml:lang="en">
+<tgroup atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/tgroup "
+cols="1" xml:lang="en">
+<colspec atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/colspec "
+colname="col1" xml:lang="en"/>
+<tbody atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/tbody "
+xml:lang="en">
+<row atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/row "
+xml:lang="en">
+<entry align="center" atirds:parentTopicId="组合仪表-9B41C84D"
+class="- topic/entry " xml:lang="en">注意</entry>
+</row>
+<row atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.58in"?>
+<entry atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/entry "
+xml:lang="en">不要让转速表指针长时间停留在仪表的红色报警区域，否则可能导致发动机损坏。</entry>
+</row>
+</tbody>
+</tgroup>
+</table></section>
+<section atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="组合仪表-9B41C84D"
+atirds:toc="yes" class="- topic/title " xml:lang="en">燃油表</title><p
+atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/p " xml:lang="en"
+>通过点亮的方格数量来显示燃油中剩余燃油液面的位置，共有八个方格(图示4)。当只有一个方格点亮时，右侧的燃油量低警告灯也将点亮，并且听到一声警告声，同时在信息中心将出现燃油存量低信息显示。</p
+><table atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/table "
+xml:lang="en">
+<tgroup atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/tgroup "
+cols="1" xml:lang="en">
+<colspec atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/colspec "
+colname="col1" xml:lang="en"/>
+<tbody atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/tbody "
+xml:lang="en">
+<row atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/row "
+xml:lang="en">
+<entry align="center" atirds:parentTopicId="组合仪表-9B41C84D"
+class="- topic/entry " xml:lang="en"><b
+atirds:parentTopicId="组合仪表-9B41C84D" class="+ topic/ph hi-d/b "
+xml:lang="en">注意</b></entry>
+</row>
+<row atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/row "
+xml:lang="en">
+<entry atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/entry "
+xml:lang="en">如果该指示灯点亮，请尽早加注燃油。</entry>
+</row>
+</tbody>
+</tgroup>
+</table><p atirds:parentTopicId="组合仪表-9B41C84D" class="- topic/p "
+xml:lang="en">燃油量低警告灯左侧的箭头表示燃油加注口位于车辆的右侧。</p></section>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9B41B1452" class="- topic/link "
+format="dita" href="_-9B41B1452" role="parent" scope="local" type="topic">
+<linktext atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/linktext "
+xml:lang="en">仪表和控制</linktext>
+</link></linkpool>
+</related-links>
+</topic>
+<topic atirds:appid="信息中心-9C581903" atirds:collection-type="unordered"
+atirds:format="dita" atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="topicref" atirds:mapsourceref="topicref4"
+atirds:parentTopicId="信息中心-9C581903" atirds:print="yes"
+atirds:scope="local" atirds:search="yes" atirds:toc="yes"
+atirds:type="topic" ch:boundary="yes"
+ch:filename="E4BFA1E681AFE4B8ADE5BF83" ch:namepriority="-10"
+class="- topic/topic " dir="ltr" ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+id="_-9C5819035" translate="yes" xml:lang="en" dmp:toc="yes"
+dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+atirds:processing-role="normal" xml:id="_-9C5819035" dmp:type="topic"
+dmp:id="信息中心-9C581903">
+<title atirds:parentTopicId="信息中心-9C581903" atirds:toc="yes"
+class="- topic/title " xml:lang="en">信息中心</title>
+<body atirds:parentTopicId="信息中心-9C581903" class="- topic/body "
+xml:lang="en">
+<image atirds:parentTopicId="信息中心-9C581903" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1043.eps"
+placement="inline" xml:lang="en"></image>
+<p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+><note atirds:parentTopicId="信息中心-9C581903" class="- topic/note "
+xml:lang="en">信息中心位于组合仪表右侧，提供以下信息:</note></p>
+<p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+><ol atirds:parentTopicId="信息中心-9C581903" class="- topic/ol "
+xml:lang="en">
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">单次里程。</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">档位显示。*</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">总里程。</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">综合信息。</p></li>
+</ol></p>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">单次里程</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>当点火开关位于位置2时，显示上一次设定后车辆行驶过的里程。</p><p atirds:parentTopicId="信息中心-9C581903"
+class="- topic/p " xml:lang="en">关于单次里程的设定，请参见第17页上的<q
+atirds:parentTopicId="信息中心-9C581903" class="- topic/q " xml:lang="en"
+>里程复位</q>。</p></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">档位显示*</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>当点火开关位于位置2时，显示当前自动变速器的换挡杆位置(P,R,N,D,W或S)。</p></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">总里程</title><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>当点火开关位于位置2时，显示车辆已行驶的总里程。</p><note atirds:parentTopicId="信息中心-9C581903"
+class="- topic/note " xml:lang="en"><i
+atirds:parentTopicId="信息中心-9C581903" class="+ topic/ph hi-d/i "
+xml:lang="en">说明：点火开关位于位置1时，按转向拨杆末端按钮或转向盘左侧指轮开关可显示以上信息。</i></note
+></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">综合信息<image
+atirds:parentTopicId="信息中心-9C581903" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1069.eps"
+placement="inline" xml:lang="en"></image></title></section>
+<note atirds:parentTopicId="信息中心-9C581903" class="- topic/note "
+xml:lang="en">综合信息显示屏提供以下信息:<ol atirds:parentTopicId="信息中心-9C581903"
+class="- topic/ol " xml:lang="en">
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">警告信息（图示A）</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">行程计算信息 （图示B）</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">主菜单* （图示C）</p></li>
+</ol></note>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">警告信息</title
+><note atirds:parentTopicId="信息中心-9C581903" class="- topic/note "
+xml:lang="en">使用两种方法向驾驶员传送警告信息：</note><ul
+atirds:parentTopicId="信息中心-9C581903" class="- topic/ul " xml:lang="en">
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">伴有符号的警告信息。</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">车门、发动机盖或后行李盖开启的视图</p></li>
+</ul><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">有些警告信息还使用警告声进行强调。</p></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">信息和符号</title
+><note atirds:parentTopicId="信息中心-9C581903" class="- topic/note "
+xml:lang="en">使用两种显示类型：</note><ul atirds:parentTopicId="信息中心-9C581903"
+class="- topic/ul " xml:lang="en">
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">使用红色或者黄色符号并伴有红色或者黄色警告指示灯点亮。</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">只使用红色或者黄色符号。</p></li>
+</ul><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">当监测到故障时，相应的警告指示灯点亮并且在综合信息显示屏上出现警告信息和符号。在几秒钟后，该信息将消失，但符号仍保持显示，直到故障排除。</p
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>以下警告信息将初相在综合信息显示屏中，但不伴有警告信息指示灯。</p></section>
+<table atirds:parentTopicId="信息中心-9C581903" class="- topic/table "
+xml:lang="en">
+<tgroup atirds:parentTopicId="信息中心-9C581903" class="- topic/tgroup "
+cols="3" xml:lang="en">
+<?PubTbl tgroup dispwid="294.00px"?>
+<colspec atirds:parentTopicId="信息中心-9C581903" class="- topic/colspec "
+colname="col1" colwidth="0.69*" xml:lang="en"/>
+<colspec atirds:parentTopicId="信息中心-9C581903" class="- topic/colspec "
+colname="col2" colwidth="0.97*" xml:lang="en"/>
+<colspec atirds:parentTopicId="信息中心-9C581903" class="- topic/colspec "
+colname="col3" colwidth="1.35*" xml:lang="en"/>
+<tbody atirds:parentTopicId="信息中心-9C581903" class="- topic/tbody "
+xml:lang="en">
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.31in"?>
+<entry align="center" atirds:parentTopicId="信息中心-9C581903"
+class="- topic/entry " xml:lang="en">图标</entry>
+<entry align="center" atirds:parentTopicId="信息中心-9C581903"
+class="- topic/entry " xml:lang="en">警告信息</entry>
+<entry align="center" atirds:parentTopicId="信息中心-9C581903"
+class="- topic/entry " xml:lang="en">操作</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.63in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">小心路滑</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">小心驾驶，因为路面可能因低温结霜结冰打滑。</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.64in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">车灯故障</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">制动灯或转向灯的灯泡发生故障，尽早更换。</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.61in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">车门、发动机盖、行李箱盖打开</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">在离开车辆或者驾驶车辆前，关闭所有车门、发动机盖和行李箱盖。</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.60in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">发动机不工作见说明书</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">将错误的钥匙插入点火开关，发动机不能起动。请使用正确的钥匙</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.61in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">遥控器电池 电量低 请换电池</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">参见第99页上的<q atirds:parentTopicId="信息中心-9C581903"
+class="- topic/q " xml:lang="en">遥控器电池</q> 。</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.65in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">车灯开</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">在离开车辆前将灯关闭。</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table atirds:parentTopicId="信息中心-9C581903" class="- topic/table "
+xml:lang="en">
+<tgroup atirds:parentTopicId="信息中心-9C581903" class="- topic/tgroup "
+cols="3" xml:lang="en">
+<?PubTbl tgroup dispwid="293.00px"?>
+<colspec atirds:parentTopicId="信息中心-9C581903" class="- topic/colspec "
+colname="col1" colwidth="0.69*" xml:lang="en"/>
+<colspec atirds:parentTopicId="信息中心-9C581903" class="- topic/colspec "
+colname="col2" colwidth="0.99*" xml:lang="en"/>
+<colspec atirds:parentTopicId="信息中心-9C581903" class="- topic/colspec "
+colname="col3" colwidth="1.35*" xml:lang="en"/>
+<tbody atirds:parentTopicId="信息中心-9C581903" class="- topic/tbody "
+xml:lang="en">
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">图标</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">警告信息</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">操作</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.64in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">请减速</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">减速直到车速低于设置的限制。</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.64in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">燃油切断 请注意</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">参见第109页上的<q atirds:parentTopicId="信息中心-9C581903"
+class="- topic/q " xml:lang="en">惯性开关</q>。</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.64in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">请加注冷却液</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">参见第160页上的<q atirds:parentTopicId="信息中心-9C581903"
+class="- topic/q " xml:lang="en">检查和添加冷却液</q>。</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.64in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">车辆网络故障 请维修</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">尽早咨询本公司授权售后服务中心。</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.63in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">油路故障</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">尽早咨询本公司授权售后服务中心。</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.63in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">灯延迟关闭 激活</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">信息，无需操作。</entry>
+</row>
+<row atirds:parentTopicId="信息中心-9C581903" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.57in"?>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en"></entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">报警触发过</entry>
+<entry atirds:parentTopicId="信息中心-9C581903" class="- topic/entry "
+xml:lang="en">提示驾驶员车辆电子防盗报警系统触发过。信息，无需操作。</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">车门、发动机、行李箱开启的视图</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>当点火开关接通时，将短暂显示车辆的平面视图，如果所有车门、发动机盖和行李箱盖都完全关闭，则在几秒钟后，该试图将消失。但是，如果有一个或多个车门、发动机盖或行李箱盖未完全关闭，则该试图将在综合信息显示屏中显示并伴有警告声。</p
+></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">行程计算机</title
+><image atirds:parentTopicId="信息中心-9C581903" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1041.eps"
+placement="inline" xml:lang="en"></image><note
+atirds:parentTopicId="信息中心-9C581903" class="- topic/note " xml:lang="en"
+>当点火开关接通时，可以选择显示各种行程计算机功能，其操作如下：</note><ul
+atirds:parentTopicId="信息中心-9C581903" class="- topic/ul " xml:lang="en">
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">低配车型（图示A）：重复按下转向操纵杆末端的按钮，可以切换行程计算机显示项目。</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">高配车型（图示B）：向上或向下转动方向盘上的左侧指轮，可以切换行程计算机显示项目。</p></li>
+</ul><note atirds:parentTopicId="信息中心-9C581903" class="- topic/note "
+xml:lang="en">行程计算机包括以下信息：</note><ul atirds:parentTopicId="信息中心-9C581903"
+class="- topic/ul " xml:lang="en">
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">油耗*</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">续驶里程（在油箱用空前可以行驶的里程）</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">平均油耗</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">平均时速</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">累计里程</p></li>
+</ul><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">长按（大于2秒）转向操纵杆末端的按钮或指轮开关，可以复位所选择的显示（<q
+atirds:parentTopicId="信息中心-9C581903" class="- topic/q " xml:lang="en"
+>叙事里程项除外</q>）。</p><p atirds:parentTopicId="信息中心-9C581903"
+class="- topic/p " xml:lang="en">当行程计算机被选择后，他将一直显示直到下一个功能被选择。</p><note
+atirds:parentTopicId="信息中心-9C581903" class="- topic/note " xml:lang="en"
+>说明：如果在使用行程计算机时接收到警告信息，则行程计算机的显示将被警告信息取代。此时，若按下行程计算机按钮可以将显示回复到在接收到警告信息前行程计算机的显示。如果该警告信息的故障一直存在，20秒钟后行程计算机的显示将再次被停止，并回复到显示警告信息。</note
+></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">油耗*</title><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>该功能自动显示当前发动机工作时的瞬时油耗。</p></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">续驶里程</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>该功能自动计算并显示在油箱用空之前车辆还能行驶的里程，重新加油后该历程数会相应变化。</p><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+><q atirds:parentTopicId="信息中心-9C581903" class="- topic/q " xml:lang="en"
+>续驶里程是根据当前的行驶类型</q>，由计算机前几分钟内燃油耗以及油箱剩油量的综合情况进行计算的。</p></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">平均油耗</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>显示从上次单次里程被复位后的平均油耗（通过所用的燃油量除以行驶的距离来计算平均燃油消耗）。可以在任何时候复位以开始新的旅程或行驶条件下的油耗的计算。</p
+></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">平均时速</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>显示从上次单次里程被复位后的平均油耗（通过所用的燃油量除以行驶的距离来计算平均燃油消耗）。可以在任何时候复位以开始新的旅程或行驶条件下的油耗的计算</p
+></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">累计里程*</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>显示从上次单次里程被复位后的平均油耗（通过所用的燃油量除以行驶的距离来计算平均燃油消耗）。可以在任何时候复位以开始新的旅程或行驶条件下的油耗的计算</p
+><image atirds:parentTopicId="信息中心-9C581903" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1070.eps"
+placement="inline" xml:lang="en"></image><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>长按转向拨杆末端按钮（低配车型）或按下方向盘上左侧指轮开关（高配车型），来访问主菜单。</p><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>短暂按下转向拨杆末端按钮（低配车型）或转动指轮开关（高配车型）来选择需要的菜单选项，带您的选项高亮显示后长按转向拨杆末端按钮（低配车型）或短按指轮开关（高配车型），可进入该菜单选项的子菜单或者执行该菜单选项的功能。</p
+><note atirds:parentTopicId="信息中心-9C581903" class="- topic/note "
+xml:lang="en">主菜单提供以下选项：</note><ul atirds:parentTopicId="信息中心-9C581903"
+class="- topic/ul " xml:lang="en">
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">退出 — 用于返回上级菜单。</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">里程复位。</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">胎压复位。</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">限速报警。</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">行程计算。</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">车辆设置。</p></li>
+<li atirds:parentTopicId="信息中心-9C581903" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p "
+xml:lang="en">下次保养。</p></li>
+</ul></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">里程复位</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>要将单次里程记录读数复位，应确保<q atirds:parentTopicId="信息中心-9C581903"
+class="- topic/q " xml:lang="en">里程复位</q>高亮显示，然后长按转向拨杆末端按钮或方向盘左侧的指轮开关直到显示读数为零。</p
+></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">限速报警</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>当限速报警处在工作状态时，如果车速超过了所设定限制的速度，综合信息显示屏将显示<q
+atirds:parentTopicId="信息中心-9C581903" class="- topic/q " xml:lang="en"
+>请减速</q>的信息和生音警告提示驾驶员。</p><p atirds:parentTopicId="信息中心-9C581903"
+class="- topic/p " xml:lang="en">对于低配车型，长按转向拨杆末端按钮选择<q
+atirds:parentTopicId="信息中心-9C581903" class="- topic/q " xml:lang="en"
+>超速警告</q>可以对其进行设置。按转向拨杆科技含量和即可官方活动士大夫似的规划分更好地发挥地方获得符合风格化的实施地方公司大股东。</p
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>对于高配车型，该菜单显示当前的车速设置和<q atirds:parentTopicId="信息中心-9C581903"
+class="- topic/q " xml:lang="en">+</q>、<q
+atirds:parentTopicId="信息中心-9C581903" class="- topic/q " xml:lang="en"
+>-</q>符号，送到附近萨芬受打击法律手段就19-5km。选择上的合法说得来飞机撒开关返回。</p></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">下次保养</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>显示保养符号、到下次保养前剩余的行驶里程和预计日期。</p><note atirds:parentTopicId="信息中心-9C581903"
+class="- topic/note " xml:lang="en">说明：只能由本公司授权的售后服务中心对<q
+atirds:parentTopicId="信息中心-9C581903" class="- topic/q " xml:lang="en"
+>下次保养</q>信息进行复位。</note></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">行程计算</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>如需复位行程计算机记录读数，应选择<q atirds:parentTopicId="信息中心-9C581903"
+class="- topic/q " xml:lang="en">行程计算</q>，然后选择<q
+atirds:parentTopicId="信息中心-9C581903" class="- topic/q " xml:lang="en"
+>部复位</q>，并按下转向拨杆末端按钮（低配）或指轮（高配）即可。</p></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">胎压复位</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>选择<q atirds:parentTopicId="信息中心-9C581903" class="- topic/q "
+xml:lang="en">胎压复位</q>，然后按下指轮开关。这将初始化系统。如果成功，则沙发里撒附近司法考试理发师服务中心。</p
+><note atirds:parentTopicId="信息中心-9C581903" class="- topic/note "
+xml:lang="en">说明：在每次进行轮胎更换或充气后，必须进行<q
+atirds:parentTopicId="信息中心-9C581903" class="- topic/q " xml:lang="en"
+>胎压复位</q>操作。</note><note atirds:parentTopicId="信息中心-9C581903"
+class="- topic/note " xml:lang="en">说明：只有当车辆静止（换挡杆位于 P 档，手动变速器换挡位于空档）且拉起驻车制动以及在点火开关位于位置2时，的积分被访问。</note
+></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">车辆设置</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>在该菜单中，您可以对某些车辆功能进行设置。</p><note atirds:parentTopicId="信息中心-9C581903"
+class="- topic/note " xml:lang="en">说明：只有当车辆静止（晃荡干位于 P 档，手动变速器换挡杆位于空单）区分局卡的简单方便的身份你死定了和，次菜单选项才可被访问。</note
+></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">智能锁</title><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>启用或警用单边进入和自动落锁功能。</p></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">遥控集空门</title
+><note atirds:parentTopicId="信息中心-9C581903" class="- topic/note "
+xml:lang="en">单边进入：选择<q atirds:parentTopicId="信息中心-9C581903"
+class="- topic/q " xml:lang="en">解锁</q>并按下转向拨杆末端按钮或指轮开关，然后按照需要选择<q
+atirds:parentTopicId="信息中心-9C581903" class="- topic/q " xml:lang="en"
+>所有车门</q>或“进价是”奥斯卡的合法乱收费安理会是返回上级菜单。</note></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">自动落锁</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>选择“自动落锁”并按下转向拨杆末端按钮或指轮开关，然后按照选择“车速锁定-开”或“车速锁定-关”。选择“退出”并长按转向拨杆末端按钮（低配车型）或按下指轮返回菜单。</p
+></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">智能雨刮</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>启用或禁用智能雨刮。选择“智能雨刮-关”或“只能雨刮-开”。安倍晋三发布了近年来火炬哦了。智能雨刮功能请参见33页。</p></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">单位</title><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>设定燃油消耗和距离的测量单位。里程表、里程计录和行程计算机使用这些单位。</p></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">油耗</title><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>选择“L/100km”、“km/L”、接撒护理费看哈撒开关进行单位选择。</p></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">行程</title><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>选择“Miles”或“km”说不定弗拉还是地方按法律就发生垃圾法商贩时间地方撒附近大家分开是否了解 返回上级菜单。</p></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">伴我回家</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>启用或禁用“伴我回家”宫娥干撒的恢复了萨芬萨芬和拉萨开发努力建立框架内贾克，可以限定灯点亮的持续时间。</p><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>选择“前灯”，然后选择“前灯-开”或“前灯-关”。选择“退出”并按下转向拨杆末端按钮或指轮开关返回上级菜单。</p><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>选择“后灯”，然后选择“后灯-开”或“后灯-关”。选择“退出”并按下转向拨杆末端指轮开关返回上级菜单。</p><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>选择“持续时间”，将显示当前灯亮的持续时间，最长可以选择5分钟。选择“退出”并按下转向拨杆末端按钮或指轮开关返回上级菜单。</p
+></section>
+<section atirds:parentTopicId="信息中心-9C581903" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="信息中心-9C581903"
+atirds:toc="yes" class="- topic/title " xml:lang="en">寻车指示*</title
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>在用遥控器解锁汽车时，可以使指定的车外灯自动点亮一段时间。这有助于驾驶员在拥堵的停车场中找到自己的车。驾驶员可以选择点亮前车灯（前照灯近光）、候车等（后雾灯）或二者同时点亮。</p
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>选择“前灯”，然后选择“前灯-开”或“前灯-关”。选择“退出”并按下转向拨杆末端按钮或指轮开关返回上级菜单。</p><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>选择“后灯”，然后选择“后灯-开”或“后灯-关”。选择“退出”并按下转向拨杆末端指轮开关返回上级菜单。</p><p
+atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>选择“持续时间”，将显示当前灯亮的持续时间，最长可以选择5分钟。选择“退出”并按下转向拨杆末端按钮或指轮开关返回上级菜单。</p
+><p atirds:parentTopicId="信息中心-9C581903" class="- topic/p " xml:lang="en"
+>可以按照30秒的增量，选择最长5分钟的持续时间。选择“退出”并按下转向拨杆末端按钮或指轮开关返回上级菜单。</p></section>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9B41B1452" class="- topic/link "
+format="dita" href="_-9B41B1452" role="parent" scope="local" type="topic">
+<linktext atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/linktext "
+xml:lang="en">仪表和控制</linktext>
+</link></linkpool>
+</related-links>
+</topic>
+<topic atirds:appid="警告灯和指示灯-9C5821AC" atirds:collection-type="unordered"
+atirds:format="dita" atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="topicref" atirds:mapsourceref="topicref5"
+atirds:parentTopicId="警告灯和指示灯-9C5821AC" atirds:print="yes"
+atirds:scope="local" atirds:search="yes" atirds:toc="yes"
+atirds:type="topic" ch:boundary="yes"
+ch:filename="E8ADA6E5918AE781AFE5928CE68C87E7A4BAE781AF"
+ch:namepriority="-10" class="- topic/topic " dir="ltr"
+ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+id="_-9C5821AC6" translate="yes" xml:lang="en" dmp:toc="yes"
+dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+atirds:processing-role="normal" xml:id="_-9C5821AC6" dmp:type="topic"
+dmp:id="警告灯和指示灯-9C5821AC">
+<title atirds:parentTopicId="警告灯和指示灯-9C5821AC" atirds:toc="yes"
+class="- topic/title " xml:lang="en">警告灯和指示灯</title>
+<body atirds:parentTopicId="警告灯和指示灯-9C5821AC" class="- topic/body "
+xml:lang="en">
+<image atirds:parentTopicId="警告灯和指示灯-9C5821AC" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1042.eps"
+placement="inline" xml:lang="en"></image>
+<p atirds:parentTopicId="警告灯和指示灯-9C5821AC" class="- topic/p "
+xml:lang="en">警示灯大部分位于转速表中央和组合仪表底部，3个位于组合仪表的上部，另有2歌位于辅助显示屏。</p>
+<section atirds:parentTopicId="警告灯和指示灯-9C5821AC" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="警告灯和指示灯-9C5821AC"
+atirds:toc="yes" class="- topic/title " xml:lang="en">转向指示灯-蓝色</title
+><image atirds:parentTopicId="警告灯和指示灯-9C5821AC" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\Direction Indicator.eps"
+placement="inline" xml:lang="en"></image>左、右转向指示灯以方向箭头表示，该箭头位于组合仪表底部。转向灯闪烁的同时，相应侧的转向指示灯一起闪烁。<p
+atirds:parentTopicId="警告灯和指示灯-9C5821AC" class="- topic/p " xml:lang="en"
+>打算发射点法都不是劳动防护案发那算了附近阿</p><note atirds:parentTopicId="警告灯和指示灯-9C5821AC"
+class="- topic/note " xml:lang="en">说明：侧面转向灯的故障对转向指示灯的闪烁频率没有影响。</note
+></section>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9B41B1452" class="- topic/link "
+format="dita" href="_-9B41B1452" role="parent" scope="local" type="topic">
+<linktext atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/linktext "
+xml:lang="en">仪表和控制</linktext>
+</link></linkpool>
+</related-links>
+</topic>
+<?Pub UDT template _font?>
+<topic atirds:appid="灯光及开关-9C582E31" atirds:collection-type="unordered"
+atirds:format="dita" atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="topicref" atirds:mapsourceref="topicref6"
+atirds:parentTopicId="灯光及开关-9C582E31" atirds:print="yes"
+atirds:scope="local" atirds:search="yes" atirds:toc="yes"
+atirds:type="topic" ch:boundary="yes"
+ch:filename="E781AFE58589E58F8AE5BC80E585B3" ch:namepriority="-10"
+class="- topic/topic " dir="ltr" ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+id="_-9C582E317" translate="yes" xml:lang="en" dmp:toc="yes"
+dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+atirds:processing-role="normal" xml:id="_-9C582E317" dmp:type="topic"
+dmp:id="灯光及开关-9C582E31">
+<title atirds:parentTopicId="灯光及开关-9C582E31" atirds:toc="yes"
+class="- topic/title " xml:lang="en">灯光及开关</title>
+<body atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/body "
+xml:lang="en">
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">主灯光开关</title
+><image atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1044.eps"
+placement="inline" xml:lang="en"></image></section>
+<ol atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/ol "
+xml:lang="en">
+<li atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">自动灯*</p></li>
+<li atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">示宽灯/尾灯/组合仪表照明灯</p></li>
+<li atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">前照灯</p></li>
+</ol>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">自动灯*</title
+><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">哈首都绿撒挥发物十句撒v 静安寺就发生撒酒疯萨芬快速反击</p></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">示宽灯/尾灯/组合仪表照明灯</title
+><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">上的花费撒的谎飞洒是的吧是的你撒开房间了撒能否空间啊是的发送三都快疯了萨芬岁的女吃撒寿比南山啦我恶疾哦杜威额啊</p
+></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">前照灯</title><p
+atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p " xml:lang="en"
+>疏堵并举萨拉丁啊为看设立考点门口了撒。啊说风凉话那份奥利弗撒带来烦恼和时间打开了放好撒绿肥红瘦的看法。</p></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">伴我回家（灯光延迟关闭）</title
+><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">停车后，拔出钥匙。随后将转向灯拨杆开关移至远光位置。前照灯和/或后雾灯将在上的花费撒谎发生，关于配置“伴我回家”的信息，请参见第19页上的“伴我回家”。</p
+></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">雾灯开关</title
+><image atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\warning.eps"
+placement="inline" xml:lang="en"></image>雾灯只有在可试情况极差时是使用-在能见度好的情况下，可能会使路上其他人员眩目。<image
+atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1065.eps"
+placement="inline" xml:lang="en"></image><note
+atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/note " xml:lang="en"
+>说明：当住灯光开关关闭时，后雾灯和前雾灯将自动关闭。</note></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">前雾灯</title><p
+atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p " xml:lang="en"
+>当点火开关位于位置2且示宽灯开启时，将灯开关外拉直事发后地方萨拉夫。“前雾灯开”将出现在信息中心显示屏。</p></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">后雾灯</title><p
+atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p " xml:lang="en"
+>当点火开关位于位置2且示宽灯开启时，将灯开关外拉直事发后地方萨拉夫。“后雾灯开”将出现在信息中心显示屏。</p></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">转向灯/远光灯拨杆开关</title
+><image atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\warning.eps"
+placement="inline" xml:lang="en"></image>在使用前照灯远、近光灯切换时，应该注意不要使迎面车辆的驾驶员眩目。<image
+atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1046.eps"
+placement="inline" xml:lang="en"></image></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">转向灯</title><p
+atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p " xml:lang="en"
+>左转弯时，向下拨动拨杆开关（图示1），右转弯则向上拨动拨杆开关（图示2）。转向灯奥神队发尚发社。</p><p
+atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p " xml:lang="en"
+>转向灯工作时，组合仪表上对应的绿色转向指示灯闪烁。</p><p atirds:parentTopicId="灯光及开关-9C582E31"
+class="- topic/p " xml:lang="en">为了只是车道变化，克服弹簧压力短暂移动拨杆就爱腐败，的时间法律上，随后熄灭。</p
+></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">前照灯缘远光和近光切换</title
+><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">左转弯时，向下拨动拨杆开关（图示1），右转弯则向上拨动拨杆开关（图示2）。转向灯奥神队发尚发社。是是是是是是是是是是是是是是是是是是是是</p
+></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">前照灯闪烁</title
+><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">左转弯时，向下拨动拨杆开关（图示1），右转弯则向上拨动拨杆开关（图示2）。转向灯奥神队发尚发社。</p
+></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">灯故障</title><note
+atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/note " xml:lang="en"
+>以下灯泡出现故障时，将在信息中心显示信息和符号，并有警告声。</note><ul
+atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/ul " xml:lang="en">
+<li atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">左前侧转向灯。</p></li>
+<li atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">右前侧转向灯。</p></li>
+<li atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">后前侧转向灯。</p></li>
+<li atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">右后侧转向灯。</p></li>
+<li atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">左侧制动灯。</p></li>
+<li atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p "
+xml:lang="en">右侧制动灯。</p></li>
+</ul><note atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/note "
+xml:lang="en">说明：该系统不蓝检测十款等、高位制动灯的故障。</note></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">危险警告灯</title
+><image atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1047.eps"
+placement="inline" xml:lang="en"></image><p
+atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p " xml:lang="en"
+>按压按钮，开启危险警告灯。同时，所有转向灯和转向指示灯闪烁。再次按压该按钮，关闭危险警告灯，所有转向灯和转向指示灯停止闪烁。</p
+></section>
+<section atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="灯光及开关-9C582E31"
+atirds:toc="yes" class="- topic/title " xml:lang="en">组合仪表照明亮度控制指轮</title
+><image atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1045.eps"
+placement="inline" xml:lang="en"></image><p
+atirds:parentTopicId="灯光及开关-9C582E31" class="- topic/p " xml:lang="en"
+>点火开关开启，灯光开关在位置2时，向上滚动指轮来增加组合仪表照明亮度，向下滚动指轮来减弱组合仪表照明亮度。该指轮也控制着开关、信息中心和娱乐、导航显示屏的背光亮度。当十款撒地方哈斯勒控股和萨芬两个。</p
+></section>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9B41B1452" class="- topic/link "
+format="dita" href="_-9B41B1452" role="parent" scope="local" type="topic">
+<linktext atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/linktext "
+xml:lang="en">仪表和控制</linktext>
+</link></linkpool>
+</related-links>
+</topic>
+<topic atirds:appid="刮水器和洗剂器-9C58372F" atirds:collection-type="unordered"
+atirds:format="dita" atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="topicref" atirds:mapsourceref="topicref7"
+atirds:parentTopicId="刮水器和洗剂器-9C58372F" atirds:print="yes"
+atirds:scope="local" atirds:search="yes" atirds:toc="yes"
+atirds:type="topic" ch:boundary="yes"
+ch:filename="E588AEE6B0B4E599A8E5928CE6B497E58982E599A8"
+ch:namepriority="-10" class="- topic/topic " dir="ltr"
+ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+id="_-9C58372F8" translate="yes" xml:lang="en" dmp:toc="yes"
+dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+atirds:processing-role="normal" xml:id="_-9C58372F8" dmp:type="topic"
+dmp:id="刮水器和洗剂器-9C58372F">
+<title atirds:parentTopicId="刮水器和洗剂器-9C58372F" atirds:toc="yes"
+class="- topic/title " xml:lang="en">刮水器和洗剂器</title>
+<body atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/body "
+xml:lang="en">
+<section atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+atirds:toc="yes" class="- topic/title " xml:lang="en">前风窗刮水器操作</title
+><image atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1048.eps"
+placement="inline" xml:lang="en"></image></section>
+<p atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/p "
+xml:lang="en">刮水器和洗剂器只在点火开关开启时才工作。</p>
+<table atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/table "
+xml:lang="en">
+<tgroup atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/tgroup "
+cols="1" xml:lang="en">
+<?PubTbl tgroup dispwid="279.00px"?>
+<colspec atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/colspec "
+colname="col1" xml:lang="en"/>
+<tbody atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/tbody "
+xml:lang="en">
+<row atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/row "
+xml:lang="en">
+<entry align="center" atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+class="- topic/entry " xml:lang="en">注意</entry>
+</row>
+<row atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="1.15in"?>
+<entry atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/entry "
+xml:lang="en"><ul atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+class="- topic/ul " xml:lang="en">
+<li atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+class="- topic/p " xml:lang="en">不要在干燥的风窗玻璃上使用刮水器。</p></li>
+</ul><ul atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/ul "
+xml:lang="en">
+<li atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+class="- topic/p " xml:lang="en">在冰冻或极热的情况下，在开动刮水器前要确信挂水片没有冻住或者粘在风窗玻璃上。</p
+></li>
+<li atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+class="- topic/p " xml:lang="en">在冬天要清除在挂壁或挂水片周围以及挂水片运动范围内的雪。 </p
+></li>
+</ul></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<note atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/note "
+xml:lang="en">上推拨杆开关至不同位置可选择不同挂水速度：</note>
+<ul atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/ul "
+xml:lang="en">
+<li atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+class="- topic/p " xml:lang="en">间歇档/自动档(图示1)</p></li>
+<li atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+class="- topic/p " xml:lang="en">正常档（图示2）</p></li>
+<li atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+class="- topic/p " xml:lang="en">快速档（图示3）</p></li>
+</ul>
+<p atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/p "
+xml:lang="en">如果在刮水器工作时车速下降至低于8km/h,刮水器将减慢之地一档，人为改变工作速度设定可取消这种功能。</p>
+<section atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+atirds:toc="yes" class="- topic/title " xml:lang="en">点动刮水</title
+><p atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/p "
+xml:lang="en">压下拨杆开关（图示4）并释放（如果拨杆开关保持在下部位置，刮水器会舒服哈斯拉夫哈斯勒放）。</p></section>
+<section atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+atirds:toc="yes" class="- topic/title " xml:lang="en">间歇档刮水速度可调</title
+><p atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/p "
+xml:lang="en">转动开关（图示5）以改变灌水见啊是否撒谎发生过撒谎个法规和，车速增加将减小间隔时间。</p></section>
+<section atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+atirds:toc="yes" class="- topic/title " xml:lang="en">雨量传感器*</title
+><p atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/p "
+xml:lang="en">有些车辆在前风窗玻璃内测后实际那是的萨罗的合法撒了发挥萨拉夫撒电话费卢萨卡回复萨拉夫所开发撒联发科技萨拉菲卡斯大礼服卡斯洛伐克萨拉菲卡适当放宽撒啊使得开发商开发撒地方盛大可能发生了纠纷萨拉丁福建省。</p
+><note atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/note "
+xml:lang="en">说明：如果雨量传感器检测到持续的雨量，刮水器将持续工作。</note></section>
+<section atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="刮水器和洗剂器-9C58372F"
+atirds:toc="yes" class="- topic/title " xml:lang="en">智能雨刮</title
+><p atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/p "
+xml:lang="en">往方向盘方向拉动拨杆开关（图示6），洗剂器立即工作。在短暂的间隔后，刮水器将于洗剂器共同工作。</p><note
+atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/note "
+xml:lang="en">说明：在拨杆开关释放之后，刮水器将继续工作，刮水三次。在几秒后，刮水器将在挂还要申购费率萨嘎适当放宽是的。</note
+><table atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/table "
+xml:lang="en">
+<tgroup atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/tgroup "
+cols="1" xml:lang="en">
+<?PubTbl tgroup dispwid="288.00px"?>
+<colspec atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/colspec "
+colname="col1" xml:lang="en"/>
+<tbody atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/tbody "
+xml:lang="en">
+<row atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/row "
+xml:lang="en">
+<entry atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/entry "
+xml:lang="en">注意</entry>
+</row>
+<row atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/row "
+xml:lang="en">
+<?PubTbl row rht="0.91in"?>
+<entry atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/entry "
+xml:lang="en">如果洗剂器因故障不能喷出风窗洗剂器（灰尘或冰块可能堵塞喷嘴），应立即释放拨杆开关。这样可以防止刮水器工作，以及由此引起的灰尘被抹在未经清洗的风窗玻璃上而影响视线。</entry>
+</row>
+</tbody>
+</tgroup>
+</table><p atirds:parentTopicId="刮水器和洗剂器-9C58372F" class="- topic/p "
+xml:lang="en">可以停用智能雨刮功能，请参见第19页上的“只能鱼贯”。</p></section>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9B41B1452" class="- topic/link "
+format="dita" href="_-9B41B1452" role="parent" scope="local" type="topic">
+<linktext atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/linktext "
+xml:lang="en">仪表和控制</linktext>
+</link></linkpool>
+</related-links>
+</topic>
+<topic atirds:appid="转向柱-9C58402E" atirds:collection-type="unordered"
+atirds:format="dita" atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="topicref" atirds:mapsourceref="topicref8"
+atirds:parentTopicId="转向柱-9C58402E" atirds:print="yes"
+atirds:scope="local" atirds:search="yes" atirds:toc="yes"
+atirds:type="topic" ch:boundary="yes" ch:filename="E8BDACE59091E69FB1"
+ch:namepriority="-10" class="- topic/topic " dir="ltr"
+ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+id="_-9C58402E9" translate="yes" xml:lang="en" dmp:toc="yes"
+dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+atirds:processing-role="normal" xml:id="_-9C58402E9" dmp:type="topic"
+dmp:id="转向柱-9C58402E">
+<title atirds:parentTopicId="转向柱-9C58402E" atirds:toc="yes"
+class="- topic/title " xml:lang="en">转向柱</title>
+<body atirds:parentTopicId="转向柱-9C58402E" class="- topic/body "
+xml:lang="en">
+<section atirds:parentTopicId="转向柱-9C58402E" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="转向柱-9C58402E" atirds:toc="yes"
+class="- topic/title " xml:lang="en">转向柱调整</title><image
+atirds:parentTopicId="转向柱-9C58402E" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\warning.eps"
+placement="inline" xml:lang="en"></image>不要在车辆行驶过程中调节方向盘的高度或角度。这是非常危险的。<image
+atirds:parentTopicId="转向柱-9C58402E" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1049.eps"
+placement="inline" xml:lang="en"></image></section>
+<note atirds:parentTopicId="转向柱-9C58402E" class="- topic/note "
+xml:lang="en">调节转向的角度和高度，以适合您的驾驶姿势：<ol
+atirds:parentTopicId="转向柱-9C58402E" class="- topic/ol " xml:lang="en">
+<li atirds:parentTopicId="转向柱-9C58402E" class="- topic/li " xml:lang="en"
+><p atirds:parentTopicId="转向柱-9C58402E" class="- topic/p " xml:lang="en"
+>完全松开锁止杆。</p></li>
+<li atirds:parentTopicId="转向柱-9C58402E" class="- topic/li " xml:lang="en"
+><p atirds:parentTopicId="转向柱-9C58402E" class="- topic/p " xml:lang="en"
+>用双手握紧方向盘，并将方向盘上下扳动，调整位置。</p></li>
+<li atirds:parentTopicId="转向柱-9C58402E" class="- topic/li " xml:lang="en"
+><p atirds:parentTopicId="转向柱-9C58402E" class="- topic/p " xml:lang="en"
+>推拉方向盘，使其朝向或离开身体。</p></li>
+<li atirds:parentTopicId="转向柱-9C58402E" class="- topic/li " xml:lang="en"
+><p atirds:parentTopicId="转向柱-9C58402E" class="- topic/p " xml:lang="en"
+>选择好合适的驾驶位置后，完全拉起锁止杆，将转向柱锁定在新的位置上。</p></li>
+</ol></note>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9B41B1452" class="- topic/link "
+format="dita" href="_-9B41B1452" role="parent" scope="local" type="topic">
+<linktext atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/linktext "
+xml:lang="en">仪表和控制</linktext>
+</link></linkpool>
+</related-links>
+</topic>
+<topic atirds:appid="喇叭-9C584866" atirds:collection-type="unordered"
+atirds:format="dita" atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="topicref" atirds:mapsourceref="topicref9"
+atirds:parentTopicId="喇叭-9C584866" atirds:print="yes"
+atirds:scope="local" atirds:search="yes" atirds:toc="yes"
+atirds:type="topic" ch:boundary="yes" ch:filename="E59687E58FAD"
+ch:namepriority="-10" class="- topic/topic " dir="ltr"
+ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+id="_-9C58486610" translate="yes" xml:lang="en" dmp:toc="yes"
+dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+atirds:processing-role="normal" xml:id="_-9C58486610" dmp:type="topic"
+dmp:id="喇叭-9C584866">
+<title atirds:parentTopicId="喇叭-9C584866" atirds:toc="yes"
+class="- topic/title " xml:lang="en">喇叭</title>
+<body atirds:parentTopicId="喇叭-9C584866" class="- topic/body "
+xml:lang="en">
+<image atirds:parentTopicId="喇叭-9C584866" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1076.eps"
+placement="inline" xml:lang="en"></image>
+<p atirds:parentTopicId="喇叭-9C584866" class="- topic/p " xml:lang="en"
+>点火开关位于位置1或2时，按方向盘上喇叭按钮区域（箭头所示），喇叭就可以工作。</p>
+<note atirds:parentTopicId="喇叭-9C584866" class="- topic/note "
+xml:lang="en">说明：方向盘上的喇叭按钮区域同时也是驾驶员侧安全气囊模块盖板。由于驾驶员侧安全气囊的特殊功能要求，请您在使用喇叭时，尽量通过按动图示（箭头所示）喇叭按钮区域来操作。</note>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9B41B1452" class="- topic/link "
+format="dita" href="_-9B41B1452" role="parent" scope="local" type="topic">
+<linktext atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/linktext "
+xml:lang="en">仪表和控制</linktext>
+</link></linkpool>
+</related-links>
+</topic>
+<topic atirds:appid="后视镜-9C584E9D" atirds:collection-type="unordered"
+atirds:format="dita" atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="topicref" atirds:mapsourceref="topicref10"
+atirds:parentTopicId="后视镜-9C584E9D" atirds:print="yes"
+atirds:scope="local" atirds:search="yes" atirds:toc="yes"
+atirds:type="topic" ch:boundary="yes" ch:filename="E5908EE8A786E9959C"
+ch:namepriority="-10" class="- topic/topic " dir="ltr"
+ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+id="_-9C584E9D11" translate="yes" xml:lang="en" dmp:toc="yes"
+dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+atirds:processing-role="normal" xml:id="_-9C584E9D11" dmp:type="topic"
+dmp:id="后视镜-9C584E9D">
+<title atirds:parentTopicId="后视镜-9C584E9D" atirds:toc="yes"
+class="- topic/title " xml:lang="en">后视镜</title>
+<body atirds:parentTopicId="后视镜-9C584E9D" class="- topic/body "
+xml:lang="en">
+<section atirds:parentTopicId="后视镜-9C584E9D" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="后视镜-9C584E9D" atirds:toc="yes"
+class="- topic/title " xml:lang="en">外后视镜</title><image
+atirds:parentTopicId="后视镜-9C584E9D" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1050.eps"
+placement="inline" xml:lang="en"></image></section>
+<note atirds:parentTopicId="后视镜-9C584E9D" class="- topic/note "
+xml:lang="en">说明：在外后视镜中看到的物体距离比实际距离更远一些。</note>
+<section atirds:parentTopicId="后视镜-9C584E9D" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="后视镜-9C584E9D" atirds:toc="yes"
+class="- topic/title " xml:lang="en">外后视镜玻璃调整</title><ul
+atirds:parentTopicId="后视镜-9C584E9D" class="- topic/ul " xml:lang="en">
+<li atirds:parentTopicId="后视镜-9C584E9D" class="- topic/li " xml:lang="en"
+><p atirds:parentTopicId="后视镜-9C584E9D" class="- topic/p " xml:lang="en"
+>在点火开关位于位置1或2时，按下左侧或右侧的开关（图示1）以选择左侧啊会发生回复萨芬和 啊是否撒了谎发生。</p></li>
+<li atirds:parentTopicId="后视镜-9C584E9D" class="- topic/li " xml:lang="en"
+><p atirds:parentTopicId="后视镜-9C584E9D" class="- topic/p " xml:lang="en"
+>按圆形开关（图例2）的四册，首都基辅撒酒疯。</p></li>
+<li atirds:parentTopicId="后视镜-9C584E9D" class="- topic/li " xml:lang="en"
+><p atirds:parentTopicId="后视镜-9C584E9D" class="- topic/p " xml:lang="en"
+>再次按下左侧或右侧的开关（图示1），可停用圆形开关（图示2）啊实弹发射。</p></li>
+</ul></section>
+<section atirds:parentTopicId="后视镜-9C584E9D" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="后视镜-9C584E9D" atirds:toc="yes"
+class="- topic/title " xml:lang="en">加热元件*</title><p
+atirds:parentTopicId="后视镜-9C584E9D" class="- topic/p " xml:lang="en"
+>外后视镜集成了一个加热元件，能够除去玻璃上的霜或雾。当后风窗加热开关开启时，加热元件工作。</p></section>
+<section atirds:parentTopicId="后视镜-9C584E9D" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="后视镜-9C584E9D" atirds:toc="yes"
+class="- topic/title " xml:lang="en">外后视镜折叠</title><image
+atirds:parentTopicId="后视镜-9C584E9D" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1051.eps"
+placement="inline" xml:lang="en"></image><p
+atirds:parentTopicId="后视镜-9C584E9D" class="- topic/p " xml:lang="en"
+>每一个外后萨哈夫苏拉和弗拉规范化撒是不大幅拉升的合法萨克地方。</p></section>
+<section atirds:parentTopicId="后视镜-9C584E9D" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="后视镜-9C584E9D" atirds:toc="yes"
+class="- topic/title " xml:lang="en">内后视镜</title><p
+atirds:parentTopicId="后视镜-9C584E9D" class="- topic/p " xml:lang="en"
+>调节内后视镜京师大厦奥斯卡地激发了事件发生是否具备撒垃圾焚烧拉克的。维尔京锐利武器进入为期两</p></section>
+<section atirds:parentTopicId="后视镜-9C584E9D" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="后视镜-9C584E9D" atirds:toc="yes"
+class="- topic/title " xml:lang="en">自动防眩目后视镜*</title><image
+atirds:parentTopicId="后视镜-9C584E9D" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1068.eps"
+placement="inline" xml:lang="en"></image></section>
+<p atirds:parentTopicId="后视镜-9C584E9D" class="- topic/p " xml:lang="en"
+>内后实施的合法卢卡斯符号按时法律手段和公路收费大口径哥萨克地方沟女啊是电路开关。怎么不想这么本程序转向并不能项目。当选择倒档时，自动眩目功能禁用。</p>
+<section atirds:parentTopicId="后视镜-9C584E9D" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="后视镜-9C584E9D" atirds:toc="yes"
+class="- topic/title " xml:lang="en">手动防眩目内后视镜*</title><image
+atirds:parentTopicId="后视镜-9C584E9D" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V1052.eps"
+placement="inline" xml:lang="en"></image><p
+atirds:parentTopicId="后视镜-9C584E9D" class="- topic/p " xml:lang="en"
+>扳动内后试镜底部调节手柄，改编后试镜视角以实现“防眩目”。推回调节手柄可使内后视镜回到正常位置。</p><note
+atirds:parentTopicId="后视镜-9C584E9D" class="- topic/note " xml:lang="en"
+>说明：在某些情况下，内后视镜手动防眩目回事驾驶员不能准确判断后方车辆的位置。</note></section>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9B41B1452" class="- topic/link "
+format="dita" href="_-9B41B1452" role="parent" scope="local" type="topic">
+<linktext atirds:parentTopicId="仪表和控制-9B41B145" class="- topic/linktext "
+xml:lang="en">仪表和控制</linktext>
+</link></linkpool>
+</related-links>
+</topic>
+</chapter>
+<chapter atirds:appid="空调和娱乐系统-9C5957F0"
+atirds:collection-type="unordered" atirds:format="dita"
+atirds:linking="normal" atirds:locktitle="no" atirds:mapelement="chapter"
+atirds:mapsourceref="chapter11" atirds:parentTopicId="空调和娱乐系统-9C5957F0"
+atirds:print="yes" atirds:scope="local" atirds:search="yes"
+atirds:toc="yes" atirds:type="topic" ch:boundary="yes"
+ch:filename="E7A9BAE8B083E5928CE5A8B1E4B990E7B3BBE7BB9F"
+ch:namepriority="-10" class="- topic/topic  bookmap/chapter " dir="ltr"
+id="_-9C5957F012" translate="yes" xml:lang="en"
+ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+dmp:toc="yes" dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+dmp:type="topic" dmp:id="空调和娱乐系统-9C5957F0"
+atirds:processing-role="normal" xml:id="_-9C5957F012">
+<title atirds:parentTopicId="空调和娱乐系统-9C5957F0" atirds:toc="yes"
+class="- topic/title " xml:lang="en">空调和娱乐系统</title>
+<body atirds:parentTopicId="空调和娱乐系统-9C5957F0" class="- topic/body "
+xml:lang="en">
+<ol atirds:parentTopicId="空调和娱乐系统-9C5957F0" class="- topic/ol "
+xml:lang="en">
+<li atirds:parentTopicId="空调和娱乐系统-9C5957F0" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="空调和娱乐系统-9C5957F0"
+class="- topic/p " xml:lang="en">暖风、通风和空调</p></li>
+<li atirds:parentTopicId="空调和娱乐系统-9C5957F0" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="空调和娱乐系统-9C5957F0"
+class="- topic/p " xml:lang="en">CD播放机*</p></li>
+</ol>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9C5A05F613" class="- topic/link "
+format="dita" href="_-9C5A05F613" role="child" scope="local" type="topic">
+<linktext atirds:parentTopicId="暖风通风和空调-9C5A05F6"
+class="- topic/linktext " xml:lang="en">暖风、通风和空调</linktext>
+</link><link atirds:ihref="CD_CD-9C5A0DD914" class="- topic/link "
+format="dita" href="CD_CD-9C5A0DD914" role="child" scope="local"
+type="topic">
+<linktext atirds:parentTopicId="CD播放机-9C5A0DD9" class="- topic/linktext "
+xml:lang="en">CD播放机</linktext>
+<desc atirds:parentTopicId="CD播放机-9C5A0DD9" class="- topic/desc "
+xml:lang="en"></desc>
+</link></linkpool>
+</linkpool>
+</related-links>
+<topic atirds:appid="暖风通风和空调-9C5A05F6" atirds:collection-type="unordered"
+atirds:format="dita" atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="topicref" atirds:mapsourceref="topicref12"
+atirds:parentTopicId="暖风通风和空调-9C5A05F6" atirds:print="yes"
+atirds:scope="local" atirds:search="yes" atirds:toc="yes"
+atirds:type="topic" ch:boundary="yes"
+ch:filename="E69A96E9A38EE38081E9809AE9A38EE5928CE7A9BAE8B083"
+ch:namepriority="-10" class="- topic/topic " dir="ltr"
+ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+id="_-9C5A05F613" translate="yes" xml:lang="en" dmp:toc="yes"
+dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+atirds:processing-role="normal" xml:id="_-9C5A05F613" dmp:type="topic"
+dmp:id="暖风通风和空调-9C5A05F6">
+<title atirds:parentTopicId="暖风通风和空调-9C5A05F6" atirds:toc="yes"
+class="- topic/title " xml:lang="en">暖风、通风和空调</title>
+<body atirds:parentTopicId="暖风通风和空调-9C5A05F6" class="- topic/body "
+xml:lang="en">
+<section atirds:parentTopicId="暖风通风和空调-9C5A05F6" class="- topic/section "
+xml:lang="en"><title atirds:parentTopicId="暖风通风和空调-9C5A05F6"
+atirds:toc="yes" class="- topic/title " xml:lang="en">通风</title><image
+atirds:parentTopicId="暖风通风和空调-9C5A05F6" class="- topic/image "
+href="C:\Documents and Settings\Administrator\桌面\做样式表\Graphic\V2019.eps"
+placement="inline" xml:lang="en"></image><?Pub Caret -1?><ol
+atirds:parentTopicId="暖风通风和空调-9C5A05F6" class="- topic/ol " xml:lang="en">
+<li atirds:parentTopicId="暖风通风和空调-9C5A05F6" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="暖风通风和空调-9C5A05F6"
+class="- topic/p " xml:lang="en">侧出风口</p></li>
+<li atirds:parentTopicId="暖风通风和空调-9C5A05F6" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="暖风通风和空调-9C5A05F6"
+class="- topic/p " xml:lang="en">前风的撒恢复了</p></li>
+<li atirds:parentTopicId="暖风通风和空调-9C5A05F6" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="暖风通风和空调-9C5A05F6"
+class="- topic/p " xml:lang="en">士大夫跟不上大力开发和撒旦法</p></li>
+<li atirds:parentTopicId="暖风通风和空调-9C5A05F6" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="暖风通风和空调-9C5A05F6"
+class="- topic/p " xml:lang="en">啊首府拉萨地方撒厉害</p></li>
+<li atirds:parentTopicId="暖风通风和空调-9C5A05F6" class="- topic/li "
+xml:lang="en"><p atirds:parentTopicId="暖风通风和空调-9C5A05F6"
+class="- topic/p " xml:lang="en">为urpiwoeruo</p></li>
+</ol></section>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9C5957F012" class="- topic/link "
+format="dita" href="_-9C5957F012" role="parent" scope="local"
+type="topic">
+<linktext atirds:parentTopicId="空调和娱乐系统-9C5957F0"
+class="- topic/linktext " xml:lang="en">空调和娱乐系统</linktext>
+</link></linkpool>
+</related-links>
+</topic>
+<topic atirds:appid="CD播放机-9C5A0DD9" atirds:collection-type="unordered"
+atirds:format="dita" atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="topicref" atirds:mapsourceref="topicref13"
+atirds:parentTopicId="CD播放机-9C5A0DD9" atirds:print="yes"
+atirds:scope="local" atirds:search="yes" atirds:toc="yes"
+atirds:type="topic" ch:boundary="yes" ch:filename="CDE692ADE694BEE69CBA"
+ch:namepriority="-10" class="- topic/topic " dir="ltr"
+ditaarch:DITAArchVersion="1.2"
+domains="(topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                             (topic task strictTaskbody-c)    "
+id="CD_CD-9C5A0DD914" translate="yes" xml:lang="en" dmp:toc="yes"
+dmp:linking="normal" dmp:scope="local" dmp:format="dita"
+atirds:processing-role="normal" xml:id="CD_CD-9C5A0DD914"
+dmp:type="topic" dmp:id="CD播放机-9C5A0DD9"
+onSave:updId="onsave::generateIDOnFirstSave id"
+xmlns:onSave="http://www.arbortext.com/namespace/onSave">
+<title atirds:parentTopicId="CD播放机-9C5A0DD9" atirds:toc="yes"
+class="- topic/title " xml:lang="en">CD播放机</title>
+<shortdesc atirds:parentTopicId="CD播放机-9C5A0DD9"
+class="- topic/shortdesc " xml:lang="en"></shortdesc>
+<body atirds:parentTopicId="CD播放机-9C5A0DD9" class="- topic/body "
+xml:lang="en">
+<p atirds:parentTopicId="CD播放机-9C5A0DD9" class="- topic/p " xml:lang="en"
+></p>
+</body>
+<related-links class="- topic/related-links ">
+<linkpool class="- topic/linkpool " collection-type="unordered"
+duplicates="no"><link atirds:ihref="_-9C5957F012" class="- topic/link "
+format="dita" href="_-9C5957F012" role="parent" scope="local"
+type="topic">
+<linktext atirds:parentTopicId="空调和娱乐系统-9C5957F0"
+class="- topic/linktext " xml:lang="en">空调和娱乐系统</linktext>
+</link></linkpool>
+</related-links>
+</topic>
+</chapter>
+<!--已创建(backmatter)元素的虚拟主题-->
+<topic atirds:collection-type="unordered" atirds:format="dita"
+atirds:linking="normal" atirds:locktitle="no"
+atirds:mapelement="backmatter" atirds:mapsourceref="backmatter14"
+atirds:print="yes" atirds:scope="local" atirds:search="yes"
+atirds:toc="yes" ch:boundary="yes"
+class="- topic/topic  bookmap/backmatter " dir="ltr" id="topicelm15"
+translate="yes" xml:lang="en" dmp:toc="yes" dmp:linking="normal"
+dmp:scope="local" dmp:format="dita" atirds:processing-role="normal"
+xml:id="topicelm15"></topic>
+</bookmap>
+</ResolvedMap>
+<ReferredTopics class="- map/unknown RDStyle/ReferredTopics ">
+</ReferredTopics>
+<FlattenedMap class="- map/unknown RDStyle/FlattenedMap ">
+<bookmap class="- map/map bookmap/bookmap " collection-type="unordered"
+dir="ltr" ditaarch:DITAArchVersion="1.2"
+domains="(map bookmap)                          (topic delay-d)                          (map mapgroup-d)                          (topic indexing-d)                           (topic xnal-d)                         "
+format="dita" linking="normal" locktitle="no" print="yes"
+processing-role="normal" scope="local" search="yes" toc="yes"
+translate="yes" xml:lang="en">
+<booktitle atirds:toc="yes" class="- topic/title bookmap/booktitle "
+dir="ltr" translate="yes" xml:lang="en">
+<mainbooktitle class="- topic/ph bookmap/mainbooktitle " dir="ltr"
+translate="yes" xml:lang="en">用户手册</mainbooktitle>
+</booktitle>
+<frontmatter class="- map/topicref bookmap/frontmatter "
+collection-type="unordered" dir="ltr" format="dita" linking="normal"
+locktitle="no" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" xml:lang="en"
+xml:id="frontmatter0" href="topicelm1"></frontmatter>
+<chapter class="- map/topicref bookmap/chapter "
+collection-type="unordered" dir="ltr" format="dita" href="_-9B41B1452"
+linking="normal" locktitle="no" navtitle="仪表和控制" print="yes"
+processing-role="normal" scope="local" search="yes" toc="yes"
+translate="yes" type="topic" xml:lang="en" xml:id="chapter1"
+atirds:orighref="仪表和控制.dita">
+<topicref class="- map/topicref " collection-type="unordered" dir="ltr"
+format="dita" href="_-9B41C28E3" linking="normal" locktitle="no"
+navtitle="仪表和控制装置" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" type="topic" xml:lang="en"
+atirds:orighref="仪表和控制装置.dita" xml:id="topicref2"></topicref>
+<topicref class="- map/topicref " collection-type="unordered" dir="ltr"
+format="dita" href="_-9B41C84D4" linking="normal" locktitle="no"
+navtitle="组合仪表" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" type="topic" xml:lang="en"
+atirds:orighref="组合仪表.dita" xml:id="topicref3"></topicref>
+<topicref class="- map/topicref " collection-type="unordered" dir="ltr"
+format="dita" href="_-9C5819035" linking="normal" locktitle="no"
+navtitle="信息中心" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" type="topic" xml:lang="en"
+atirds:orighref="信息中心.dita" xml:id="topicref4"></topicref>
+<topicref class="- map/topicref " collection-type="unordered" dir="ltr"
+format="dita" href="_-9C5821AC6" linking="normal" locktitle="no"
+navtitle="警告灯和指示灯" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" type="topic" xml:lang="en"
+atirds:orighref="警告灯和指示灯.dita" xml:id="topicref5"></topicref>
+<topicref class="- map/topicref " collection-type="unordered" dir="ltr"
+format="dita" href="_-9C582E317" linking="normal" locktitle="no"
+navtitle="灯光及开关" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" type="topic" xml:lang="en"
+atirds:orighref="灯光及开关.dita" xml:id="topicref6"></topicref>
+<topicref class="- map/topicref " collection-type="unordered" dir="ltr"
+format="dita" href="_-9C58372F8" linking="normal" locktitle="no"
+navtitle="刮水器和洗剂器" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" type="topic" xml:lang="en"
+atirds:orighref="刮水器和洗剂器.dita" xml:id="topicref7"></topicref>
+<topicref class="- map/topicref " collection-type="unordered" dir="ltr"
+format="dita" href="_-9C58402E9" linking="normal" locktitle="no"
+navtitle="转向柱" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" type="topic" xml:lang="en"
+atirds:orighref="转向柱.dita" xml:id="topicref8"></topicref>
+<topicref class="- map/topicref " collection-type="unordered" dir="ltr"
+format="dita" href="_-9C58486610" linking="normal" locktitle="no"
+navtitle="喇叭" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" type="topic" xml:lang="en"
+atirds:orighref="喇叭.dita" xml:id="topicref9"></topicref>
+<topicref class="- map/topicref " collection-type="unordered" dir="ltr"
+format="dita" href="_-9C584E9D11" linking="normal" locktitle="no"
+navtitle="后视镜" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" type="topic" xml:lang="en"
+atirds:orighref="后视镜.dita" xml:id="topicref10"></topicref>
+</chapter>
+<chapter class="- map/topicref bookmap/chapter "
+collection-type="unordered" dir="ltr" format="dita" href="_-9C5957F012"
+linking="normal" locktitle="no" navtitle="空调和娱乐系统" print="yes"
+processing-role="normal" scope="local" search="yes" toc="yes"
+translate="yes" type="topic" xml:lang="en" xml:id="chapter11"
+atirds:orighref="空调和娱乐系统.dita">
+<topicref class="- map/topicref " collection-type="unordered" dir="ltr"
+format="dita" href="_-9C5A05F613" linking="normal" locktitle="no"
+navtitle="暖风、通风和空调" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" type="topic" xml:lang="en"
+atirds:orighref="暖风、通风和空调.dita" xml:id="topicref12"></topicref>
+<topicref class="- map/topicref " collection-type="unordered" dir="ltr"
+format="dita" href="CD_CD-9C5A0DD914" linking="normal" locktitle="no"
+navtitle="CD播放机" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" type="topic" xml:lang="en"
+atirds:orighref="CD播放机.dita" xml:id="topicref13"></topicref>
+</chapter>
+<backmatter class="- map/topicref bookmap/backmatter "
+collection-type="unordered" dir="ltr" format="dita" linking="normal"
+locktitle="no" print="yes" processing-role="normal" scope="local"
+search="yes" toc="yes" translate="yes" xml:lang="en"
+xml:id="backmatter14" href="topicelm15"></backmatter>
+</bookmap>
+</FlattenedMap>
+</RDStyle>

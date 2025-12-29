@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2009, v.4002-->
+<?Pub Inc?>
+<ApplicationConfiguration
+xmlns="http://www.arbortext.com/namespace/doctypes/appcfg">
+<Information>
+<!--The following name will be shown in the New dialog as the category for all document types in this custom directory that do not specify a category.-->
+<Name>Custom Directory Name</Name><?Pub Caret -1?>
+</Information>
+</ApplicationConfiguration>
+<?Pub *0000000463 0?>

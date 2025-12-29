@@ -1,0 +1,3 @@
+set overlayunderflowtolerance=0;
+set overlaypagenumbers=off;
+$pdf_bookmark_clip=255;

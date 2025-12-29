@@ -1,0 +1,2 @@
+set debugcomposition=on
+set debug=9.1,1.16,1.17,=D:\Program Files\PTC\logs\pedebug.log

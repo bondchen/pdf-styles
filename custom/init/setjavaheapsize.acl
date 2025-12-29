@@ -1,0 +1,5 @@
+set javavmmemory=1536;
+set bigjobthreshold=40000
+
+#source "D:\ptc\Arbortext PE\application\com.arbortext.dita\scripts\dita.acl";
+#dita::_setDefaultLanguageInComposition(0);
